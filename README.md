@@ -1,7 +1,7 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://github.com/catppuccin/template">App</a>
+	Catppuccin for <a href="https://zed.dev/">Zed</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
@@ -36,20 +36,24 @@
 
 ## Usage
 
-1. Clone this repository locally
-2. Open the app's settings
-3. Select `import theme` and browse to where you cloned Catppuccin
-4. Select it
+1. Create your custom theme folder if you haven't already
+	```bash
+	mkdir ~/.config/zed/theme/
+	```
+2. Download and import `catppuccin.json` into this folder
+3. Open Zed
+4. Select your Catppuccin theme in the dropdown shown after hitting ( `cmd+k`, `cmd+t` ) 
 
-<!-- this section is optional -->
+
 ## 🙋 FAQ
 
--	Q: **_"Where can I find the doc?"_**\
-	A: Run `:help theme`
+-   Q: **_"Why can't I see the themes after installing?_**\
+	A: Custom themes are currently only available in [Zed Preview](https://zed.dev/releases/preview)
+
 
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
+- [tecandrew](https://github.com/tecandrew)
 
 &nbsp;
 
