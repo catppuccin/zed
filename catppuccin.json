@@ -618,7 +618,7 @@
         "ghost_element.disabled": null,
         "text": "#cad3f5",
         "text.muted": "#B8C0E0",
-        "text.placeholder": null,
+        "text.placeholder": "#5B6078",
         "text.disabled": "#6E738D",
         "text.accent": "#A6DA95",
         "icon": null,
