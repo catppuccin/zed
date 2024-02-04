@@ -45,7 +45,7 @@
         "tab_bar.background": "#dce0e8",
         "tab.inactive_background": "#e6e9ef",
         "tab.active_background": "#eff1f5",
-        "search.match_background": "#edc4bb",
+        "search.match_background": "#cdcfd8",
         "panel.background": "#eff1f5",
         "panel.focused_border": "#4c4f69",
         "pane.focused_border": "#4c4f69",
@@ -142,8 +142,7 @@
           // affects primary user exp
           {
             "cursor": "#edc4bb", // also affects terminal highlight color
-            "selection": "#cdcfd8",
-            "background": ""
+            "selection": "#edc4bb"
           }
         ],
         "syntax": {
@@ -354,14 +353,14 @@
         "editor.gutter.background": "#303446",
         "editor.subheader.background": null,
         "editor.active_line.background": "#c6d0f512",
-        "editor.highlighted_line.background": null,
+        "editor.highlighted_line.background": "#CA9EE6",
         "editor.line_number": "#838ba7",
-        "editor.active_line_number": "#c6d0f5",
+        "editor.active_line_number": "#e8ecfb",
         "editor.invisible": "#737994",
         "editor.wrap_guide": "#626880",
         "editor.active_wrap_guide": "#626880",
-        "editor.document_highlight.read_background": null,
-        "editor.document_highlight.write_background": null,
+        "editor.document_highlight.read_background": "#292C3C",
+        "editor.document_highlight.write_background": "#292C3C",
         "terminal.background": "#303446",
         "terminal.foreground": null,
         "terminal.bright_foreground": null,
@@ -424,7 +423,7 @@
         "renamed": null,
         "renamed.background": null,
         "renamed.border": null,
-        "success": null,
+        "success": "#A6D189",
         "success.background": null,
         "success.border": null,
         "unreachable": null,
@@ -436,7 +435,7 @@
         "players": [
           {
             "cursor": "#775f5f",
-            "selection": "#292C3C"
+            "selection": "#775f5f"
           }
         ],
         "syntax": {
