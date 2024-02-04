@@ -654,7 +654,7 @@
         "editor.active_wrap_guide": "#5b6078",
         "editor.document_highlight.read_background": null,
         "editor.document_highlight.write_background": null,
-        "terminal.background": null,
+        "terminal.background": "#24273A",
         "terminal.foreground": null,
         "terminal.bright_foreground": null,
         "terminal.dim_foreground": null,
@@ -725,7 +725,12 @@
         "warning": "#f5a97f",
         "warning.background": "#00000000",
         "warning.border": "#00000000",
-        "players": [],
+        "players": [
+          {
+            "cursor": "#615755",
+            "selection": "#615755"
+          }
+        ],
         "syntax": {
           "attribute": {
             "color": "#eed49f",
