@@ -1018,7 +1018,12 @@
         "warning": "#fab387",
         "warning.background": "#00000000",
         "warning.border": "#00000000",
-        "players": [],
+        "players": [
+          {
+            "cursor": "#625958",
+            "selection": "#625958"
+          }
+        ],
         "syntax": {
           "attribute": {
             "color": "#f9e2af",
