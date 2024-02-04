@@ -38,11 +38,17 @@
 
 1. Create your custom theme folder if you haven't already
 	```bash
-	mkdir ~/.config/zed/theme/
+	mkdir ~/.config/zed/themes/
 	```
-2. Download and import `catppuccin.json` into this folder
+2. Import the `catppuccin.json` file into this folder
+
+   ```bash
+   # Manually download file or clone repo
+   git clone https://github.com/tecandrew/zed.git ~/.config/zed/themes/cattpuccin/
+   ```
+
 3. Open Zed
-4. Select your Catppuccin theme in the dropdown shown after hitting ( `cmd+k`, `cmd+t` ) 
+4. Select your Catppuccin theme in the dropdown shown after hitting ( `cmd+k`, `cmd+t` )
 
 
 ## 🙋 FAQ
