@@ -37,7 +37,7 @@
         "icon.muted": null,
         "icon.disabled": null,
         "icon.placeholder": null,
-        "icon.accent": "#4c4f69",
+        "icon.accent": "#4c4f69", // text
         "status_bar.background": "#dce0e8",
         "title_bar.background": "#dce0e8",
         "toolbar.background": "#eff1f5",
@@ -331,7 +331,7 @@
         "icon.muted": null,
         "icon.disabled": null,
         "icon.placeholder": null,
-        "icon.accent": null,
+        "icon.accent": "#C6D0F5", // text
         "status_bar.background": "#232634",
         "title_bar.background": "#232634",
         "toolbar.background": "#303446",
@@ -624,7 +624,7 @@
         "icon.muted": null,
         "icon.disabled": null,
         "icon.placeholder": null,
-        "icon.accent": null,
+        "icon.accent": "#CAD3F5", // text
         "status_bar.background": "#181926",
         "title_bar.background": "#181926",
         "toolbar.background": "#24273a",
@@ -917,7 +917,7 @@
         "icon.muted": null,
         "icon.disabled": null,
         "icon.placeholder": null,
-        "icon.accent": null,
+        "icon.accent": "#C6D0F5", // text
         "status_bar.background": "#11111b",
         "title_bar.background": "#11111b",
         "toolbar.background": "#1e1e2e",
