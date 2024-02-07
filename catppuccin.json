@@ -8,11 +8,11 @@
       "name": "Catppuccin Latte",
       "appearance": "light",
       "style": {
-        "border": "#acb0be",
-        "border.variant": null,
+        "border": "#acb0be", // surface2
+        "border.variant": "#8C8FA1", // overlay1
         "border.focused": "#8839ef",
         "border.selected": "#acb0be",
-        "border.transparent": null,
+        "border.transparent": "#ffffff",
         "border.disabled": "#acb0be",
         "elevated_surface.background": "#e6e9ef",
         "surface.background": "#eff1f5",
@@ -21,9 +21,9 @@
         "element.hover": "#BCC0CC",
         "element.active": "#ACB0BE",
         "element.selected": "#ccd0da",
-        "element.disabled": null,
+        "element.disabled": "#000000",
         "drop_target.background": "#BCC0CC",
-        "ghost_element.background": null,
+        "ghost_element.background": "#DCE0E8", // crust
         "ghost_element.hover": "#ccd0da80",
         "ghost_element.active": null,
         "ghost_element.selected": "#ccd0da",
@@ -134,9 +134,9 @@
         "unreachable": null,
         "unreachable.background": null,
         "unreachable.border": null,
-        "warning": "#fe640b",
-        "warning.background": "#00000000",
-        "warning.border": "#00000000",
+        "warning": "#FE640B", // peach
+        "warning.background": "#E6E9EF", // mantle
+        "warning.border": "#FE640B", // peach
         "players": [
           // affects primary user exp
           {
@@ -303,7 +303,7 @@
       "appearance": "dark",
       "style": {
         "border": "#626880",
-        "border.variant": "#626880",
+        "border.variant": "#838BA7", // overlay1
         "border.focused": "#ca9ee6",
         "border.selected": "#626880",
         "border.transparent": "#626880",
@@ -317,7 +317,7 @@
         "element.selected": "#414559",
         "element.disabled": null,
         "drop_target.background": "#51576D",
-        "ghost_element.background": null,
+        "ghost_element.background": "#232634", // crust
         "ghost_element.hover": "#41455980",
         "ghost_element.active": null,
         "ghost_element.selected": "#414559",
@@ -428,9 +428,9 @@
         "unreachable": null,
         "unreachable.background": null,
         "unreachable.border": null,
-        "warning": "#ef9f76",
-        "warning.background": "#00000000",
-        "warning.border": "#00000000",
+        "warning": "#EF9F76", // peach
+        "warning.background": "#292C3C", // mantle
+        "warning.border": "#EF9F76", // peach
         "players": [
           {
             "cursor": "#775f5f",
@@ -596,7 +596,7 @@
       "appearance": "dark",
       "style": {
         "border": "#5b6078",
-        "border.variant": "#5b6078",
+        "border.variant": "#8087A2", // overlay1
         "border.focused": "#c6a0f6",
         "border.selected": "#5b6078",
         "border.transparent": "#5b6078",
@@ -610,7 +610,7 @@
         "element.selected": "#363a4f",
         "element.disabled": null,
         "drop_target.background": "#615755",
-        "ghost_element.background": null,
+        "ghost_element.background": "#181926", // crust
         "ghost_element.hover": "#363a4f80",
         "ghost_element.active": null,
         "ghost_element.selected": "#363a4f",
@@ -721,9 +721,9 @@
         "unreachable": null,
         "unreachable.background": null,
         "unreachable.border": null,
-        "warning": "#f5a97f",
-        "warning.background": "#00000000",
-        "warning.border": "#00000000",
+        "warning": "#F5A97F", // peach
+        "warning.background": "#1E2030", // mantle
+        "warning.border": "#F5A97F", // peach
         "players": [
           {
             "cursor": "#615755",
@@ -889,7 +889,7 @@
       "appearance": "dark",
       "style": {
         "border": "#585b70",
-        "border.variant": "#585b70",
+        "border.variant": "#7B819D", // overlay1
         "border.focused": "#cba6f7",
         "border.selected": "#585b70",
         "border.transparent": "#585b70",
@@ -903,7 +903,7 @@
         "element.selected": "#313244",
         "element.disabled": null,
         "drop_target.background": "#625958",
-        "ghost_element.background": null,
+        "ghost_element.background": "#11111B", // crust
         "ghost_element.hover": "#31324480",
         "ghost_element.active": null,
         "ghost_element.selected": "#313244",
@@ -1014,9 +1014,9 @@
         "unreachable": null,
         "unreachable.background": null,
         "unreachable.border": null,
-        "warning": "#fab387",
-        "warning.background": "#00000000",
-        "warning.border": "#00000000",
+        "warning": "#FAB387", // peach
+        "warning.background": "#181825", // mantle
+        "warning.border": "#FAB387", // crust
         "players": [
           {
             "cursor": "#625958",
