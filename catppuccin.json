@@ -103,7 +103,7 @@
         "created.border": "#40a02b", // green
         "deleted": "#d20f39", // red
         "deleted.background": "#E6E9EF", // mantle
-        "deleted.border": "##D20F39", // red
+        "deleted.border": "#D20F39", // red
         "error": "#d20f39", // red
         "error.background": "#E6E9EF", // mantle
         "error.border": "#d20f39", // red
