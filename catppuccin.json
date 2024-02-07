@@ -95,45 +95,45 @@
         "terminal.ansi.bright_white": "#5c5f77",
         "terminal.ansi.dim_white": null,
         "link_text.hover": "#04A5E5",
-        "conflict": "#8839ef",
-        "conflict.background": null,
-        "conflict.border": null,
-        "created": "#40a02b",
-        "created.background": null,
-        "created.border": null,
-        "deleted": "#d20f39",
-        "deleted.background": null,
-        "deleted.border": null,
-        "error": "#d20f39",
-        "error.background": "#00000000",
-        "error.border": "#00000000",
-        "hidden": "#9ca0b0",
-        "hidden.background": null,
-        "hidden.border": null,
-        "hint": "#E64553",
-        "hint.background": null,
-        "hint.border": null,
-        "ignored": "#9ca0b0",
-        "ignored.background": null,
-        "ignored.border": null,
-        "info": "#179299",
-        "info.background": null,
-        "info.border": null,
-        "modified": "#df8e1d",
-        "modified.background": null,
-        "modified.border": null,
-        "predictive": null,
-        "predictive.background": null,
-        "predictive.border": null,
-        "renamed": null,
-        "renamed.background": null,
-        "renamed.border": null,
-        "success": null,
-        "success.background": null,
-        "success.border": null,
-        "unreachable": null,
-        "unreachable.background": null,
-        "unreachable.border": null,
+        "conflict": "#8839ef", // mauve
+        "conflict.background": "#E6E9EF", // mantle
+        "conflict.border": "#8839EF", // mauve
+        "created": "#40a02b", // green
+        "created.background": "#E6E9EF", // mantle
+        "created.border": "#40a02b", // green
+        "deleted": "#d20f39", // red
+        "deleted.background": "#E6E9EF", // mantle
+        "deleted.border": "##D20F39", // red
+        "error": "#d20f39", // red
+        "error.background": "#E6E9EF", // mantle
+        "error.border": "#d20f39", // red
+        "hidden": "#9ca0b0", // overlay0
+        "hidden.background": "#E6E9EF", // mantle
+        "hidden.border": "#9CA0B0", // overlay0
+        "hint": "#E64553", // maroon
+        "hint.background": "#E6E9EF", // mantle
+        "hint.border": "#E64553", // maroon
+        "ignored": "#9ca0b0", // overlay0
+        "ignored.background": "#E6E9EF", // mantle
+        "ignored.border": "#9CA0B0", // overlay0
+        "info": "#179299", // teal
+        "info.background": "#E6E9EF", // mantle
+        "info.border": "#179299", // teal
+        "modified": "#df8e1d", // yellow
+        "modified.background": "#E6E9EF", // mantle
+        "modified.border": "#DF8E1D", // yellow
+        "predictive": "#7287FD", // lavender
+        "predictive.background": "#E6E9EF", // mantle
+        "predictive.border": "#7287FD", // lavender
+        "renamed": "#209FB5", // sapphire
+        "renamed.background": "#E6E9EF", // mantle
+        "renamed.border": "#209FB5", // sapphire
+        "success": "#40A02B", // green
+        "success.background": "#E6E9EF", // mantle
+        "success.border": "#40A02B", // green
+        "unreachable": "#D20F39", // red
+        "unreachable.background": "#E6E9EF", // mantle
+        "unreachable.border": "#D20F39", // red
         "warning": "#FE640B", // peach
         "warning.background": "#E6E9EF", // mantle
         "warning.border": "#FE640B", // peach
