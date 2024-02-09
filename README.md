@@ -52,12 +52,6 @@
 4. Select your Catppuccin theme in the dropdown shown after hitting ( `cmd+k`, `cmd+t` )
 
 
-## 🙋 FAQ
-
--   Q: **_"Why can't I see the themes after installing?_**\
-	A: Custom themes are currently only available in [Zed Preview](https://zed.dev/releases/preview)
-
-
 ## 💝 Thanks to
 
 - [tecandrew](https://github.com/tecandrew)
