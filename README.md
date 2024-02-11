@@ -45,7 +45,7 @@
    ```bash
    # Manually download file or clone repo
    git clone https://github.com/tecandrew/zed.git ~/.config/zed/themes/cattpuccin/ && \
-   ln -sf ~/.config/zed/themes/catppuccin.json ~/.config/zed/themes/cattpuccin/catppuccin.json
+   ln -sf ~/.config/zed/themes/cattpuccin/catppuccin.json ~/.config/zed/themes/catppuccin.json
    ```
 
 3. Open Zed
