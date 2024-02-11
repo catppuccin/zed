@@ -24,8 +24,8 @@
         "element.disabled": "#000000",
         "drop_target.background": "#BCC0CC",
         "ghost_element.background": "#DCE0E8", // crust
-        "ghost_element.hover": "#ccd0da80",
-        "ghost_element.active": null,
+        "ghost_element.hover": "#CCD0DA", // surface0
+        "ghost_element.active": "#BCC0CC", // surface1
         "ghost_element.selected": "#ccd0da",
         "ghost_element.disabled": null,
         "text": "#4c4f69",
@@ -38,14 +38,14 @@
         "icon.disabled": null,
         "icon.placeholder": null,
         "icon.accent": "#4c4f69", // text
-        "status_bar.background": "#dce0e8",
-        "title_bar.background": "#dce0e8",
+        "status_bar.background": "#dce0e8", // crust
+        "title_bar.background": "#DCE0E8", // crust
         "toolbar.background": "#eff1f5",
         "tab_bar.background": "#dce0e8",
         "tab.inactive_background": "#e6e9ef",
         "tab.active_background": "#eff1f5",
         "search.match_background": "#cdcfd8",
-        "panel.background": "#eff1f5",
+        "panel.background": "#E6E9EF", // mantle
         "panel.focused_border": "#4c4f69",
         "pane.focused_border": "#4c4f69",
         "scrollbar_thumb.background": "#acb0be80",
@@ -318,8 +318,8 @@
         "element.disabled": null,
         "drop_target.background": "#51576D",
         "ghost_element.background": "#232634", // crust
-        "ghost_element.hover": "#41455980",
-        "ghost_element.active": null,
+        "ghost_element.hover": "#414559", // surface0
+        "ghost_element.active": "#51576D", // surface1
         "ghost_element.selected": "#414559",
         "ghost_element.disabled": null,
         "text": "#B5BFE2",
@@ -332,14 +332,14 @@
         "icon.disabled": null,
         "icon.placeholder": null,
         "icon.accent": "#C6D0F5", // text
-        "status_bar.background": "#232634",
-        "title_bar.background": "#232634",
+        "status_bar.background": "#232634", // crust
+        "title_bar.background": "#232634", // crust
         "toolbar.background": "#303446",
         "tab_bar.background": "#232634",
         "tab.inactive_background": "#292c3c",
         "tab.active_background": "#303446",
         "search.match_background": "#232634",
-        "panel.background": "#303446",
+        "panel.background": "#292C3C", // mantle
         "panel.focused_border": null,
         "pane.focused_border": null,
         "scrollbar_thumb.background": "#62688080",
@@ -611,8 +611,8 @@
         "element.disabled": null,
         "drop_target.background": "#615755",
         "ghost_element.background": "#181926", // crust
-        "ghost_element.hover": "#363a4f80",
-        "ghost_element.active": null,
+        "ghost_element.hover": "#363A4F", // surface0
+        "ghost_element.active": "#494D64", // surface1
         "ghost_element.selected": "#363a4f",
         "ghost_element.disabled": null,
         "text": "#cad3f5",
@@ -625,14 +625,14 @@
         "icon.disabled": null,
         "icon.placeholder": null,
         "icon.accent": "#CAD3F5", // text
-        "status_bar.background": "#181926",
-        "title_bar.background": "#181926",
+        "status_bar.background": "#181926", // crust
+        "title_bar.background": "#181926", // crust
         "toolbar.background": "#24273a",
         "tab_bar.background": "#181926",
         "tab.inactive_background": "#1e2030",
         "tab.active_background": "#24273a",
         "search.match_background": "#6E738D",
-        "panel.background": "#24273a",
+        "panel.background": "#1E2030", // mantle
         "panel.focused_border": null,
         "pane.focused_border": null,
         "scrollbar_thumb.background": "#5b607880",
@@ -904,8 +904,8 @@
         "element.disabled": null,
         "drop_target.background": "#625958",
         "ghost_element.background": "#11111B", // crust
-        "ghost_element.hover": "#31324480",
-        "ghost_element.active": null,
+        "ghost_element.hover": "#313244", // surface0
+        "ghost_element.active": "#43465A", // surface1
         "ghost_element.selected": "#313244",
         "ghost_element.disabled": null,
         "text": "#cdd6f4",
@@ -918,14 +918,14 @@
         "icon.disabled": null,
         "icon.placeholder": null,
         "icon.accent": "#C6D0F5", // text
-        "status_bar.background": "#11111b",
-        "title_bar.background": "#11111b",
+        "status_bar.background": "#11111B", // crust
+        "title_bar.background": "#11111B", // crust
         "toolbar.background": "#1e1e2e",
         "tab_bar.background": "#11111b",
         "tab.inactive_background": "#181825",
         "tab.active_background": "#1e1e2e",
         "search.match_background": "#565970",
-        "panel.background": "#1e1e2e",
+        "panel.background": "#181825", // mantle
         "panel.focused_border": null,
         "pane.focused_border": null,
         "scrollbar_thumb.background": "#585b7080",
