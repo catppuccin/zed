@@ -137,6 +137,7 @@
         "warning": "#FE640B", // peach
         "warning.background": "#E6E9EF", // mantle
         "warning.border": "#FE640B", // peach
+        // undocumented & discovered params that affect cursor and selection color
         "players": [
           // affects primary user exp
           {
@@ -431,6 +432,7 @@
         "warning": "#EF9F76", // peach
         "warning.background": "#292C3C", // mantle
         "warning.border": "#EF9F76", // peach
+        // undocumented & discovered params that affect cursor and selection color
         "players": [
           {
             "cursor": "#775f5f",
@@ -724,6 +726,7 @@
         "warning": "#F5A97F", // peach
         "warning.background": "#1E2030", // mantle
         "warning.border": "#F5A97F", // peach
+        // undocumented & discovered params that affect cursor and selection color
         "players": [
           {
             "cursor": "#615755",
@@ -1017,6 +1020,7 @@
         "warning": "#FAB387", // peach
         "warning.background": "#181825", // mantle
         "warning.border": "#FAB387", // crust
+        // undocumented & discovered params that affect cursor and selection color
         "players": [
           {
             "cursor": "#625958",
