@@ -6,9 +6,9 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/tecandrew/zed/stargazers"><img src="https://img.shields.io/github/stars/tecandrew/zed?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/tecandrew/zed/issues"><img src="https://img.shields.io/github/issues/tecandrew/zed?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/tecandrew/zed/contributors"><img src="https://img.shields.io/github/contributors/tecandrew/zed?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/zed/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/zed?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/zed/issues"><img src="https://img.shields.io/github/issues/catppuccin/zed?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/zed/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/zed?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -19,36 +19,29 @@
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="https://raw.githubusercontent.com/tecandrew/zed/main/assets/previews/latte.webp"/>
+<img src="./assets/previews/latte.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="https://raw.githubusercontent.com/tecandrew/zed/main/assets/previews/frappe.webp"/>
+<img src="./assets/previews/frappe.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="https://raw.githubusercontent.com/tecandrew/zed/main/assets/previews/macchiato.webp"/>
+<img src="./assets/previews/macchiato.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="https://raw.githubusercontent.com/tecandrew/zed/main/assets/previews/mocha.webp"/>
+<img src="./assets/previews/mocha.webp"/>
 </details>
 
 ## Usage
 
-1. Create your custom theme folder if you haven't already
+1. Create your custom theme folder if you haven't already.
 	```bash
 	mkdir ~/.config/zed/themes/
 	```
-2. Import the `catppuccin.json` file into this folder
-
-   ```bash
-   # Manually download file or clone repo
-   git clone https://github.com/tecandrew/zed.git ~/.config/zed/themes/catppuccin/ && \
-   ln -sf ~/.config/zed/themes/catppuccin/catppuccin.json ~/.config/zed/themes/catppuccin.json
-   ```
-
-3. Open Zed
+2. Download the [catppuccin.json](./catppuccin.json) file into the theme folder.
+3. Open Zed.
 4. Select your Catppuccin theme in the dropdown shown after hitting ( `cmd+k`, `cmd+t` )
 
 
