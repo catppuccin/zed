@@ -8,8 +8,8 @@
       "name": "Catppuccin Latte",
       "appearance": "light",
       "style": {
-        "border": "#acb0be", // surface2
-        "border.variant": "#8C8FA1", // overlay1
+        "border": "#CCD0DA", // surface0
+        "border.variant": "#BCC0CC", // surface1
         "border.focused": "#8839ef",
         "border.selected": "#acb0be",
         "border.transparent": "#ffffff",
@@ -303,8 +303,8 @@
       "name": "Catppuccin Frappe",
       "appearance": "dark",
       "style": {
-        "border": "#626880",
-        "border.variant": "#838BA7", // overlay1
+        "border": "#414559", // surface0
+        "border.variant": "#51576D", // surface1
         "border.focused": "#ca9ee6",
         "border.selected": "#626880",
         "border.transparent": "#626880",
@@ -597,8 +597,8 @@
       "name": "Catppuccin Macchiato",
       "appearance": "dark",
       "style": {
-        "border": "#5b6078",
-        "border.variant": "#8087A2", // overlay1
+        "border": "#363A4F", // surface0
+        "border.variant": "#494D64", // surface1
         "border.focused": "#c6a0f6",
         "border.selected": "#5b6078",
         "border.transparent": "#5b6078",
@@ -891,8 +891,8 @@
       "name": "Catppuccin Mocha",
       "appearance": "dark",
       "style": {
-        "border": "#585b70",
-        "border.variant": "#7B819D", // overlay1
+        "border": "#313244", // surface0
+        "border.variant": "#43465A", // surface1
         "border.focused": "#cba6f7",
         "border.selected": "#585b70",
         "border.transparent": "#585b70",
