@@ -267,7 +267,7 @@
             "font_weight": null
           },
           "string.special.symbol": {
-            "color": "#40a02b",
+            "color": "#DD7878", // flamingo
             "font_style": null,
             "font_weight": null
           },
@@ -561,7 +561,7 @@
             "font_weight": null
           },
           "string.special.symbol": {
-            "color": "#a6d189",
+            "color": "#EEBEBE", // flamingo
             "font_style": null,
             "font_weight": null
           },
@@ -855,7 +855,7 @@
             "font_weight": null
           },
           "string.special.symbol": {
-            "color": "#a6da95",
+            "color": "#F0C6C6", // flamingo
             "font_style": null,
             "font_weight": null
           },
@@ -1149,7 +1149,7 @@
             "font_weight": null
           },
           "string.special.symbol": {
-            "color": "#a6e3a1",
+            "color": "#F2CDCD", // flamingo
             "font_style": null,
             "font_weight": null
           },
