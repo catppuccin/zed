@@ -141,8 +141,8 @@
         "players": [
           // affects primary user exp
           {
-            "cursor": "#edc4bb", // also affects terminal highlight color
-            "selection": "#edc4bb"
+            "cursor": "#DC8A78", // rosewater
+            "selection": "#ACB0BE66" // surface2
           }
         ],
         "syntax": {
@@ -435,8 +435,8 @@
         // undocumented & discovered params that affect cursor and selection color
         "players": [
           {
-            "cursor": "#775f5f",
-            "selection": "#775f5f"
+            "cursor": "#F2D5CF", // rosewater
+            "selection": "#62688066" // surface2
           }
         ],
         "syntax": {
@@ -729,8 +729,8 @@
         // undocumented & discovered params that affect cursor and selection color
         "players": [
           {
-            "cursor": "#615755",
-            "selection": "#615755"
+            "cursor": "#F4DBD6", // rosewater
+            "selection": "#5B607866" // surface2
           }
         ],
         "syntax": {
@@ -1023,8 +1023,8 @@
         // undocumented & discovered params that affect cursor and selection color
         "players": [
           {
-            "cursor": "#625958",
-            "selection": "#625958"
+            "cursor": "#F5E0DC", // rosewater
+            "selection": "#56597066" // surface2
           }
         ],
         "syntax": {
