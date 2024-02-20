@@ -272,7 +272,7 @@
             "font_weight": null
           },
           "tag": {
-            "color": "#1e66f5",
+            "color": "#1E66F5", // blue
             "font_style": null,
             "font_weight": null
           },
@@ -566,7 +566,7 @@
             "font_weight": null
           },
           "tag": {
-            "color": "#8caaee",
+            "color": "#8CAAEE", // blue
             "font_style": null,
             "font_weight": null
           },
@@ -860,7 +860,7 @@
             "font_weight": null
           },
           "tag": {
-            "color": "#8aadf4",
+            "color": "#8AADF4", // blue
             "font_style": null,
             "font_weight": null
           },
@@ -1154,7 +1154,7 @@
             "font_weight": null
           },
           "tag": {
-            "color": "#89b4fa",
+            "color": "#87B0F9", // blue
             "font_style": null,
             "font_weight": null
           },
