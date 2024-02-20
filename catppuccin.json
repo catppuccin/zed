@@ -252,7 +252,7 @@
             "font_weight": null
           },
           "string.escape": {
-            "color": "#40a02b",
+            "color": "#EA76CB", // pink
             "font_style": null,
             "font_weight": null
           },
@@ -546,7 +546,7 @@
             "font_weight": null
           },
           "string.escape": {
-            "color": "#a6d189",
+            "color": "#F4B8E4", // pink
             "font_style": null,
             "font_weight": null
           },
@@ -840,7 +840,7 @@
             "font_weight": null
           },
           "string.escape": {
-            "color": "#a6da95",
+            "color": "#F5BDE6", // pink
             "font_style": null,
             "font_weight": null
           },
@@ -1134,7 +1134,7 @@
             "font_weight": null
           },
           "string.escape": {
-            "color": "#a6e3a1",
+            "color": "#F5C2E7", // pink
             "font_style": null,
             "font_weight": null
           },
