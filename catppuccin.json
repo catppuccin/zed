@@ -287,12 +287,12 @@
             "font_weight": null
           },
           "variable": {
-            "color": "#e64553",
+            "color": "#4C4F69", // text
             "font_style": "italic",
             "font_weight": null
           },
           "variable.special": {
-            "color": "#e64553",
+            "color": "#4C4F69", // text
             "font_style": "italic",
             "font_weight": null
           }
@@ -581,12 +581,12 @@
             "font_weight": null
           },
           "variable": {
-            "color": "#ea999c",
+            "color": "#C6D0F5", // text
             "font_style": "italic",
             "font_weight": null
           },
           "variable.special": {
-            "color": "#ea999c",
+            "color": "#C6D0F5", // text
             "font_style": "italic",
             "font_weight": null
           }
@@ -875,12 +875,12 @@
             "font_weight": null
           },
           "variable": {
-            "color": "#ee99a0",
+            "color": "#CAD3F5", // text
             "font_style": "italic",
             "font_weight": null
           },
           "variable.special": {
-            "color": "#ee99a0",
+            "color": "#CAD3F5", // text
             "font_style": "italic",
             "font_weight": null
           }
@@ -1169,12 +1169,12 @@
             "font_weight": null
           },
           "variable": {
-            "color": "#eba0ac",
+            "color": "#C6D0F5", // text
             "font_style": "italic",
             "font_weight": null
           },
           "variable.special": {
-            "color": "#eba0ac",
+            "color": "#C6D0F5", // text
             "font_style": "italic",
             "font_weight": null
           }
