@@ -152,7 +152,7 @@
             "font_weight": null
           },
           "boolean": {
-            "color": "#d20f39",
+            "color": "#FE640B", // peach
             "font_style": null,
             "font_weight": null
           },
@@ -446,7 +446,7 @@
             "font_weight": null
           },
           "boolean": {
-            "color": "#e78284",
+            "color": "#EF9F76", // peach
             "font_style": null,
             "font_weight": null
           },
@@ -740,7 +740,7 @@
             "font_weight": null
           },
           "boolean": {
-            "color": "#ed8796",
+            "color": "#F5A97F", // peach
             "font_style": null,
             "font_weight": null
           },
@@ -1034,7 +1034,7 @@
             "font_weight": null
           },
           "boolean": {
-            "color": "#f38ba8",
+            "color": "#FAB387", // peach
             "font_style": null,
             "font_weight": null
           },
