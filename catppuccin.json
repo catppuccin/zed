@@ -22,7 +22,7 @@
         "element.active": "#ACB0BE",
         "element.selected": "#ccd0da",
         "element.disabled": "#000000",
-        "drop_target.background": "#BCC0CC",
+        "drop_target.background": "#BCC0CC", // surface1
         "ghost_element.background": null,
         "ghost_element.hover": "#CCD0DA", // surface0
         "ghost_element.active": "#BCC0CC", // surface1
@@ -317,7 +317,7 @@
         "element.active": "#232634",
         "element.selected": "#414559",
         "element.disabled": null,
-        "drop_target.background": "#51576D",
+        "drop_target.background": "#51576D", // surface1
         "ghost_element.background": null,
         "ghost_element.hover": "#414559", // surface0
         "ghost_element.active": "#51576D", // surface1
@@ -611,7 +611,7 @@
         "element.active": "#181926",
         "element.selected": "#363a4f",
         "element.disabled": null,
-        "drop_target.background": "#615755",
+        "drop_target.background": "#494D64", // surface1
         "ghost_element.background": null,
         "ghost_element.hover": "#363A4F", // surface0
         "ghost_element.active": "#494D64", // surface1
@@ -905,7 +905,7 @@
         "element.active": "#181825",
         "element.selected": "#313244",
         "element.disabled": null,
-        "drop_target.background": "#625958",
+        "drop_target.background": "#43465A", // surface1
         "ghost_element.background": null,
         "ghost_element.hover": "#313244", // surface0
         "ghost_element.active": "#43465A", // surface1
