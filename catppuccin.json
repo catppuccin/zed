@@ -56,7 +56,7 @@
         "editor.foreground": "#4c4f69",
         "editor.background": "#eff1f5",
         "editor.gutter.background": "#eff1f5",
-        "editor.subheader.background": null,
+        "editor.subheader.background": "#E6E9EF", // mantle
         "editor.active_line.background": "#4c4f6912",
         "editor.highlighted_line.background": null,
         "editor.line_number": "#8c8fa1",
@@ -351,7 +351,7 @@
         "editor.foreground": "#c6d0f5",
         "editor.background": "#303446",
         "editor.gutter.background": "#303446",
-        "editor.subheader.background": null,
+        "editor.subheader.background": "#292C3C", // mantle
         "editor.active_line.background": "#c6d0f512",
         "editor.highlighted_line.background": "#CA9EE6",
         "editor.line_number": "#838ba7",
@@ -645,7 +645,7 @@
         "editor.foreground": "#cad3f5",
         "editor.background": "#24273a",
         "editor.gutter.background": "#24273a",
-        "editor.subheader.background": null,
+        "editor.subheader.background": "#1E2030", // mantle
         "editor.active_line.background": "#cad3f512",
         "editor.highlighted_line.background": null,
         "editor.line_number": "#8087a2",
@@ -939,7 +939,7 @@
         "editor.foreground": "#cdd6f4",
         "editor.background": "#1e1e2e",
         "editor.gutter.background": "#1e1e2e",
-        "editor.subheader.background": null,
+        "editor.subheader.background": "#181825", // mantle
         "editor.active_line.background": "#cdd6f412",
         "editor.highlighted_line.background": null,
         "editor.line_number": "#7f849c",
