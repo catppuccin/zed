@@ -36,11 +36,20 @@
 
 ## Usage
 
+### Install via Zed Extensions
+
+1. Open Zed.
+2. `cmd+shift+p` and select *zed: extensions*
+3. Select *Catppuccin Themes* and Install
+4. Select your Catppuccin theme in the dropdown shown after hitting ( `cmd+k`, `cmd+t` )
+
+### Install Manually
+
 1. Create your custom theme folder if you haven't already.
 	```bash
 	mkdir ~/.config/zed/themes/
 	```
-2. Download the [catppuccin.json](./catppuccin.json) file into the theme folder.
+2. Download the [catppuccin.json](./themes/catppuccin.json) file into the theme folder.
 3. Open Zed.
 4. Select your Catppuccin theme in the dropdown shown after hitting ( `cmd+k`, `cmd+t` )
 

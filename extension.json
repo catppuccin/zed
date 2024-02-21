@@ -1,0 +1,7 @@
+{
+  "name": "Catppuccin Themes",
+  "version": "0.0.1",
+  "authors": ["Andrew Tec <andrewtec@enjoi.dev>"],
+  "description": "Catppuccin Themes: Latte, Frappe, Macchiato, and Mocha!",
+  "repository": "https://github.com/catppuccin/zed"
+}
