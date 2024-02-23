@@ -142,7 +142,8 @@
           // affects primary user exp
           {
             "cursor": "#DC8A78", // rosewater
-            "selection": "#ACB0BE66" // surface2
+            "selection": "#ACB0BE66", // surface2
+            "background": "#DC8A78" // rosewater
           }
         ],
         "syntax": {
@@ -436,7 +437,8 @@
         "players": [
           {
             "cursor": "#F2D5CF", // rosewater
-            "selection": "#62688066" // surface2
+            "selection": "#62688066", // surface2
+            "background": "#F2D5CF" // rosewater
           }
         ],
         "syntax": {
@@ -730,7 +732,8 @@
         "players": [
           {
             "cursor": "#F4DBD6", // rosewater
-            "selection": "#5B607866" // surface2
+            "selection": "#5B607866", // surface2
+            "background": "#F4DBD6" // rosewater
           }
         ],
         "syntax": {
@@ -1024,7 +1027,8 @@
         "players": [
           {
             "cursor": "#F5E0DC", // rosewater
-            "selection": "#56597066" // surface2
+            "selection": "#56597066", // surface2
+            "background": "#F5E0DC" // rosewater
           }
         ],
         "syntax": {
