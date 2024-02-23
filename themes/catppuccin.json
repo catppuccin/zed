@@ -65,7 +65,7 @@
         "editor.wrap_guide": "#acb0be",
         "editor.active_wrap_guide": "#acb0be",
         "editor.document_highlight.read_background": "#ACB0BE", // surface2
-        "editor.document_highlight.write_background": null,
+        "editor.document_highlight.write_background": "#ACB0BE66",  // surface2
         "terminal.background": "#eff1f5",
         "terminal.foreground": "#4c4f69",
         "terminal.bright_foreground": null,
@@ -361,7 +361,7 @@
         "editor.wrap_guide": "#626880",
         "editor.active_wrap_guide": "#626880",
         "editor.document_highlight.read_background": "#626880", // surface2
-        "editor.document_highlight.write_background": null,
+        "editor.document_highlight.write_background": "#62688066",  // surface2
         "terminal.background": "#303446",
         "terminal.foreground": null,
         "terminal.bright_foreground": null,
@@ -656,7 +656,7 @@
         "editor.wrap_guide": "#5b6078",
         "editor.active_wrap_guide": "#5b6078",
         "editor.document_highlight.read_background": "#5B6078", // surface2
-        "editor.document_highlight.write_background": null,
+        "editor.document_highlight.write_background": "#5B607866",  // surface2
         "terminal.background": "#24273A",
         "terminal.foreground": null,
         "terminal.bright_foreground": null,
@@ -951,7 +951,7 @@
         "editor.wrap_guide": "#585b70",
         "editor.active_wrap_guide": "#585b70",
         "editor.document_highlight.read_background": "#565970", // surface2
-        "editor.document_highlight.write_background": null,
+        "editor.document_highlight.write_background": "#56597066",  // surface2
         "terminal.background": "#1E1E2E",
         "terminal.foreground": null,
         "terminal.bright_foreground": null,
