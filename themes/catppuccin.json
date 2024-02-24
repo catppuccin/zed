@@ -44,7 +44,7 @@
         "tab_bar.background": "#dce0e8",
         "tab.inactive_background": "#e6e9ef",
         "tab.active_background": "#eff1f5",
-        "search.match_background": "#cdcfd8",
+        "search.match_background": "#17929933", // teal
         "panel.background": "#E6E9EF", // mantle
         "panel.focused_border": "#4c4f69",
         "pane.focused_border": "#4c4f69",
@@ -61,11 +61,11 @@
         "editor.highlighted_line.background": null,
         "editor.line_number": "#8c8fa1",
         "editor.active_line_number": "#4c4f69",
-        "editor.invisible": null,
+        "editor.invisible": "#7C7F93",  // overlay2
         "editor.wrap_guide": "#acb0be",
         "editor.active_wrap_guide": "#acb0be",
-        "editor.document_highlight.read_background": "#BCC0CC",
-        "editor.document_highlight.write_background": "#BCC0CC",
+        "editor.document_highlight.read_background": "#ACB0BE", // surface2
+        "editor.document_highlight.write_background": "#ACB0BE66",  // surface2
         "terminal.background": "#eff1f5",
         "terminal.foreground": "#4c4f69",
         "terminal.bright_foreground": null,
@@ -142,7 +142,8 @@
           // affects primary user exp
           {
             "cursor": "#DC8A78", // rosewater
-            "selection": "#ACB0BE66" // surface2
+            "selection": "#ACB0BE66", // surface2
+            "background": "#DC8A78" // rosewater
           }
         ],
         "syntax": {
@@ -339,7 +340,7 @@
         "tab_bar.background": "#232634",
         "tab.inactive_background": "#292c3c",
         "tab.active_background": "#303446",
-        "search.match_background": "#232634",
+        "search.match_background": "#81C8BE15", // teal
         "panel.background": "#292C3C", // mantle
         "panel.focused_border": null,
         "pane.focused_border": null,
@@ -356,11 +357,11 @@
         "editor.highlighted_line.background": "#CA9EE6",
         "editor.line_number": "#838ba7",
         "editor.active_line_number": "#e8ecfb",
-        "editor.invisible": "#737994",
+        "editor.invisible": "#949CBB",  // overlay2
         "editor.wrap_guide": "#626880",
         "editor.active_wrap_guide": "#626880",
-        "editor.document_highlight.read_background": "#292C3C",
-        "editor.document_highlight.write_background": "#292C3C",
+        "editor.document_highlight.read_background": "#626880", // surface2
+        "editor.document_highlight.write_background": "#62688066",  // surface2
         "terminal.background": "#303446",
         "terminal.foreground": null,
         "terminal.bright_foreground": null,
@@ -436,7 +437,8 @@
         "players": [
           {
             "cursor": "#F2D5CF", // rosewater
-            "selection": "#62688066" // surface2
+            "selection": "#62688066", // surface2
+            "background": "#F2D5CF" // rosewater
           }
         ],
         "syntax": {
@@ -633,7 +635,7 @@
         "tab_bar.background": "#181926",
         "tab.inactive_background": "#1e2030",
         "tab.active_background": "#24273a",
-        "search.match_background": "#6E738D",
+        "search.match_background": "#8BD5CA15", // teal
         "panel.background": "#1E2030", // mantle
         "panel.focused_border": null,
         "pane.focused_border": null,
@@ -650,11 +652,11 @@
         "editor.highlighted_line.background": null,
         "editor.line_number": "#8087a2",
         "editor.active_line_number": "#cad3f5",
-        "editor.invisible": null,
+        "editor.invisible": "#939AB7",  // overlay2
         "editor.wrap_guide": "#5b6078",
         "editor.active_wrap_guide": "#5b6078",
-        "editor.document_highlight.read_background": "#1E2030",
-        "editor.document_highlight.write_background": "#1E2030",
+        "editor.document_highlight.read_background": "#5B6078", // surface2
+        "editor.document_highlight.write_background": "#5B607866",  // surface2
         "terminal.background": "#24273A",
         "terminal.foreground": null,
         "terminal.bright_foreground": null,
@@ -730,7 +732,8 @@
         "players": [
           {
             "cursor": "#F4DBD6", // rosewater
-            "selection": "#5B607866" // surface2
+            "selection": "#5B607866", // surface2
+            "background": "#F4DBD6" // rosewater
           }
         ],
         "syntax": {
@@ -927,7 +930,7 @@
         "tab_bar.background": "#11111b",
         "tab.inactive_background": "#181825",
         "tab.active_background": "#1e1e2e",
-        "search.match_background": "#565970",
+        "search.match_background": "#94E2D515", // teal
         "panel.background": "#181825", // mantle
         "panel.focused_border": null,
         "pane.focused_border": null,
@@ -944,11 +947,11 @@
         "editor.highlighted_line.background": null,
         "editor.line_number": "#7f849c",
         "editor.active_line_number": "#cdd6f4",
-        "editor.invisible": "#313244",
+        "editor.invisible": "#8E95B3",  // overlay2
         "editor.wrap_guide": "#585b70",
         "editor.active_wrap_guide": "#585b70",
-        "editor.document_highlight.read_background": "#696D86",
-        "editor.document_highlight.write_background": "#696D86",
+        "editor.document_highlight.read_background": "#565970", // surface2
+        "editor.document_highlight.write_background": "#56597066",  // surface2
         "terminal.background": "#1E1E2E",
         "terminal.foreground": null,
         "terminal.bright_foreground": null,
@@ -1024,7 +1027,8 @@
         "players": [
           {
             "cursor": "#F5E0DC", // rosewater
-            "selection": "#56597066" // surface2
+            "selection": "#56597066", // surface2
+            "background": "#F5E0DC" // rosewater
           }
         ],
         "syntax": {
