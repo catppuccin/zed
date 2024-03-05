@@ -46,32 +46,41 @@
 
 ## Development
 
-#### Test Zed Extension Locally
+### Test Zed Extension Theme Locally
 
 <details>
 
-1. As per current [Zed Extensions docs](https://github.com/zed-industries/extensions/blob/c891c83f2fed6e388184ac87e7966b150680a3d1/AUTHORING_EXTENSIONS.md#testing-your-extension-locally), install/copy this entire project into `~/Library/Application\ Support/Zed/extensions/installed/` directory
+From [Zed Extensions docs](https://github.com/zed-industries/extensions/blob/c891c83f2fed6e388184ac87e7966b150680a3d1/AUTHORING_EXTENSIONS.md#testing-your-extension-locally):
+
+1. Install/copy this project into `~/Library/Application\ Support/Zed/extensions/installed/` directory
 
 	```bash
 	ln -sf $(pwd) ~/Library/Application\ Support/Zed/extensions/installed/
 	```
 
-2. Restart the workspace using `cmd+shift+p` > Select `Zed: Restart Workspace` 
+2. Refresh theme extension using: `cmd+shift+p` > `zed: reload extensions` 
 
 </details>
 
-#### Using `whiskers` to Render All Flavors
+### Use `whiskers` to Render Theme
 
 <details> 
 
-1. Install Rust
-2. Install  [`whiskers`](https://crates.io/crates/catppuccin-whiskers) using `cargo install catppuccin-whiskers`
-3. Generate each theme color `.json` file 
+1. Install [Rust](https://www.rust-lang.org/tools/install)
+2. Install  [`whiskers`](https://crates.io/crates/catppuccin-whiskers) 
 
 	```bash
-	whiskers theme.json.hbr <flavor> -o themes/<flavor>.json
+	# from source (preferred)
+	cargo install --git https://github.com/catppuccin/toolbox catppuccin-whiskers
 	```
-4. Install project using preferred method to test locally
+
+3. Generate the zed extension theme file 
+
+	```bash
+	whiskers template.hbr all -o themes/catppuccin.json
+	```
+
+4. Refresh Zed to load changes
 
 </details>
 
