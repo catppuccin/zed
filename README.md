@@ -93,6 +93,27 @@ From [Zed Extensions docs](https://github.com/zed-industries/extensions/blob/c89
 </details>
 
 
+### Publishing to Zed Extensions Marketplace
+
+<details>
+
+Zed organizes all extensions using `git submodules` in the [zed/extensions](https://github.com/tecandrew/zed-extensions/) repo. 
+
+1. [Fork the repo](https://github.com/zed-industries/extensions/fork) 
+2. Pull the currently published `extensions/catppuccin/` submodule
+   
+   ```
+   git submodule update --init --force extensions/catppuccin
+   ```
+3. Bump catppuccin submodule
+	```
+	cd extensions/catppuccin/ && git pull origin main
+	```
+4. Modify `extensions.toml` to match version in [extension.json](./extension.json#L3)
+5. Submit a PR to merge back to `zed/extensions`
+
+</details>
+
 ## 💝 Thanks to
 
 - [tecandrew](https://github.com/tecandrew)
