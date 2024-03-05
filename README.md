@@ -53,7 +53,7 @@
 1. As per current [Zed Extensions docs](https://github.com/zed-industries/extensions/blob/c891c83f2fed6e388184ac87e7966b150680a3d1/AUTHORING_EXTENSIONS.md#testing-your-extension-locally), install/copy this entire project into `~/Library/Application\ Support/Zed/extensions/installed/` directory
 
 	```bash
-	ln -sf $(pwd) '~/Library/Application\ Support/Zed/extensions/installed/'
+	ln -sf $(pwd) ~/Library/Application\ Support/Zed/extensions/installed/
 	```
 
 2. Restart the workspace using `cmd+shift+p` > Select `Zed: Restart Workspace` 
