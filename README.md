@@ -43,16 +43,37 @@
 3. Select *Catppuccin Themes* and Install
 4. Select your Catppuccin theme in the dropdown shown after hitting ( `cmd+k`, `cmd+t` )
 
-### Install Manually
 
-1. Create your custom theme folder if you haven't already.
+## Development
+
+#### Test Zed Extension Locally
+
+<details>
+
+1. As per current [Zed Extensions docs](https://github.com/zed-industries/extensions/blob/c891c83f2fed6e388184ac87e7966b150680a3d1/AUTHORING_EXTENSIONS.md#testing-your-extension-locally), install/copy this entire project into `~/Library/Application\ Support/Zed/extensions/installed/` directory
+
 	```bash
-	mkdir ~/.config/zed/themes/
+	ln -sf $(pwd) '~/Library/Application\ Support/Zed/extensions/installed/'
 	```
-2. Download the [catppuccin.json](./themes/catppuccin.json) file into the theme folder.
-3. Open Zed.
-4. Select your Catppuccin theme in the dropdown shown after hitting ( `cmd+k`, `cmd+t` )
 
+2. Restart the workspace using `cmd+shift+p` > Select `Zed: Restart Workspace` 
+
+</details>
+
+#### Using `whiskers` to Render All Flavors
+
+<details> 
+
+1. Install Rust
+2. Install  [`whiskers`](https://crates.io/crates/catppuccin-whiskers) using `cargo install catppuccin-whiskers`
+3. Generate each theme color `.json` file 
+
+	```bash
+	whiskers theme.json.hbr <flavor> -o themes/<flavor>.json
+	```
+4. Install project using preferred method to test locally
+
+</details>
 
 ## 💝 Thanks to
 
