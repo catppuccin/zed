@@ -1,6 +1,6 @@
 ---
 accent: "{{rosewater}}"
-# Zed collab feature has 8 players max (including us, player1)
+# Zed collab feature has 8 players max (including us)
 players:
     - "{{ mix text mauve 0.6 }}"
     - "{{ mix text green 0.6 }}"
@@ -9,9 +9,6 @@ players:
     - "{{ mix text peach 0.6 }}"
     - "{{ mix text yellow 0.6 }}"
     - "{{ mix text blue 0.6 }}"
-overrides:
-  frappe:
-    flavor: frappé
 ---
 {
     "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
@@ -20,7 +17,7 @@ overrides:
     "themes": [
     {{#each flavors}}
     {
-        "name": "Catppuccin {{titlecase flavor}}",
+        "name": "Catppuccin {{ flavorName }}",
         "appearance":{{#if isLight}}"light"{{else}}"dark"{{/if}},
         "style": {
             "border": "#{{surface0}}",
