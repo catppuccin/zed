@@ -18,7 +18,7 @@ players:
     {{#each flavors}}
     {
         "name": "Catppuccin {{ flavorName }}",
-        "appearance":{{#if isLight}}"light"{{else}}"dark"{{/if}},
+        "appearance": "{{ darklight "dark" "light" }}",
         "style": {
             "border": "#{{surface0}}",
             "border.variant": "#{{surface1}}",

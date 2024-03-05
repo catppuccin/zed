@@ -5,7 +5,7 @@
     "themes": [
     {
         "name": "Catppuccin Latte",
-        "appearance":"light",
+        "appearance": "light",
         "style": {
             "border": "#ccd0da",
             "border.variant": "#bcc0cc",
@@ -334,7 +334,7 @@
     },
     {
         "name": "Catppuccin Frappé",
-        "appearance":"dark",
+        "appearance": "dark",
         "style": {
             "border": "#414559",
             "border.variant": "#51576d",
@@ -663,7 +663,7 @@
     },
     {
         "name": "Catppuccin Macchiato",
-        "appearance":"dark",
+        "appearance": "dark",
         "style": {
             "border": "#363a4f",
             "border.variant": "#494d64",
@@ -992,7 +992,7 @@
     },
     {
         "name": "Catppuccin Mocha",
-        "appearance":"dark",
+        "appearance": "dark",
         "style": {
             "border": "#313244",
             "border.variant": "#45475a",
