@@ -81,7 +81,7 @@ From [Zed Extensions docs](https://github.com/zed-industries/extensions/blob/c89
 	whiskers template.hbr all -o themes/catppuccin.json
 	```
 
-4. Refresh Zed to load changes
+4. Refresh Zed to load changes after ensuring local extension install
 
 </details>
 
