@@ -1,0 +1,322 @@
+---
+accent: "{{rosewater}}"
+# Zed collab feature has 8 players max (including us)
+players:
+    - "{{ mix text mauve 0.6 }}"
+    - "{{ mix text green 0.6 }}"
+    - "{{ mix text red 0.6 }}"
+    - "{{ mix text teal 0.6 }}"
+    - "{{ mix text peach 0.6 }}"
+    - "{{ mix text yellow 0.6 }}"
+    - "{{ mix text blue 0.6 }}"
+---
+{
+    "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+    "name": "Catppuccin",
+    "author": "Andrew Tec <andrewtec@enjoi.dev>",
+    "themes": [
+    {{#each flavors}}
+    {
+        "name": "Catppuccin {{ flavorName }}",
+        "appearance": "{{ darklight "dark" "light" }}",
+        "style": {
+            "border": "#{{surface0}}",
+            "border.variant": "#{{surface1}}",
+            "border.focused": "#{{lavender}}",
+            "border.selected": "#{{surface2}}",
+            "border.transparent": null,
+            "border.disabled": "#{{surface2}}",
+            "elevated_surface.background": "#{{mantle}}",
+            "surface.background": "#{{base}}",
+            "background": "#{{base}}",
+            "element.background": "#{{crust}}",
+            "element.hover": "#{{surface1}}",
+            "element.active": "#{{lavender}}",
+            "element.selected": "#{{surface0}}",
+            "element.disabled": null,
+            "drop_target.background": "#{{surface1}}",
+            "ghost_element.background": null,
+            "ghost_element.hover": "#{{surface0}}",
+            "ghost_element.active": "#{{lavender}}",
+            "ghost_element.selected": "#{{surface0}}",
+            "ghost_element.disabled": null,
+            "text": "#{{text}}",
+            "text.muted": "#{{subtext1}}",
+            "text.placeholder": "#{{surface2}}",
+            "text.disabled": "#{{overlay0}}",
+            "text.accent": "#{{accent}}",
+            "icon": "#{{text}}",
+            "icon.muted": null,
+            "icon.disabled": null,
+            "icon.placeholder": null,
+            "icon.accent": "#{{accent}}",
+            "status_bar.background": "#{{crust}}",
+            "title_bar.background": "#{{crust}}",
+            "toolbar.background": "#{{base}}",
+            "tab_bar.background": "#{{crust}}",
+            "tab.inactive_background": "#{{mantle}}",
+            "tab.active_background": "#{{base}}",
+            "search.match_background": "#{{opacity teal 0.2}}",
+            "panel.background": "#{{mantle}}",
+            "panel.focused_border": "#{{text}}",
+            "pane.focused_border": "#{{text}}",
+            "scrollbar_thumb.background": "#{{opacity surface2 0.50}}",
+            "scrollbar.thumb.hover_background": "#{{overlay0}}",
+            "scrollbar.thumb.border": "#{{opacity surface2 0.50}}",
+            "scrollbar.track.background": "#{{base}}",
+            "scrollbar.track.border": "#{{opacity text 0.07}}",
+            "editor.foreground": "#{{text}}",
+            "editor.background": "#{{base}}",
+            "editor.gutter.background": "#{{base}}",
+            "editor.subheader.background": "#{{mantle}}",
+            "editor.active_line.background": "#{{opacity text 0.07}}",
+            "editor.highlighted_line.background": null,
+            "editor.line_number": "#{{overlay1}}",
+            "editor.active_line_number": "#{{text}}",
+            "editor.invisible": "#{{overlay2}}",
+            "editor.wrap_guide": "#{{surface2}}",
+            "editor.active_wrap_guide": "#{{surface2}}",
+            "editor.document_highlight.read_background": "#{{opacity surface1 0.667}}",
+            "editor.document_highlight.write_background": "#{{opacity surface1 0.667}}",
+            "terminal.background": "#{{base}}",
+            "terminal.foreground": "#{{text}}",
+            "terminal.bright_foreground": null,
+            "terminal.dim_foreground": null,
+            "terminal.ansi.black": "#{{surface1}}",
+            "terminal.ansi.bright_black": "#{{subtext0}}",
+            "terminal.ansi.dim_black": null,
+            "terminal.ansi.red": "#{{red}}",
+            "terminal.ansi.bright_red": "#{{red}}",
+            "terminal.ansi.dim_red": null,
+            "terminal.ansi.green": "#{{green}}",
+            "terminal.ansi.bright_green": "#{{green}}",
+            "terminal.ansi.dim_green": null,
+            "terminal.ansi.yellow": "#{{yellow}}",
+            "terminal.ansi.bright_yellow": "#{{yellow}}",
+            "terminal.ansi.dim_yellow": null,
+            "terminal.ansi.blue": "#{{blue}}",
+            "terminal.ansi.bright_blue": "#{{blue}}",
+            "terminal.ansi.dim_blue": null,
+            "terminal.ansi.magenta": "#{{pink}}",
+            "terminal.ansi.bright_magenta": "#{{pink}}",
+            "terminal.ansi.dim_magenta": null,
+            "terminal.ansi.cyan": "#{{lavender}}",
+            "terminal.ansi.bright_cyan": "#{{lavender}}",
+            "terminal.ansi.dim_cyan": null,
+            "terminal.ansi.white": "#{{text}}",
+            "terminal.ansi.bright_white": "#{{subtext1}}",
+            "terminal.ansi.dim_white": null,
+            "link_text.hover": "#{{sky}}",
+            "conflict": "#{{mauve}}",
+            "conflict.background": "#{{mantle}}",
+            "conflict.border": "#{{mauve}}",
+            "created": "#{{green}}",
+            "created.background": "#{{mantle}}",
+            "created.border": "#{{green}}",
+            "deleted": "#{{red}}",
+            "deleted.background": "#{{mantle}}",
+            "deleted.border": "#{{red}}",
+            "error": "#{{red}}",
+            "error.background": "#{{mantle}}",
+            "error.border": "#{{red}}",
+            "hidden": "#{{overlay0}}",
+            "hidden.background": "#{{mantle}}",
+            "hidden.border": "#{{overlay0}}",
+            "hint": "#{{maroon}}",
+            "hint.background": "#{{mantle}}",
+            "hint.border": "#{{maroon}}",
+            "ignored": "#{{overlay0}}",
+            "ignored.background": "#{{mantle}}",
+            "ignored.border": "#{{overlay0}}",
+            "info": "#{{teal}}",
+            "info.background": "#{{mantle}}",
+            "info.border": "#{{teal}}",
+            "modified": "#{{yellow}}",
+            "modified.background": "#{{mantle}}",
+            "modified.border": "#{{yellow}}",
+            "predictive": "#{{lavender}}",
+            "predictive.background": "#{{mantle}}",
+            "predictive.border": "#{{lavender}}",
+            "renamed": "#{{sapphire}}",
+            "renamed.background": "#{{mantle}}",
+            "renamed.border": "#{{sapphire}}",
+            "success": "#{{green}}",
+            "success.background": "#{{mantle}}",
+            "success.border": "#{{green}}",
+            "unreachable": "#{{red}}",
+            "unreachable.background": "#{{mantle}}",
+            "unreachable.border": "#{{red}}",
+            "warning": "#{{peach}}",
+            "warning.background": "#{{mantle}}",
+            "warning.border": "#{{peach}}",
+            "players": [
+                {
+                    "cursor": "#{{rosewater}}",
+                    "selection": "#{{ opacity surface2 0.4 }}",
+                    "background": "#{{rosewater}}"
+                },
+                {{#each players}}
+                {
+                    "cursor": "#{{this}}",
+                    "selection": "#{{ opacity this 0.4 }}",
+                    "background": "#{{this}}"
+                },
+                {{/each}}
+            ],
+            "syntax": {
+                "attribute": {
+                    "color": "#{{yellow}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "boolean": {
+                    "color": "#{{peach}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "comment": {
+                    "color": "#{{overlay0}}",
+                    "font_style": "italic",
+                    "font_weight": null
+                },
+                "comment.doc": {
+                    "color": "#{{overlay0}}",
+                    "font_style": "italic",
+                    "font_weight": null
+                },
+                "constant": {
+                    "color": "#{{red}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "constructor": {
+                    "color": "#{{blue}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "emphasis": {
+                    "color": "#{{red}}",
+                    "font_style": "italic",
+                    "font_weight": null
+                },
+                "emphasis.strong": {
+                    "color": "#{{red}}",
+                    "font_style": null,
+                    "font_weight": 700
+                },
+                "function": {
+                    "color": "#{{blue}}",
+                    "font_style": "italic",
+                    "font_weight": null
+                },
+                "keyword": {
+                    "color": "#{{mauve}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "link_text": {
+                    "color": "#{{blue}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "link_uri": {
+                    "color": "#{{blue}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "number": {
+                    "color": "#{{peach}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "operator": {
+                    "color": "#{{teal}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "property": {
+                    "color": "#{{text}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "punctuation": {
+                    "color": "#{{teal}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "punctuation.bracket": {
+                    "color": "#{{teal}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "punctuation.delimiter": {
+                    "color": "#{{teal}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "punctuation.list_marker": {
+                    "color": "#{{teal}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "punctuation.special": {
+                    "color": "#{{teal}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "string": {
+                    "color": "#{{green}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "string.escape": {
+                    "color": "#{{pink}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "string.regex": {
+                    "color": "#{{pink}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "string.special": {
+                    "color": "#{{pink}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "string.special.symbol": {
+                    "color": "#{{flamingo}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "tag": {
+                    "color": "#{{blue}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "text.literal": {
+                    "color": "#{{green}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "type": {
+                    "color": "#{{yellow}}",
+                    "font_style": "italic",
+                    "font_weight": null
+                },
+                "variable": {
+                    "color": "#{{text}}",
+                    "font_style": "italic",
+                    "font_weight": null
+                },
+                "variable.special": {
+                    "color": "#{{red}}",
+                    "font_style": "italic",
+                    "font_weight": null
+                }
+            }
+        }
+    },
+    {{/each}}
+    ]
+}

@@ -43,15 +43,54 @@
 3. Select *Catppuccin Themes* and Install
 4. Select your Catppuccin theme in the dropdown shown after hitting ( `cmd+k`, `cmd+t` )
 
-### Install Manually
 
-1. Create your custom theme folder if you haven't already.
+## Development
+
+### Use `whiskers` to Render Theme
+
+<details> 
+
+1. Install [Rust](https://www.rust-lang.org/tools/install)
+2. Install  [`whiskers`](https://crates.io/crates/catppuccin-whiskers) 
+
 	```bash
-	mkdir ~/.config/zed/themes/
+	# from source (preferred)
+	cargo install --git https://github.com/catppuccin/toolbox catppuccin-whiskers
 	```
-2. Download the [catppuccin.json](./themes/catppuccin.json) file into the theme folder.
-3. Open Zed.
-4. Select your Catppuccin theme in the dropdown shown after hitting ( `cmd+k`, `cmd+t` )
+
+3. Test and check changes against current `themes/catppuccin.json` theme
+   
+   ```bash
+   # no changes returns nothing
+	whiskers template.hbr all --check themes/catppuccin.json
+   ```
+
+4. Generate the zed extension theme file 
+
+	```bash
+	whiskers template.hbr all -o themes/catppuccin.json
+	```
+
+5. Refresh Zed to load changes after ensuring local extension install
+
+</details>
+
+### Test Zed Extension Theme Locally
+
+<details>
+
+From [Zed Extensions docs](https://github.com/zed-industries/extensions/blob/c891c83f2fed6e388184ac87e7966b150680a3d1/AUTHORING_EXTENSIONS.md#testing-your-extension-locally):
+
+1. Install/copy this project into `~/Library/Application\ Support/Zed/extensions/installed/` directory
+
+	```bash
+	ln -sf $(pwd) ~/Library/Application\ Support/Zed/extensions/installed/
+	```
+
+2. Refresh theme extension using: `cmd+shift+p` > `zed: reload extensions` 
+3. (Optional) For larger changes, `zed: restart workspace` may be needed instead
+
+</details>
 
 
 ## 💝 Thanks to
