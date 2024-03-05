@@ -46,6 +46,35 @@
 
 ## Development
 
+### Use `whiskers` to Render Theme
+
+<details> 
+
+1. Install [Rust](https://www.rust-lang.org/tools/install)
+2. Install  [`whiskers`](https://crates.io/crates/catppuccin-whiskers) 
+
+	```bash
+	# from source (preferred)
+	cargo install --git https://github.com/catppuccin/toolbox catppuccin-whiskers
+	```
+
+3. Test and check changes against current `themes/catppuccin.json` theme
+   
+   ```bash
+   # no changes returns nothing
+	whiskers template.hbr all --check themes/catppuccin.json
+   ```
+
+4. Generate the zed extension theme file 
+
+	```bash
+	whiskers template.hbr all -o themes/catppuccin.json
+	```
+
+5. Refresh Zed to load changes after ensuring local extension install
+
+</details>
+
 ### Test Zed Extension Theme Locally
 
 <details>
@@ -63,27 +92,6 @@ From [Zed Extensions docs](https://github.com/zed-industries/extensions/blob/c89
 
 </details>
 
-### Use `whiskers` to Render Theme
-
-<details> 
-
-1. Install [Rust](https://www.rust-lang.org/tools/install)
-2. Install  [`whiskers`](https://crates.io/crates/catppuccin-whiskers) 
-
-	```bash
-	# from source (preferred)
-	cargo install --git https://github.com/catppuccin/toolbox catppuccin-whiskers
-	```
-
-3. Generate the zed extension theme file 
-
-	```bash
-	whiskers template.hbr all -o themes/catppuccin.json
-	```
-
-4. Refresh Zed to load changes after ensuring local extension install
-
-</details>
 
 ## 💝 Thanks to
 
