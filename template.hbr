@@ -1,5 +1,14 @@
 ---
 accent: "{{rosewater}}"
+# Zed collab feature has 8 players max (including us, player1)
+players:
+    - "{{ mix text mauve 0.6 }}"
+    - "{{ mix text green 0.6 }}"
+    - "{{ mix text red 0.6 }}"
+    - "{{ mix text teal 0.6 }}"
+    - "{{ mix text peach 0.6 }}"
+    - "{{ mix text yellow 0.6 }}"
+    - "{{ mix text blue 0.6 }}"
 ---
 {
     "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
@@ -145,7 +154,14 @@ accent: "{{rosewater}}"
                     "cursor": "#{{rosewater}}",
                     "selection": "#{{ opacity surface2 0.4 }}",
                     "background": "#{{rosewater}}"
-                }
+                },
+                {{#each players}}
+                {
+                    "cursor": "#{{this}}",
+                    "selection": "#{{ opacity this 0.4 }}",
+                    "background": "#{{this}}"
+                },
+                {{/each}}
             ],
             "syntax": {
                 "attribute": {

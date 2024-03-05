@@ -59,6 +59,7 @@ From [Zed Extensions docs](https://github.com/zed-industries/extensions/blob/c89
 	```
 
 2. Refresh theme extension using: `cmd+shift+p` > `zed: reload extensions` 
+3. (Optional) For larger changes, `zed: restart workspace` may be needed instead
 
 </details>
 
