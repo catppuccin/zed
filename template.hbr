@@ -1,5 +1,5 @@
 ---
-accent: "{{sapphire}}"
+accent: "{{rosewater}}"
 ---
 {
     "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
@@ -97,7 +97,7 @@ accent: "{{sapphire}}"
             "terminal.ansi.white": "#{{text}}",
             "terminal.ansi.bright_white": "#{{subtext1}}",
             "terminal.ansi.dim_white": null,
-            "link_text.hover": "#{{accent}}",  // TODO check this was sky before
+            "link_text.hover": "#{{sky}}",
             "conflict": "#{{mauve}}",
             "conflict.background": "#{{mantle}}",
             "conflict.border": "#{{mauve}}",
