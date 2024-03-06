@@ -176,7 +176,7 @@
                     "cursor": "#3a57a2",
                     "selection": "#3a57a266",
                     "background": "#3a57a2"
-                },
+                }
             ],
             "syntax": {
                 "attribute": {
@@ -505,7 +505,7 @@
                     "cursor": "#b0c2f2",
                     "selection": "#b0c2f266",
                     "background": "#b0c2f2"
-                },
+                }
             ],
             "syntax": {
                 "attribute": {
@@ -834,7 +834,7 @@
                     "cursor": "#b1c4f5",
                     "selection": "#b1c4f566",
                     "background": "#b1c4f5"
-                },
+                }
             ],
             "syntax": {
                 "attribute": {
@@ -1163,7 +1163,7 @@
                     "cursor": "#b4caf6",
                     "selection": "#b4caf666",
                     "background": "#b4caf6"
-                },
+                }
             ],
             "syntax": {
                 "attribute": {

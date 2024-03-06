@@ -160,7 +160,7 @@ players:
                     "cursor": "#{{this}}",
                     "selection": "#{{ opacity this 0.4 }}",
                     "background": "#{{this}}"
-                },
+                }{{#unless @last}},{{/unless}}
                 {{/each}}
             ],
             "syntax": {
