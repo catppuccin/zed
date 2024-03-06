@@ -39,37 +39,36 @@
 ### Install via Zed Extensions
 
 1. Open Zed.
-2. `cmd+shift+p` and select *zed: extensions*
-3. Select *Catppuccin Themes* and Install
+2. `cmd+shift+p` and select _zed: extensions_
+3. Select _Catppuccin Themes_ and Install
 4. Select your Catppuccin theme in the dropdown shown after hitting ( `cmd+k`, `cmd+t` )
-
 
 ## Development
 
 ### Use `whiskers` to Render Theme
 
-<details> 
+<details>
 
 1. Install [Rust](https://www.rust-lang.org/tools/install)
-2. Install  [`whiskers`](https://crates.io/crates/catppuccin-whiskers) 
+2. Install [`whiskers`](https://crates.io/crates/catppuccin-whiskers)
 
-	```bash
-	# from source (preferred)
-	cargo install --git https://github.com/catppuccin/toolbox catppuccin-whiskers
-	```
-
-3. Test and check changes against current `themes/catppuccin.json` theme
-   
    ```bash
-   # no changes returns nothing
-	whiskers template.hbr all --check themes/catppuccin.json
+   # from source (preferred)
+   cargo install --git https://github.com/catppuccin/toolbox catppuccin-whiskers
    ```
 
-4. Generate the zed extension theme file 
+3. Test and check changes against current `themes/catppuccin.json` theme
 
-	```bash
-	whiskers template.hbr all -o themes/catppuccin.json
-	```
+   ```bash
+   # no changes returns nothing
+   whiskers template.hbr all --check themes/catppuccin.json
+   ```
+
+4. Generate the zed extension theme file
+
+   ```bash
+   whiskers template.hbr all -o themes/catppuccin.json
+   ```
 
 5. Refresh Zed to load changes after ensuring local extension install
 
@@ -83,32 +82,32 @@ From [Zed Extensions docs](https://github.com/zed-industries/extensions/blob/c89
 
 1. Install/copy this project into `~/Library/Application\ Support/Zed/extensions/installed/` directory
 
-	```bash
-	ln -sf $(pwd) ~/Library/Application\ Support/Zed/extensions/installed/
-	```
+   ```bash
+   ln -sf $(pwd) ~/Library/Application\ Support/Zed/extensions/installed/
+   ```
 
-2. Refresh theme extension using: `cmd+shift+p` > `zed: reload extensions` 
+2. Refresh theme extension using: `cmd+shift+p` > `zed: reload extensions`
 3. (Optional) For larger changes, `zed: restart workspace` may be needed instead
 
 </details>
-
 
 ### Publishing to Zed Extensions Marketplace
 
 <details>
 
-Zed organizes all extensions using `git submodules` in the [zed/extensions](https://github.com/tecandrew/zed-extensions/) repo. 
+Zed organizes all extensions using `git submodules` in the [zed/extensions](https://github.com/zed-industries/extensions) repo.
 
-1. [Fork the repo](https://github.com/zed-industries/extensions/fork) 
+1. [Fork the repo](https://github.com/zed-industries/extensions/fork)
 2. Pull the currently published `extensions/catppuccin/` submodule
-   
+
    ```
    git submodule update --init --force extensions/catppuccin
    ```
+
 3. Bump catppuccin submodule
-	```
-	cd extensions/catppuccin/ && git pull origin main
-	```
+   ```
+   cd extensions/catppuccin/ && git pull origin main
+   ```
 4. Modify `extensions.toml` to match version in [extension.json](./extension.json#L3)
 5. Submit a PR to merge back to `zed/extensions`
 
