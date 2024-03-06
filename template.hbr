@@ -316,7 +316,7 @@ players:
                 }
             }
         }
-    },
+    }{{#unless @last}},{{/unless}}
     {{/each}}
     ]
 }
