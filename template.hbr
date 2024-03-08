@@ -1,5 +1,5 @@
 ---
-accent: "{{sapphire}}"
+accent: "{{flamingo}}"
 # Zed collab feature has 8 players max (including us)
 players:
     - "{{ mix text mauve 0.6 }}"
@@ -22,7 +22,7 @@ players:
         "style": {
             "border": "#{{surface0}}",
             "border.variant": "#{{surface1}}",
-            "border.focused": "#{{lavender}}",
+            "border.focused": "#{{mauve}}",
             "border.selected": "#{{surface2}}",
             "border.transparent": null,
             "border.disabled": "#{{surface2}}",
@@ -30,25 +30,25 @@ players:
             "surface.background": "#{{base}}",
             "background": "#{{base}}",
             "element.background": "#{{crust}}",
-            "element.hover": "#{{surface1}}",
-            "element.active": "#{{lavender}}",
-            "element.selected": "#{{surface0}}",
+            "element.hover": "#{{opacity accent 0.2}}",
+            "element.active": "#{{opacity accent 0.5}}",
+            "element.selected": "#{{opacity overlay0 0.6}}",
             "element.disabled": null,
             "drop_target.background": "#{{surface1}}",
             "ghost_element.background": null,
-            "ghost_element.hover": "#{{surface0}}",
-            "ghost_element.active": "#{{lavender}}",
-            "ghost_element.selected": "#{{surface0}}",
+            "ghost_element.hover": "#{{opacity surface0 0.6}}",
+            "ghost_element.active": "#{{opacity accent 0.5}}",
+            "ghost_element.selected": "#{{opacity overlay0 0.6}}",
             "ghost_element.disabled": null,
             "text": "#{{text}}",
             "text.muted": "#{{subtext1}}",
             "text.placeholder": "#{{surface2}}",
-            "text.disabled": "#{{overlay0}}",
+            "text.disabled": null,
             "text.accent": "#{{accent}}",
             "icon": "#{{text}}",
             "icon.muted": null,
             "icon.disabled": null,
-            "icon.placeholder": null,
+            "icon.placeholder": "null",
             "icon.accent": "#{{accent}}",
             "status_bar.background": "#{{crust}}",
             "title_bar.background": "#{{crust}}",
