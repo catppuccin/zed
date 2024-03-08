@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "inputs": [
+    {
+        "id": "output",
+        "type": "promptString",
+        "default": "themes/catppuccin.json",
+        "description": "where should the file be written?"
+    }
+  ],
+    "tasks": [
+        {
+            "label": "whiskers",
+            "type": "shell",
+            "command": "whiskers template.hbr all -o ${input:output} && echo \"SUCCESS ✔\"",
+            "problemMatcher": [],
+            "group": {
+              "kind": "build",
+              "isDefault": true
+            }
+        }
+    ]
+}

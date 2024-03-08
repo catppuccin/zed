@@ -1,5 +1,5 @@
 ---
-accent: "{{rosewater}}"
+accent: "{{sapphire}}"
 # Zed collab feature has 8 players max (including us)
 players:
     - "{{ mix text mauve 0.6 }}"
@@ -76,8 +76,8 @@ players:
             "editor.invisible": "#{{overlay2}}",
             "editor.wrap_guide": "#{{surface2}}",
             "editor.active_wrap_guide": "#{{surface2}}",
-            "editor.document_highlight.read_background": "#{{opacity surface1 0.667}}",
-            "editor.document_highlight.write_background": "#{{opacity surface1 0.667}}",
+            "editor.document_highlight.read_background": "#{{opacity peach 0.2}}",
+            "editor.document_highlight.write_background": "#{{opacity subtext0 0.2}}",
             "terminal.background": "#{{base}}",
             "terminal.foreground": "#{{text}}",
             "terminal.bright_foreground": null,
@@ -152,7 +152,7 @@ players:
             "players": [
                 {
                     "cursor": "#{{rosewater}}",
-                    "selection": "#{{ opacity surface2 0.4 }}",
+                    "selection": "#{{ opacity surface2 0.45 }}",
                     "background": "#{{rosewater}}"
                 },
                 {{#each players}}

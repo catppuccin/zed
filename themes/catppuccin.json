@@ -31,12 +31,12 @@
             "text.muted": "#5c5f77",
             "text.placeholder": "#acb0be",
             "text.disabled": "#9ca0b0",
-            "text.accent": "#dc8a78",
+            "text.accent": "#209fb5",
             "icon": "#4c4f69",
             "icon.muted": null,
             "icon.disabled": null,
             "icon.placeholder": null,
-            "icon.accent": "#dc8a78",
+            "icon.accent": "#209fb5",
             "status_bar.background": "#dce0e8",
             "title_bar.background": "#dce0e8",
             "toolbar.background": "#eff1f5",
@@ -63,8 +63,8 @@
             "editor.invisible": "#7c7f93",
             "editor.wrap_guide": "#acb0be",
             "editor.active_wrap_guide": "#acb0be",
-            "editor.document_highlight.read_background": "#bcc0ccaa",
-            "editor.document_highlight.write_background": "#bcc0ccaa",
+            "editor.document_highlight.read_background": "#fe650c33",
+            "editor.document_highlight.write_background": "#6d708533",
             "terminal.background": "#eff1f5",
             "terminal.foreground": "#4c4f69",
             "terminal.bright_foreground": null,
@@ -139,7 +139,7 @@
             "players": [
                 {
                     "cursor": "#dc8a78",
-                    "selection": "#acb0be66",
+                    "selection": "#acb0be73",
                     "background": "#dc8a78"
                 },
                 {
@@ -360,12 +360,12 @@
             "text.muted": "#b5bfe2",
             "text.placeholder": "#626880",
             "text.disabled": "#737994",
-            "text.accent": "#f2d5cf",
+            "text.accent": "#85c1dc",
             "icon": "#c6d0f5",
             "icon.muted": null,
             "icon.disabled": null,
             "icon.placeholder": null,
-            "icon.accent": "#f2d5cf",
+            "icon.accent": "#85c1dc",
             "status_bar.background": "#232634",
             "title_bar.background": "#232634",
             "toolbar.background": "#303446",
@@ -392,8 +392,8 @@
             "editor.invisible": "#949cbb",
             "editor.wrap_guide": "#626880",
             "editor.active_wrap_guide": "#626880",
-            "editor.document_highlight.read_background": "#51576daa",
-            "editor.document_highlight.write_background": "#51576daa",
+            "editor.document_highlight.read_background": "#ef9f7733",
+            "editor.document_highlight.write_background": "#a6aece33",
             "terminal.background": "#303446",
             "terminal.foreground": "#c6d0f5",
             "terminal.bright_foreground": null,
@@ -468,7 +468,7 @@
             "players": [
                 {
                     "cursor": "#f2d5cf",
-                    "selection": "#62688066",
+                    "selection": "#62688073",
                     "background": "#f2d5cf"
                 },
                 {
@@ -689,12 +689,12 @@
             "text.muted": "#b8c0e0",
             "text.placeholder": "#5b6078",
             "text.disabled": "#6e738d",
-            "text.accent": "#f4dbd6",
+            "text.accent": "#7dc4e4",
             "icon": "#cad3f5",
             "icon.muted": null,
             "icon.disabled": null,
             "icon.placeholder": null,
-            "icon.accent": "#f4dbd6",
+            "icon.accent": "#7dc4e4",
             "status_bar.background": "#181926",
             "title_bar.background": "#181926",
             "toolbar.background": "#24273a",
@@ -721,8 +721,8 @@
             "editor.invisible": "#939ab7",
             "editor.wrap_guide": "#5b6078",
             "editor.active_wrap_guide": "#5b6078",
-            "editor.document_highlight.read_background": "#494d65aa",
-            "editor.document_highlight.write_background": "#494d65aa",
+            "editor.document_highlight.read_background": "#f5a87f33",
+            "editor.document_highlight.write_background": "#a5adcb33",
             "terminal.background": "#24273a",
             "terminal.foreground": "#cad3f5",
             "terminal.bright_foreground": null,
@@ -797,7 +797,7 @@
             "players": [
                 {
                     "cursor": "#f4dbd6",
-                    "selection": "#5b607966",
+                    "selection": "#5b607973",
                     "background": "#f4dbd6"
                 },
                 {
@@ -1018,12 +1018,12 @@
             "text.muted": "#bac2de",
             "text.placeholder": "#585b70",
             "text.disabled": "#6c7086",
-            "text.accent": "#f5e0dc",
+            "text.accent": "#74c7ec",
             "icon": "#cdd6f4",
             "icon.muted": null,
             "icon.disabled": null,
             "icon.placeholder": null,
-            "icon.accent": "#f5e0dc",
+            "icon.accent": "#74c7ec",
             "status_bar.background": "#11111b",
             "title_bar.background": "#11111b",
             "toolbar.background": "#1e1e2e",
@@ -1050,8 +1050,8 @@
             "editor.invisible": "#9399b2",
             "editor.wrap_guide": "#585b70",
             "editor.active_wrap_guide": "#585b70",
-            "editor.document_highlight.read_background": "#45475baa",
-            "editor.document_highlight.write_background": "#45475baa",
+            "editor.document_highlight.read_background": "#fab48833",
+            "editor.document_highlight.write_background": "#a6adc833",
             "terminal.background": "#1e1e2e",
             "terminal.foreground": "#cdd6f4",
             "terminal.bright_foreground": null,
@@ -1126,7 +1126,7 @@
             "players": [
                 {
                     "cursor": "#f5e0dc",
-                    "selection": "#585b7066",
+                    "selection": "#585b7073",
                     "background": "#f5e0dc"
                 },
                 {
