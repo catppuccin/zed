@@ -190,6 +190,11 @@ players:
                     "font_style": null,
                     "font_weight": null
                 },
+                "constant.builtin": {
+                    "color": "#{{peach}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
                 "constructor": {
                     "color": "#{{blue}}",
                     "font_style": null,
@@ -223,6 +228,11 @@ players:
                 "link_uri": {
                     "color": "#{{blue}}",
                     "font_style": null,
+                    "font_weight": null
+                },
+                "module": {
+                    "color": "#{{lavender}}",
+                    "font_style": "italic",
                     "font_weight": null
                 },
                 "number": {

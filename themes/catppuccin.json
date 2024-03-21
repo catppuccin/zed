@@ -204,6 +204,11 @@
                     "font_style": null,
                     "font_weight": null
                 },
+                "constant.builtin": {
+                    "color": "#fe640b",
+                    "font_style": null,
+                    "font_weight": null
+                },
                 "constructor": {
                     "color": "#1e66f5",
                     "font_style": null,
@@ -237,6 +242,11 @@
                 "link_uri": {
                     "color": "#1e66f5",
                     "font_style": null,
+                    "font_weight": null
+                },
+                "module": {
+                    "color": "#7287fd",
+                    "font_style": "italic",
                     "font_weight": null
                 },
                 "number": {
@@ -553,6 +563,11 @@
                     "font_style": null,
                     "font_weight": null
                 },
+                "constant.builtin": {
+                    "color": "#ef9f76",
+                    "font_style": null,
+                    "font_weight": null
+                },
                 "constructor": {
                     "color": "#8caaee",
                     "font_style": null,
@@ -586,6 +601,11 @@
                 "link_uri": {
                     "color": "#8caaee",
                     "font_style": null,
+                    "font_weight": null
+                },
+                "module": {
+                    "color": "#babbf1",
+                    "font_style": "italic",
                     "font_weight": null
                 },
                 "number": {
@@ -902,6 +922,11 @@
                     "font_style": null,
                     "font_weight": null
                 },
+                "constant.builtin": {
+                    "color": "#f5a97f",
+                    "font_style": null,
+                    "font_weight": null
+                },
                 "constructor": {
                     "color": "#8aadf4",
                     "font_style": null,
@@ -935,6 +960,11 @@
                 "link_uri": {
                     "color": "#8aadf4",
                     "font_style": null,
+                    "font_weight": null
+                },
+                "module": {
+                    "color": "#b7bdf8",
+                    "font_style": "italic",
                     "font_weight": null
                 },
                 "number": {
@@ -1251,6 +1281,11 @@
                     "font_style": null,
                     "font_weight": null
                 },
+                "constant.builtin": {
+                    "color": "#fab387",
+                    "font_style": null,
+                    "font_weight": null
+                },
                 "constructor": {
                     "color": "#89b4fa",
                     "font_style": null,
@@ -1284,6 +1319,11 @@
                 "link_uri": {
                     "color": "#89b4fa",
                     "font_style": null,
+                    "font_weight": null
+                },
+                "module": {
+                    "color": "#b4befe",
+                    "font_style": "italic",
                     "font_weight": null
                 },
                 "number": {
