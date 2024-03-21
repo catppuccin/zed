@@ -164,6 +164,7 @@ players:
                 {{/each}}
             ],
             "syntax": {
+{{!-- https://github.com/catppuccin/nvim/blob/56fb98218d22d5c326387bf9e4076227e7372e6b/lua/catppuccin/groups/integrations/treesitter.lua#L15 --}}
                 "attribute": {
                     "color": "#{{yellow}}",
                     "font_style": null,
@@ -311,7 +312,22 @@ players:
                 },
                 "variable": {
                     "color": "#{{text}}",
-                    "font_style": "italic",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "variable.builtin": {
+                    "color": "#{{red}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "variable.parameter": {
+                    "color": "#{{maroon}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "variable.member": {
+                    "color": "#{{lavender}}",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "variable.special": {
