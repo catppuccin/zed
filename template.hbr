@@ -299,6 +299,11 @@ players:
                     "font_style": null,
                     "font_weight": null
                 },
+                "title": {
+                    "color": "#{{text}}",
+                    "font_style": null,
+                    "font_weight": 800
+                },
                 "type": {
                     "color": "#{{yellow}}",
                     "font_style": "italic",
