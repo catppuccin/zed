@@ -245,7 +245,7 @@
                     "font_weight": null
                 },
                 "module": {
-                    "color": "#d20f39",
+                    "color": "#df8e1d",
                     "font_style": "italic",
                     "font_weight": null
                 },
@@ -300,7 +300,7 @@
                     "font_weight": null
                 },
                 "string.regex": {
-                    "color": "#fe640b",
+                    "color": "#ea76cb",
                     "font_style": null,
                     "font_weight": null
                 },
@@ -609,7 +609,7 @@
                     "font_weight": null
                 },
                 "module": {
-                    "color": "#e78284",
+                    "color": "#e5c890",
                     "font_style": "italic",
                     "font_weight": null
                 },
@@ -664,7 +664,7 @@
                     "font_weight": null
                 },
                 "string.regex": {
-                    "color": "#ef9f76",
+                    "color": "#f4b8e4",
                     "font_style": null,
                     "font_weight": null
                 },
@@ -973,7 +973,7 @@
                     "font_weight": null
                 },
                 "module": {
-                    "color": "#ed8796",
+                    "color": "#eed49f",
                     "font_style": "italic",
                     "font_weight": null
                 },
@@ -1028,7 +1028,7 @@
                     "font_weight": null
                 },
                 "string.regex": {
-                    "color": "#f5a97f",
+                    "color": "#f5bde6",
                     "font_style": null,
                     "font_weight": null
                 },
@@ -1337,7 +1337,7 @@
                     "font_weight": null
                 },
                 "module": {
-                    "color": "#f38ba8",
+                    "color": "#f9e2af",
                     "font_style": "italic",
                     "font_weight": null
                 },
@@ -1392,7 +1392,7 @@
                     "font_weight": null
                 },
                 "string.regex": {
-                    "color": "#fab387",
+                    "color": "#f5c2e7",
                     "font_style": null,
                     "font_weight": null
                 },

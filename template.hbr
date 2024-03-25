@@ -231,7 +231,7 @@ players:
                     "font_weight": null
                 },
                 "module": {
-                    "color": "#{{lavender}}",
+                    "color": "#{{yellow}}",
                     "font_style": "italic",
                     "font_weight": null
                 },
@@ -286,7 +286,7 @@ players:
                     "font_weight": null
                 },
                 "string.regex": {
-                    "color": "#{{peach}}",
+                    "color": "#{{pink}}",
                     "font_style": null,
                     "font_weight": null
                 },
