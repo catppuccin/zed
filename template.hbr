@@ -286,7 +286,7 @@ players:
                     "font_weight": null
                 },
                 "string.regex": {
-                    "color": "#{{pink}}",
+                    "color": "#{{peach}}",
                     "font_style": null,
                     "font_weight": null
                 },
@@ -298,6 +298,11 @@ players:
                 "string.special.symbol": {
                     "color": "#{{flamingo}}",
                     "font_style": null,
+                    "font_weight": null
+                },
+                "string.special.symbol": {
+                    "color": "#{{rosewater}}",
+                    "font_style": "italic",
                     "font_weight": null
                 },
                 "tag": {

@@ -245,7 +245,7 @@
                     "font_weight": null
                 },
                 "module": {
-                    "color": "#7287fd",
+                    "color": "#d20f39",
                     "font_style": "italic",
                     "font_weight": null
                 },
@@ -300,7 +300,7 @@
                     "font_weight": null
                 },
                 "string.regex": {
-                    "color": "#ea76cb",
+                    "color": "#fe640b",
                     "font_style": null,
                     "font_weight": null
                 },
@@ -312,6 +312,11 @@
                 "string.special.symbol": {
                     "color": "#dd7878",
                     "font_style": null,
+                    "font_weight": null
+                },
+                "string.special.symbol": {
+                    "color": "#dc8a78",
+                    "font_style": "italic",
                     "font_weight": null
                 },
                 "tag": {
@@ -604,7 +609,7 @@
                     "font_weight": null
                 },
                 "module": {
-                    "color": "#babbf1",
+                    "color": "#e78284",
                     "font_style": "italic",
                     "font_weight": null
                 },
@@ -659,7 +664,7 @@
                     "font_weight": null
                 },
                 "string.regex": {
-                    "color": "#f4b8e4",
+                    "color": "#ef9f76",
                     "font_style": null,
                     "font_weight": null
                 },
@@ -671,6 +676,11 @@
                 "string.special.symbol": {
                     "color": "#eebebe",
                     "font_style": null,
+                    "font_weight": null
+                },
+                "string.special.symbol": {
+                    "color": "#f2d5cf",
+                    "font_style": "italic",
                     "font_weight": null
                 },
                 "tag": {
@@ -963,7 +973,7 @@
                     "font_weight": null
                 },
                 "module": {
-                    "color": "#b7bdf8",
+                    "color": "#ed8796",
                     "font_style": "italic",
                     "font_weight": null
                 },
@@ -1018,7 +1028,7 @@
                     "font_weight": null
                 },
                 "string.regex": {
-                    "color": "#f5bde6",
+                    "color": "#f5a97f",
                     "font_style": null,
                     "font_weight": null
                 },
@@ -1030,6 +1040,11 @@
                 "string.special.symbol": {
                     "color": "#f0c6c6",
                     "font_style": null,
+                    "font_weight": null
+                },
+                "string.special.symbol": {
+                    "color": "#f4dbd6",
+                    "font_style": "italic",
                     "font_weight": null
                 },
                 "tag": {
@@ -1322,7 +1337,7 @@
                     "font_weight": null
                 },
                 "module": {
-                    "color": "#b4befe",
+                    "color": "#f38ba8",
                     "font_style": "italic",
                     "font_weight": null
                 },
@@ -1377,7 +1392,7 @@
                     "font_weight": null
                 },
                 "string.regex": {
-                    "color": "#f5c2e7",
+                    "color": "#fab387",
                     "font_style": null,
                     "font_weight": null
                 },
@@ -1389,6 +1404,11 @@
                 "string.special.symbol": {
                     "color": "#f2cdcd",
                     "font_style": null,
+                    "font_weight": null
+                },
+                "string.special.symbol": {
+                    "color": "#f5e0dc",
+                    "font_style": "italic",
                     "font_weight": null
                 },
                 "tag": {
