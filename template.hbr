@@ -221,7 +221,7 @@ players:
                     "font_weight": null
                 },
                 "hint": {
-                    "color": "#{{maroon}}",
+                    "color": "#{{teal}}",
                     "font_style": "italic",
                     "font_weight": null
                 },
