@@ -134,7 +134,7 @@ players:
             "modified": "#{{yellow}}",
             "modified.background": "#{{mantle}}",
             "modified.border": "#{{yellow}}",
-            "predictive": "#{{lavender}}",
+            "predictive": "#{{ mix overlay0 blue 0.65 }}",
             "predictive.background": "#{{mantle}}",
             "predictive.border": "#{{lavender}}",
             "renamed": "#{{sapphire}}",
@@ -163,6 +163,7 @@ players:
                 }{{#unless @last}},{{/unless}}
                 {{/each}}
             ],
+{{!-- https://github.com/zed-industries/zed/blob/5361a4d72dfe8f286581896e9aa7feb232672493/crates/theme/src/styles/syntax.rs --}}
             "syntax": {
                 "attribute": {
                     "color": "#{{yellow}}",
@@ -185,12 +186,17 @@ players:
                     "font_weight": null
                 },
                 "constant": {
-                    "color": "#{{red}}",
+                    "color": "#{{peach}}",
                     "font_style": null,
                     "font_weight": null
                 },
                 "constructor": {
                     "color": "#{{blue}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "embedded": {
+                    "color": "#{{maroon}}",
                     "font_style": null,
                     "font_weight": null
                 },
@@ -204,8 +210,18 @@ players:
                     "font_style": null,
                     "font_weight": 700
                 },
+                "enum": {
+                    "color": "#{{teal}}",
+                    "font_style": null,
+                    "font_weight": 700
+                },
                 "function": {
                     "color": "#{{blue}}",
+                    "font_style": "italic",
+                    "font_weight": null
+                },
+                "hint": {
+                    "color": "#{{teal}}",
                     "font_style": "italic",
                     "font_weight": null
                 },
@@ -230,12 +246,27 @@ players:
                     "font_weight": null
                 },
                 "operator": {
-                    "color": "#{{teal}}",
+                    "color": "#{{sky}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "predictive": {
+                    "color": "#{{mix overlay0 blue 0.65}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "predoc": {
+                    "color": "#{{red}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "primary": {
+                    "color": "#{{maroon}}",
                     "font_style": null,
                     "font_weight": null
                 },
                 "property": {
-                    "color": "#{{text}}",
+                    "color": "#{{maroon}}",
                     "font_style": null,
                     "font_weight": null
                 },
@@ -250,7 +281,7 @@ players:
                     "font_weight": null
                 },
                 "punctuation.delimiter": {
-                    "color": "#{{teal}}",
+                    "color": "#{{overlay2}}",
                     "font_style": null,
                     "font_weight": null
                 },
@@ -261,6 +292,11 @@ players:
                 },
                 "punctuation.special": {
                     "color": "#{{teal}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "punctuation.special.symbol": {
+                    "color": "#{{red}}",
                     "font_style": null,
                     "font_weight": null
                 },
@@ -299,19 +335,29 @@ players:
                     "font_style": null,
                     "font_weight": null
                 },
+                "title": {
+                    "color": "#{{text}}",
+                    "font_style": null,
+                    "font_weight": 800
+                },
                 "type": {
                     "color": "#{{yellow}}",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "variable": {
                     "color": "#{{text}}",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "variable.special": {
+                    "color": "#{{ mix text red 0.6 }}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "variant": {
                     "color": "#{{red}}",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 }
             }
