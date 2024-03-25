@@ -134,7 +134,7 @@ players:
             "modified": "#{{yellow}}",
             "modified.background": "#{{mantle}}",
             "modified.border": "#{{yellow}}",
-            "predictive": "#{{ mix overlay0 accent 0.70 }}",
+            "predictive": "#{{ mix overlay0 accent 0.75 }}",
             "predictive.background": "#{{mantle}}",
             "predictive.border": "#{{lavender}}",
             "renamed": "#{{sapphire}}",
