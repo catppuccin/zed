@@ -306,17 +306,17 @@ players:
                 },
                 "type": {
                     "color": "#{{yellow}}",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "variable": {
                     "color": "#{{text}}",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "variable.special": {
                     "color": "#{{red}}",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 }
             }
