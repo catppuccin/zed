@@ -211,7 +211,7 @@ players:
                     "font_weight": 700
                 },
                 "enum": {
-                    "color": "#{{maroon}}",
+                    "color": "#{{teal}}",
                     "font_style": null,
                     "font_weight": 700
                 },
