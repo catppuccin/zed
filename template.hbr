@@ -164,6 +164,7 @@ players:
                 {{/each}}
             ],
             "syntax": {
+{{!-- https://github.com/catppuccin/nvim/blob/56fb98218d22d5c326387bf9e4076227e7372e6b/lua/catppuccin/groups/integrations/treesitter.lua#L15 --}}
                 "attribute": {
                     "color": "#{{yellow}}",
                     "font_style": null,
@@ -186,6 +187,11 @@ players:
                 },
                 "constant": {
                     "color": "#{{red}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "constant.builtin": {
+                    "color": "#{{peach}}",
                     "font_style": null,
                     "font_weight": null
                 },
@@ -222,6 +228,11 @@ players:
                 "link_uri": {
                     "color": "#{{blue}}",
                     "font_style": null,
+                    "font_weight": null
+                },
+                "module": {
+                    "color": "#{{yellow}}",
+                    "font_style": "italic",
                     "font_weight": null
                 },
                 "number": {
@@ -289,6 +300,11 @@ players:
                     "font_style": null,
                     "font_weight": null
                 },
+                "string.special.symbol": {
+                    "color": "#{{rosewater}}",
+                    "font_style": "italic",
+                    "font_weight": null
+                },
                 "tag": {
                     "color": "#{{blue}}",
                     "font_style": null,
@@ -299,6 +315,11 @@ players:
                     "font_style": null,
                     "font_weight": null
                 },
+                "title": {
+                    "color": "#{{text}}",
+                    "font_style": null,
+                    "font_weight": 800
+                },
                 "type": {
                     "color": "#{{yellow}}",
                     "font_style": "italic",
@@ -306,7 +327,22 @@ players:
                 },
                 "variable": {
                     "color": "#{{text}}",
-                    "font_style": "italic",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "variable.builtin": {
+                    "color": "#{{red}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "variable.parameter": {
+                    "color": "#{{maroon}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "variable.member": {
+                    "color": "#{{lavender}}",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "variable.special": {
