@@ -121,7 +121,7 @@
             "modified": "#df8e1d",
             "modified.background": "#e6e9ef",
             "modified.border": "#df8e1d",
-            "predictive": "#7287fd",
+            "predictive": "#9781c3",
             "predictive.background": "#e6e9ef",
             "predictive.border": "#7287fd",
             "renamed": "#209fb5",
@@ -314,6 +314,11 @@
                     "font_style": null,
                     "font_weight": null
                 },
+                "title": {
+                    "color": "#4c4f69",
+                    "font_style": null,
+                    "font_weight": 800
+                },
                 "type": {
                     "color": "#df8e1d",
                     "font_style": "italic",
@@ -450,7 +455,7 @@
             "modified": "#e5c890",
             "modified.background": "#292c3c",
             "modified.border": "#e5c890",
-            "predictive": "#babbf1",
+            "predictive": "#8d85ad",
             "predictive.background": "#292c3c",
             "predictive.border": "#babbf1",
             "renamed": "#85c1dc",
@@ -643,6 +648,11 @@
                     "font_style": null,
                     "font_weight": null
                 },
+                "title": {
+                    "color": "#c6d0f5",
+                    "font_style": null,
+                    "font_weight": 800
+                },
                 "type": {
                     "color": "#e5c890",
                     "font_style": "italic",
@@ -779,7 +789,7 @@
             "modified": "#eed49f",
             "modified.background": "#1e2030",
             "modified.border": "#eed49f",
-            "predictive": "#b7bdf8",
+            "predictive": "#8a82ac",
             "predictive.background": "#1e2030",
             "predictive.border": "#b7bdf8",
             "renamed": "#7dc4e4",
@@ -972,6 +982,11 @@
                     "font_style": null,
                     "font_weight": null
                 },
+                "title": {
+                    "color": "#cad3f5",
+                    "font_style": null,
+                    "font_weight": 800
+                },
                 "type": {
                     "color": "#eed49f",
                     "font_style": "italic",
@@ -1108,7 +1123,7 @@
             "modified": "#f9e2af",
             "modified.background": "#181825",
             "modified.border": "#f9e2af",
-            "predictive": "#b4befe",
+            "predictive": "#8981a9",
             "predictive.background": "#181825",
             "predictive.border": "#b4befe",
             "renamed": "#74c7ec",
@@ -1300,6 +1315,11 @@
                     "color": "#a6e3a1",
                     "font_style": null,
                     "font_weight": null
+                },
+                "title": {
+                    "color": "#cdd6f4",
+                    "font_style": null,
+                    "font_weight": 800
                 },
                 "type": {
                     "color": "#f9e2af",

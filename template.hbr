@@ -134,7 +134,7 @@ players:
             "modified": "#{{yellow}}",
             "modified.background": "#{{mantle}}",
             "modified.border": "#{{yellow}}",
-            "predictive": "#{{lavender}}",
+            "predictive": "#{{ mix overlay0 accent 0.70 }}",
             "predictive.background": "#{{mantle}}",
             "predictive.border": "#{{lavender}}",
             "renamed": "#{{sapphire}}",
@@ -298,6 +298,11 @@ players:
                     "color": "#{{green}}",
                     "font_style": null,
                     "font_weight": null
+                },
+                "title": {
+                    "color": "#{{text}}",
+                    "font_style": null,
+                    "font_weight": 800
                 },
                 "type": {
                     "color": "#{{yellow}}",
