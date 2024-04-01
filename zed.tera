@@ -1,7 +1,6 @@
 ---
 whiskers:
     version: "2.0.1"
-    filename: "./themes/catppuccin.json"
 ---
 {% set accent = "mauve" -%}
 
