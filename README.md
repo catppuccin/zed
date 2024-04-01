@@ -45,7 +45,7 @@
 
 ## Development
 
-### Use `whiskers` to Render Theme
+### Use `whiskers` to Render Theme from `zed.tera` Template
 
 <details>
 
@@ -61,13 +61,13 @@
 
    ```bash
    # no changes returns nothing
-   whiskers template.hbr all --check themes/catppuccin.json
+   whiskers zed.tera -o json --check themes/catppuccin.json
    ```
 
 4. Generate the zed extension theme file
 
    ```bash
-   whiskers template.hbr all -o themes/catppuccin.json
+   whiskers zed.tera -o json > themes/catppuccin.json
    ```
 
 5. Refresh Zed to load changes after ensuring local extension install
