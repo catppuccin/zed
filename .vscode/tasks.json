@@ -2,7 +2,7 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "test: whiskers",
+      "label": "test: whiskers check",
       "type": "shell",
       "command": "whiskers zed.tera -o json --check themes/catppuccin.json",
       "problemMatcher": [],
@@ -12,7 +12,7 @@
       }
     },
     {
-      "label": "build: whiskers",
+      "label": "build: whiskers render",
       "type": "shell",
       "command": "whiskers zed.tera -o json > themes/catppuccin.json && echo 'OK ✓ themes/catppuccin.json created '",
       "problemMatcher": [],

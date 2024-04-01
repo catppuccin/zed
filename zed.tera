@@ -270,7 +270,7 @@ whiskers:
                     "font_weight": null
                 },
                 "property": {
-                    "color": "#{{c.maroon.hex}}",
+                    "color": "#{{c.blue.hex}}",
                     "font_style": null,
                     "font_weight": null
                 },
@@ -346,7 +346,7 @@ whiskers:
                 },
                 "type": {
                     "color": "#{{c.yellow.hex}}",
-                    "font_style": null,
+                    "font_style": "italic",
                     "font_weight": null
                 },
                 "variable": {
