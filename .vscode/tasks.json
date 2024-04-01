@@ -2,6 +2,16 @@
   "version": "2.0.0",
   "tasks": [
     {
+      "label": "dry run: whiskers",
+      "type": "shell",
+      "command": "whiskers zed.tera -o json --dry-run",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
       "label": "test: whiskers check",
       "type": "shell",
       "command": "whiskers zed.tera -o json --check themes/catppuccin.json",
@@ -14,7 +24,7 @@
     {
       "label": "build: whiskers render",
       "type": "shell",
-      "command": "whiskers zed.tera -o json > themes/catppuccin.json && echo 'OK ✓ themes/catppuccin.json created '",
+      "command": "whiskers zed.tera -o json && echo 'OK ✓ themes/catppuccin.json created '",
       "problemMatcher": [],
       "group": {
         "kind": "build",
