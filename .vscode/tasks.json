@@ -14,7 +14,7 @@
     {
       "label": "build: whiskers",
       "type": "shell",
-      "command": "whiskers template.hbr -o ./themes/catppuccin.json && echo \"SUCCESS ✔\"",
+      "command": "whiskers zed.tera -o json > themes/catppuccin.json && echo 'OK ✓ themes/catppuccin.json created '",
       "problemMatcher": [],
       "group": {
         "kind": "build",
