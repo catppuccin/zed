@@ -1,23 +1,15 @@
 {
   "version": "2.0.0",
-  "inputs": [
+  "tasks": [
     {
-        "id": "output",
-        "type": "promptString",
-        "default": "themes/catppuccin.json",
-        "description": "where should the file be written?"
+      "label": "build: whiskers",
+      "type": "shell",
+      "command": "whiskers template.hbr all -o ./themes/catppuccin.json && echo \"SUCCESS ✔\"",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
     }
-  ],
-    "tasks": [
-        {
-            "label": "whiskers",
-            "type": "shell",
-            "command": "whiskers template.hbr all -o ${input:output} && echo \"SUCCESS ✔\"",
-            "problemMatcher": [],
-            "group": {
-              "kind": "build",
-              "isDefault": true
-            }
-        }
-    ]
+  ]
 }

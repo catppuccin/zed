@@ -24,7 +24,7 @@ players:
             "border.variant": "#{{mix accent surface0 0.8}}",
             "border.focused": "#{{lavender}}",
             "border.selected": "#{{accent}}",
-            "border.transparent": "${{green}}",
+            "border.transparent": "#{{green}}",
             "border.disabled": "#{{surface2}}",
             "elevated_surface.background": "#{{mantle}}",
             "surface.background": "#{{base}}",
