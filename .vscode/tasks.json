@@ -2,9 +2,19 @@
   "version": "2.0.0",
   "tasks": [
     {
+      "label": "test: whiskers",
+      "type": "shell",
+      "command": "whiskers zed.tera -o json --check themes/catppuccin.json",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
       "label": "build: whiskers",
       "type": "shell",
-      "command": "whiskers template.hbr all -o ./themes/catppuccin.json && echo \"SUCCESS ✔\"",
+      "command": "whiskers template.hbr -o ./themes/catppuccin.json && echo \"SUCCESS ✔\"",
       "problemMatcher": [],
       "group": {
         "kind": "build",

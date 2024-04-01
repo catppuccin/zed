@@ -1,0 +1,329 @@
+---
+whiskers:
+    version: "2.0.1"
+authors:
+    - Andrew Tec <andrewtec@enjoi.dev>
+---
+
+{% set accent = "mauve" -%}
+{
+    "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+    "name": "Catppuccin",
+    "author": "Andrew Tec <andrewtec@enjoi.dev>",
+    "themes": [
+    {%- for key, flavor in flavors -%}
+    {% set c = flavor.colors -%}
+    {# Zed collab feature has 8 players max (including us) #}
+    {% set players = [
+        c.mauve  | mix(color=c.text, amount=0.6),
+        c.green  | mix(color=c.text, amount=0.6),
+        c.red    | mix(color=c.text, amount=0.6),
+        c.teal   | mix(color=c.text, amount=0.6),
+        c.peach  | mix(color=c.text, amount=0.6),
+        c.yellow | mix(color=c.text, amount=0.6),
+        c.blue   | mix(color=c.text, amount=0.6),
+    ] -%}
+    {
+        "name": "Catppuccin {{flavor.name}}",
+        "appearance": {% if flavor.dark %}"dark"{% else %}"light"{% endif %},
+        "style": {
+            "border": "#{{c.surface0.hex}}",
+            "border.variant": "#{{c.surface1.hex}}",
+            "border.focused": "#{{c.lavender.hex}}",
+            "border.selected": "#{{c.surface2.hex}}",
+            "border.transparent": null,
+            "border.disabled": "#{{c.surface2.hex}}",
+            "elevated_surface.background": "#{{c.mantle.hex}}",
+            "surface.background": "#{{c.base.hex}}",
+            "background": "#{{c.base.hex}}",
+            "element.background": "#{{c.crust.hex}}",
+            "element.hover": "#{{c.surface1.hex}}",
+            "element.active": "#{{c.lavender.hex}}",
+            "element.selected": "#{{c.surface0.hex}}",
+            "element.disabled": null,
+            "drop_target.background": "#{{c.surface1.hex}}",
+            "ghost_element.background": null,
+            "ghost_element.hover": "#{{c.surface0.hex}}",
+            "ghost_element.active": "#{{c.lavender.hex}}",
+            "ghost_element.selected": "#{{c.surface0.hex}}",
+            "ghost_element.disabled": null,
+            "text": "#{{c.text.hex}}",
+            "text.muted": "#{{c.subtext1.hex}}",
+            "text.placeholder": "#{{c.surface2.hex}}",
+            "text.disabled": "#{{c.overlay0.hex}}",
+            "text.accent": "#{{c[accent].hex}}",
+            "icon": "#{{c.text.hex}}",
+            "icon.muted": null,
+            "icon.disabled": null,
+            "icon.placeholder": null,
+            "icon.accent": "#{{c[accent].hex}}",
+            "status_bar.background": "#{{c.crust.hex}}",
+            "title_bar.background": "#{{c.crust.hex}}",
+            "toolbar.background": "#{{c.base.hex}}",
+            "tab_bar.background": "#{{c.crust.hex}}",
+            "tab.inactive_background": "#{{c.mantle.hex}}",
+            "tab.active_background": "#{{c.base.hex}}",
+            "search.match_background": "#{{c.teal | mod(opacity=0.2) | get(key="hex")}}",
+            "panel.background": "#{{c.mantle.hex}}",
+            "panel.focused_border": "#{{c.text.hex}}",
+            "pane.focused_border": "#{{c.text.hex}}",
+            "scrollbar_thumb.background": "#{{c.surface2 | mod(opacity=0.5) | get(key="hex")}}",
+            "scrollbar.thumb.hover_background": "#{{c.overlay0.hex}}",
+            "scrollbar.thumb.border": "#{{c.surface2 | mod(opacity=0.5) | get(key="hex")}}",
+            "scrollbar.track.background": "#{{c.base.hex}}",
+            "scrollbar.track.border": "#{{c.text | mod(opacity=0.07) | get(key="hex")}}",
+            "editor.foreground": "#{{c.text.hex}}",
+            "editor.background": "#{{c.base.hex}}",
+            "editor.gutter.background": "#{{c.base.hex}}",
+            "editor.subheader.background": "#{{c.mantle.hex}}",
+            "editor.active_line.background": "#{{c.text | mod(opacity=0.07) | get(key="hex")}}",
+            "editor.highlighted_line.background": null,
+            "editor.line_number": "#{{c.overlay1.hex}}",
+            "editor.active_line_number": "#{{c.text.hex}}",
+            "editor.invisible": "#{{c.overlay2.hex}}",
+            "editor.wrap_guide": "#{{c.surface2.hex}}",
+            "editor.active_wrap_guide": "#{{c.surface2.hex}}",
+            "editor.document_highlight.read_background": "#{{c.surface1 | mod(opacity=0.667) | get(key="hex")}}",
+            "editor.document_highlight.write_background": "#{{c.surface1 | mod(opacity=0.667) | get(key="hex")}}",
+            "terminal.background": "#{{c.base.hex}}",
+            "terminal.foreground": "#{{c.text.hex}}",
+            "terminal.bright_foreground": null,
+            "terminal.dim_foreground": null,
+            "terminal.ansi.black": "#{{c.surface1.hex}}",
+            "terminal.ansi.bright_black": "#{{c.subtext0.hex}}",
+            "terminal.ansi.dim_black": null,
+            "terminal.ansi.red": "#{{c.red.hex}}",
+            "terminal.ansi.bright_red": "#{{c.red.hex}}",
+            "terminal.ansi.dim_red": null,
+            "terminal.ansi.green": "#{{c.green.hex}}",
+            "terminal.ansi.bright_green": "#{{c.green.hex}}",
+            "terminal.ansi.dim_green": null,
+            "terminal.ansi.yellow": "#{{c.yellow.hex}}",
+            "terminal.ansi.bright_yellow": "#{{c.yellow.hex}}",
+            "terminal.ansi.dim_yellow": null,
+            "terminal.ansi.blue": "#{{c.blue.hex}}",
+            "terminal.ansi.bright_blue": "#{{c.blue.hex}}",
+            "terminal.ansi.dim_blue": null,
+            "terminal.ansi.magenta": "#{{c.pink.hex}}",
+            "terminal.ansi.bright_magenta": "#{{c.pink.hex}}",
+            "terminal.ansi.dim_magenta": null,
+            "terminal.ansi.cyan": "#{{c.lavender.hex}}",
+            "terminal.ansi.bright_cyan": "#{{c.lavender.hex}}",
+            "terminal.ansi.dim_cyan": null,
+            "terminal.ansi.white": "#{{c.text.hex}}",
+            "terminal.ansi.bright_white": "#{{c.subtext1.hex}}",
+            "terminal.ansi.dim_white": null,
+            "link_text.hover": "#{{c.sky.hex}}",
+            "conflict": "#{{c.mauve.hex}}",
+            "conflict.background": "#{{c.mantle.hex}}",
+            "conflict.border": "#{{c.mauve.hex}}",
+            "created": "#{{c.green.hex}}",
+            "created.background": "#{{c.mantle.hex}}",
+            "created.border": "#{{c.green.hex}}",
+            "deleted": "#{{c.red.hex}}",
+            "deleted.background": "#{{c.mantle.hex}}",
+            "deleted.border": "#{{c.red.hex}}",
+            "error": "#{{c.red.hex}}",
+            "error.background": "#{{c.mantle.hex}}",
+            "error.border": "#{{c.red.hex}}",
+            "hidden": "#{{c.overlay0.hex}}",
+            "hidden.background": "#{{c.mantle.hex}}",
+            "hidden.border": "#{{c.overlay0.hex}}",
+            "hint": "#{{c.maroon.hex}}",
+            "hint.background": "#{{c.mantle.hex}}",
+            "hint.border": "#{{c.maroon.hex}}",
+            "ignored": "#{{c.overlay0.hex}}",
+            "ignored.background": "#{{c.mantle.hex}}",
+            "ignored.border": "#{{c.overlay0.hex}}",
+            "info": "#{{c.teal.hex}}",
+            "info.background": "#{{c.mantle.hex}}",
+            "info.border": "#{{c.teal.hex}}",
+            "modified": "#{{c.yellow.hex}}",
+            "modified.background": "#{{c.mantle.hex}}",
+            "modified.border": "#{{c.yellow.hex}}",
+            "predictive": "#{{c.lavender.hex}}",
+            "predictive.background": "#{{c.mantle.hex}}",
+            "predictive.border": "#{{c.lavender.hex}}",
+            "renamed": "#{{c.sapphire.hex}}",
+            "renamed.background": "#{{c.mantle.hex}}",
+            "renamed.border": "#{{c.sapphire.hex}}",
+            "success": "#{{c.green.hex}}",
+            "success.background": "#{{c.mantle.hex}}",
+            "success.border": "#{{c.green.hex}}",
+            "unreachable": "#{{c.red.hex}}",
+            "unreachable.background": "#{{c.mantle.hex}}",
+            "unreachable.border": "#{{c.red.hex}}",
+            "warning": "#{{c.peach.hex}}",
+            "warning.background": "#{{c.mantle.hex}}",
+            "warning.border": "#{{c.peach.hex}}",
+            "players": [
+                {
+                    "cursor": "#{{c.rosewater.hex}}",
+                    "selection": "#{{c.surface2 | mod(opacity=0.4) | get(key="hex")}}",
+                    "background": "#{{c.rosewater.hex}}"
+                },
+                {% for player in players -%}
+                {
+                    "cursor": "#{{player.hex}}",
+                    "selection": "#{{player | mod(opacity=0.4) | get(key="hex")}}",
+                    "background": "#{{player.hex}}"
+                }{% if not loop.last %},{% endif %}
+                {% endfor -%}
+            ],
+            "syntax": {
+                "attribute": {
+                    "color": "#{{c.yellow.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "boolean": {
+                    "color": "#{{c.peach.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "comment": {
+                    "color": "#{{c.overlay0.hex}}",
+                    "font_style": "italic",
+                    "font_weight": null
+                },
+                "comment.doc": {
+                    "color": "#{{c.overlay0.hex}}",
+                    "font_style": "italic",
+                    "font_weight": null
+                },
+                "constant": {
+                    "color": "#{{c.red.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "constructor": {
+                    "color": "#{{c.blue.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "emphasis": {
+                    "color": "#{{c.red.hex}}",
+                    "font_style": "italic",
+                    "font_weight": null
+                },
+                "emphasis.strong": {
+                    "color": "#{{c.red.hex}}",
+                    "font_style": null,
+                    "font_weight": 700
+                },
+                "function": {
+                    "color": "#{{c.blue.hex}}",
+                    "font_style": "italic",
+                    "font_weight": null
+                },
+                "keyword": {
+                    "color": "#{{c.mauve.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "link_text": {
+                    "color": "#{{c.blue.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "link_uri": {
+                    "color": "#{{c.blue.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "number": {
+                    "color": "#{{c.peach.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "operator": {
+                    "color": "#{{c.teal.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "property": {
+                    "color": "#{{c.text.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "punctuation": {
+                    "color": "#{{c.teal.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "punctuation.bracket": {
+                    "color": "#{{c.teal.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "punctuation.delimiter": {
+                    "color": "#{{c.teal.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "punctuation.list_marker": {
+                    "color": "#{{c.teal.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "punctuation.special": {
+                    "color": "#{{c.teal.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "string": {
+                    "color": "#{{c.green.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "string.escape": {
+                    "color": "#{{c.pink.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "string.regex": {
+                    "color": "#{{c.pink.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "string.special": {
+                    "color": "#{{c.pink.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "string.special.symbol": {
+                    "color": "#{{c.flamingo.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "tag": {
+                    "color": "#{{c.blue.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "text.literal": {
+                    "color": "#{{c.green.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "type": {
+                    "color": "#{{c.yellow.hex}}",
+                    "font_style": "italic",
+                    "font_weight": null
+                },
+                "variable": {
+                    "color": "#{{c.text.hex}}",
+                    "font_style": "italic",
+                    "font_weight": null
+                },
+                "variable.special": {
+                    "color": "#{{c.red.hex}}",
+                    "font_style": "italic",
+                    "font_weight": null
+                }
+            }
+        }
+    }{% if not loop.last %},{% endif -%}
+    {% endfor %}
+    ]
+}
