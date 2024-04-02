@@ -67,10 +67,16 @@
 4. Generate the zed extension theme file
 
    ```bash
-   whiskers zed.tera -o json > themes/catppuccin.json
+   whiskers zed.tera -o json
    ```
 
-5. Refresh Zed to load changes after ensuring local extension install
+5. (Optional) Generate the accent you want (default is `mauve`)
+
+   ```bash
+   whiskers zed.tera -o json --overrides '{\"accent\": \"rosewater\"}'
+   ```
+
+6. Refresh Zed to load changes after ensuring local extension install
 
 </details>
 
@@ -108,7 +114,7 @@ Zed organizes all extensions using `git submodules` in the [zed/extensions](http
    ```
    cd extensions/catppuccin/ && git pull origin main
    ```
-4. Modify `extensions.toml` to match version in [extension.toml](./extension.toml#L3)
+4. Modify `extensions.json` to match version in [extension.json](./extension.json#L3)
 5. Submit a PR to merge back to `zed/extensions`
 
 </details>
