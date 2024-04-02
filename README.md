@@ -45,12 +45,12 @@
 
 ## Development
 
-### Use `whiskers` to Render Theme
+### Use `whiskers` to Render Theme from `zed.tera` Template
 
 <details>
 
 1. Install [Rust](https://www.rust-lang.org/tools/install)
-2. Install [`whiskers`](https://crates.io/crates/catppuccin-whiskers)
+2. Install [`whiskers`](https://crates.io/crates/catppuccin-whiskers) (>= 2.0.2)
 
    ```bash
    # from source (preferred)
@@ -60,17 +60,23 @@
 3. Test and check changes against current `themes/catppuccin.json` theme
 
    ```bash
-   # no changes returns nothing
-   whiskers template.hbr all --check themes/catppuccin.json
+   # returns nothing if no differences found
+   whiskers zed.tera -o json --check themes/catppuccin.json
    ```
 
 4. Generate the zed extension theme file
 
    ```bash
-   whiskers template.hbr all -o themes/catppuccin.json
+   whiskers zed.tera -o json
    ```
 
-5. Refresh Zed to load changes after ensuring local extension install
+5. (Optional) Generate the accent you want (default is `mauve`)
+
+   ```bash
+   whiskers zed.tera -o json --overrides '{"accent": "rosewater"}'
+   ```
+
+6. Refresh Zed to load changes after ensuring local extension install
 
 </details>
 
@@ -108,7 +114,7 @@ Zed organizes all extensions using `git submodules` in the [zed/extensions](http
    ```
    cd extensions/catppuccin/ && git pull origin main
    ```
-4. Modify `extensions.toml` to match version in [extension.toml](./extension.toml#L3)
+4. Modify `extensions.json` to match version in [extension.json](./extension.json#L3)
 5. Submit a PR to merge back to `zed/extensions`
 
 </details>

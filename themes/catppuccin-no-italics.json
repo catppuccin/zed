@@ -4,7 +4,7 @@
     "author": "Andrew Tec <andrewtec@enjoi.dev>",
     "themes": [
     {
-        "name": "Catppuccin Latte",
+        "name": "Catppuccin Latte - No Italics",
         "appearance": "light",
         "style": {
             "border": "#ccd0da",
@@ -191,12 +191,12 @@
                 },
                 "comment": {
                     "color": "#9ca0b0",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "comment.doc": {
                     "color": "#9ca0b0",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "constant": {
@@ -216,7 +216,7 @@
                 },
                 "emphasis": {
                     "color": "#d20f39",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "emphasis.strong": {
@@ -231,12 +231,12 @@
                 },
                 "function": {
                     "color": "#1e66f5",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "hint": {
                     "color": "#179299",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "keyword": {
@@ -356,7 +356,7 @@
                 },
                 "type": {
                     "color": "#df8e1d",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "variable": {
@@ -378,7 +378,7 @@
         }
     },
     {
-        "name": "Catppuccin Frappé",
+        "name": "Catppuccin Frappé - No Italics",
         "appearance": "dark",
         "style": {
             "border": "#414559",
@@ -565,12 +565,12 @@
                 },
                 "comment": {
                     "color": "#737994",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "comment.doc": {
                     "color": "#737994",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "constant": {
@@ -590,7 +590,7 @@
                 },
                 "emphasis": {
                     "color": "#e78284",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "emphasis.strong": {
@@ -605,12 +605,12 @@
                 },
                 "function": {
                     "color": "#8caaee",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "hint": {
                     "color": "#81c8be",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "keyword": {
@@ -730,7 +730,7 @@
                 },
                 "type": {
                     "color": "#e5c890",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "variable": {
@@ -752,7 +752,7 @@
         }
     },
     {
-        "name": "Catppuccin Macchiato",
+        "name": "Catppuccin Macchiato - No Italics",
         "appearance": "dark",
         "style": {
             "border": "#363a4f",
@@ -939,12 +939,12 @@
                 },
                 "comment": {
                     "color": "#6e738d",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "comment.doc": {
                     "color": "#6e738d",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "constant": {
@@ -964,7 +964,7 @@
                 },
                 "emphasis": {
                     "color": "#ed8796",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "emphasis.strong": {
@@ -979,12 +979,12 @@
                 },
                 "function": {
                     "color": "#8aadf4",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "hint": {
                     "color": "#8bd5ca",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "keyword": {
@@ -1104,7 +1104,7 @@
                 },
                 "type": {
                     "color": "#eed49f",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "variable": {
@@ -1126,7 +1126,7 @@
         }
     },
     {
-        "name": "Catppuccin Mocha",
+        "name": "Catppuccin Mocha - No Italics",
         "appearance": "dark",
         "style": {
             "border": "#313244",
@@ -1313,12 +1313,12 @@
                 },
                 "comment": {
                     "color": "#6c7086",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "comment.doc": {
                     "color": "#6c7086",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "constant": {
@@ -1338,7 +1338,7 @@
                 },
                 "emphasis": {
                     "color": "#f38ba8",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "emphasis.strong": {
@@ -1353,12 +1353,12 @@
                 },
                 "function": {
                     "color": "#89b4fa",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "hint": {
                     "color": "#94e2d5",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "keyword": {
@@ -1478,7 +1478,7 @@
                 },
                 "type": {
                     "color": "#f9e2af",
-                    "font_style": "italic",
+                    "font_style": null,
                     "font_weight": null
                 },
                 "variable": {

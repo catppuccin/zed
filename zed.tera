@@ -1,0 +1,377 @@
+---
+whiskers:
+    version: "2.0.2"
+    matrix:
+    - variant: ["", "-no-italics"]
+    - flavor
+    ## use 'accent' to generate all accents per flavor
+    #- accent
+    filename: "themes/catppuccin{{variant}}.json"
+accent: "mauve"
+---
+{
+    "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+    "name": "Catppuccin",
+    "author": "Andrew Tec <andrewtec@enjoi.dev>",
+    "themes": [
+    {%- for _, flavor in flavors -%}
+    {% set c = flavor.colors -%}
+    {% set players = [
+        c.text | mix(color=c.mauve, amount=0.6),
+        c.text | mix(color=c.green, amount=0.6),
+        c.text | mix(color=c.red, amount=0.6),
+        c.text | mix(color=c.teal, amount=0.6),
+        c.text | mix(color=c.peach, amount=0.6),
+        c.text | mix(color=c.yellow, amount=0.6),
+        c.text | mix(color=c.blue, amount=0.6),
+    ] -%}
+    {# mention '(c[accent].identifier)' if generating all accents per flavor #}
+    {
+        "name": "Catppuccin {{flavor.name}}{% if variant == "-no-italics" %} - No Italics{% endif %}",
+        "appearance": {% if flavor.dark %}"dark"{% else %}"light"{% endif %},
+        "style": {
+            "border": "#{{c.surface0.hex}}",
+            "border.variant": "#{{ c[accent] | mix(color=c.surface0, amount=0.8) | get(key="hex") }}",
+            "border.focused": "#{{c.lavender.hex}}",
+            "border.selected": "#{{c[accent].hex}}",
+            "border.transparent": "#{{c.green.hex}}",
+            "border.disabled": "#{{c.surface2.hex}}",
+            "elevated_surface.background": "#{{c.mantle.hex}}",
+            "surface.background": "#{{c.base.hex}}",
+            "background": "#{{c.base.hex}}",
+            "element.background": "#{{c.crust.hex}}",
+            "element.hover": "#{{ c.overlay0 | mod(opacity=0.6) | get(key="hex") }}",
+            "element.active": "#{{ c[accent] | mod(opacity=0.5) | get(key="hex") }}",
+            "element.selected": "#{{ c.surface0 | mod(opacity=0.6) | get(key="hex") }}",
+            "element.disabled": "#{{c.overlay0.hex}}",
+            "drop_target.background": "#{{c.surface1.hex}}",
+            "ghost_element.background": null,
+            "ghost_element.hover": "#{{ c.surface0 | mod(opacity=0.6) | get(key="hex") }}",
+            "ghost_element.active": "#{{ c.surface2 | mod(opacity=0.5) | get(key="hex") }}",
+            "ghost_element.selected": "#{{ c.overlay0 | mod(opacity=0.6) | get(key="hex") }}",
+            "ghost_element.disabled": "#{{c.overlay0.hex}}",
+            "text": "#{{c.text.hex}}",
+            "text.muted": "#{{c.subtext1.hex}}",
+            "text.placeholder": "#{{c.surface2.hex}}",
+            "text.disabled": "#{{c.overlay0.hex}}",
+            "text.accent": "#{{c[accent].hex}}",
+            "icon": "#{{c.text.hex}}",
+            "icon.muted": "#{{c.overlay1.hex}}",
+            "icon.disabled": "#{{c.overlay0.hex}}",
+            "icon.placeholder": "#{{c.surface2.hex}}",
+            "icon.accent": "#{{c[accent].hex}}",
+            "status_bar.background": "#{{c.crust.hex}}",
+            "title_bar.background": "#{{c.crust.hex}}",
+            "toolbar.background": "#{{c.base.hex}}",
+            "tab_bar.background": "#{{c.crust.hex}}",
+            "tab.inactive_background": "#{{c.mantle.hex}}",
+            "tab.active_background": "#{{c.base.hex}}",
+            "search.match_background": "#{{ c.teal | mod(opacity=0.2) | get(key="hex") }}",
+            "panel.background": "#{{c.mantle.hex}}",
+            "panel.focused_border": "#{{c.text.hex}}",
+            "pane.focused_border": "#{{c.text.hex}}",
+            "scrollbar_thumb.background": "#{{ c.surface2 | mod(opacity=0.5) | get(key="hex") }}",
+            "scrollbar.thumb.hover_background": "#{{c.overlay0.hex}}",
+            "scrollbar.thumb.border": "#{{ c.surface2 | mod(opacity=0.5) | get(key="hex") }}",
+            "scrollbar.track.background": "#{{c.base.hex}}",
+            "scrollbar.track.border": "#{{ c.text | mod(opacity=0.07) | get(key="hex") }}",
+            "editor.foreground": "#{{c.text.hex}}",
+            "editor.background": "#{{c.base.hex}}",
+            "editor.gutter.background": "#{{c.base.hex}}",
+            "editor.subheader.background": "#{{c.mantle.hex}}",
+            "editor.active_line.background": "#{{ c.text | mod(opacity=0.07) | get(key="hex") }}",
+            "editor.highlighted_line.background": null,
+            "editor.line_number": "#{{c.overlay1.hex}}",
+            "editor.active_line_number": "#{{c[accent].hex}}",
+            "editor.invisible": "#{{c.overlay2.hex}}",
+            "editor.wrap_guide": "#{{c.surface2.hex}}",
+            "editor.active_wrap_guide": "#{{c.surface2.hex}}",
+            "editor.document_highlight.read_background": "#{{ c.subtext0 | mod(opacity=0.16) | get(key="hex") }}",
+            "editor.document_highlight.write_background": "#{{ c.subtext0 | mod(opacity=0.16) | get(key="hex") }}",
+            "terminal.background": "#{{c.base.hex}}",
+            "terminal.foreground": "#{{c.text.hex}}",
+            "terminal.bright_foreground": null,
+            "terminal.dim_foreground": null,
+            "terminal.ansi.black": "#{{c.surface1.hex}}",
+            "terminal.ansi.bright_black": "#{{c.subtext0.hex}}",
+            "terminal.ansi.dim_black": null,
+            "terminal.ansi.red": "#{{c.red.hex}}",
+            "terminal.ansi.bright_red": "#{{c.red.hex}}",
+            "terminal.ansi.dim_red": null,
+            "terminal.ansi.green": "#{{c.green.hex}}",
+            "terminal.ansi.bright_green": "#{{c.green.hex}}",
+            "terminal.ansi.dim_green": null,
+            "terminal.ansi.yellow": "#{{c.yellow.hex}}",
+            "terminal.ansi.bright_yellow": "#{{c.yellow.hex}}",
+            "terminal.ansi.dim_yellow": null,
+            "terminal.ansi.blue": "#{{c.blue.hex}}",
+            "terminal.ansi.bright_blue": "#{{c.blue.hex}}",
+            "terminal.ansi.dim_blue": null,
+            "terminal.ansi.magenta": "#{{c.pink.hex}}",
+            "terminal.ansi.bright_magenta": "#{{c.pink.hex}}",
+            "terminal.ansi.dim_magenta": null,
+            "terminal.ansi.cyan": "#{{c.lavender.hex}}",
+            "terminal.ansi.bright_cyan": "#{{c.lavender.hex}}",
+            "terminal.ansi.dim_cyan": null,
+            "terminal.ansi.white": "#{{c.text.hex}}",
+            "terminal.ansi.bright_white": "#{{c.subtext1.hex}}",
+            "terminal.ansi.dim_white": null,
+            "link_text.hover": "#{{c.sky.hex}}",
+            "conflict": "#{{c.mauve.hex}}",
+            "conflict.border": "#{{c.mauve.hex}}",
+            "conflict.background": "#{{c.mantle.hex}}",
+            "created": "#{{c.green.hex}}",
+            "created.border": "#{{c.green.hex}}",
+            "created.background": "#{{c.mantle.hex}}",
+            "deleted": "#{{c.red.hex}}",
+            "deleted.border": "#{{c.red.hex}}",
+            "deleted.background": "#{{c.mantle.hex}}",
+            "error": "#{{c.red.hex}}",
+            "error.border": "#{{c.red.hex}}",
+            "error.background": "#{{c.mantle.hex}}",
+            "hidden": "#{{c.overlay0.hex}}",
+            "hidden.border": "#{{c.overlay0.hex}}",
+            "hidden.background": "#{{c.mantle.hex}}",
+            "hint": "#{{c.maroon.hex}}",
+            "hint.border": "#{{c.maroon.hex}}",
+            "hint.background": "#{{c.mantle.hex}}",
+            "ignored": "#{{c.overlay0.hex}}",
+            "ignored.border": "#{{c.overlay0.hex}}",
+            "ignored.background": "#{{c.mantle.hex}}",
+            "info": "#{{c.teal.hex}}",
+            "info.border": "#{{c.teal.hex}}",
+            "info.background": "#{{ c[accent] | mod(opacity=0.4) | get(key="hex") }}",
+            "modified": "#{{c.yellow.hex}}",
+            "modified.border": "#{{c.yellow.hex}}",
+            "modified.background": "#{{c.mantle.hex}}",
+            "predictive": "#{{ c.overlay0 | mix(color=c.blue, amount=0.65) | get(key="hex") }}",
+            "predictive.border": "#{{c.lavender.hex}}",
+            "predictive.background": "#{{c.mantle.hex}}",
+            "renamed": "#{{c.sapphire.hex}}",
+            "renamed.border": "#{{c.sapphire.hex}}",
+            "renamed.background": "#{{c.mantle.hex}}",
+            "success": "#{{c.green.hex}}",
+            "success.border": "#{{c.green.hex}}",
+            "success.background": "#{{c.mantle.hex}}",
+            "unreachable": "#{{c.red.hex}}",
+            "unreachable.border": "#{{c.red.hex}}",
+            "unreachable.background": "#{{c.mantle.hex}}",
+            "warning": "#{{c.peach.hex}}",
+            "warning.border": "#{{c.peach.hex}}",
+            "warning.background": "#{{c.mantle.hex}}",
+            "players": [
+                {
+                    "cursor": "#{{c.rosewater.hex}}",
+                    "selection": "#{{ c.surface2 | mod(opacity=0.4) | get(key="hex") }}",
+                    "background": "#{{c.rosewater.hex}}"
+                },
+                {% for player in players -%}
+                {
+                    "cursor": "#{{player.hex}}",
+                    "selection": "#{{ player | mod(opacity=0.4) | get(key="hex") }}",
+                    "background": "#{{player.hex}}"
+                }{% if not loop.last %},{% endif %}
+                {% endfor -%}
+            ],
+            "syntax": {
+                "attribute": {
+                    "color": "#{{c.yellow.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "boolean": {
+                    "color": "#{{c.peach.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "comment": {
+                    "color": "#{{c.overlay0.hex}}",
+                    "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
+                    "font_weight": null
+                },
+                "comment.doc": {
+                    "color": "#{{c.overlay0.hex}}",
+                    "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
+                    "font_weight": null
+                },
+                "constant": {
+                    "color": "#{{c.peach.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "constructor": {
+                    "color": "#{{c.blue.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "embedded": {
+                    "color": "#{{c.maroon.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "emphasis": {
+                    "color": "#{{c.red.hex}}",
+                    "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
+                    "font_weight": null
+                },
+                "emphasis.strong": {
+                    "color": "#{{c.red.hex}}",
+                    "font_style": null,
+                    "font_weight": 700
+                },
+                "enum": {
+                    "color": "#{{c.teal.hex}}",
+                    "font_style": null,
+                    "font_weight": 700
+                },
+                "function": {
+                    "color": "#{{c.blue.hex}}",
+                    "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
+                    "font_weight": null
+                },
+                "hint": {
+                    "color": "#{{c.teal.hex}}",
+                    "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
+                    "font_weight": null
+                },
+                "keyword": {
+                    "color": "#{{c.mauve.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "link_text": {
+                    "color": "#{{c.blue.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "link_uri": {
+                    "color": "#{{c.blue.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "number": {
+                    "color": "#{{c.peach.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "operator": {
+                    "color": "#{{c.sky.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "predictive": {
+                    "color": "#{{ c.blue | mix(color=c.overlay0, amount=0.65 ) | get(key="hex") }}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "predoc": {
+                    "color": "#{{c.red.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "primary": {
+                    "color": "#{{c.maroon.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "property": {
+                    "color": "#{{c.blue.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "punctuation": {
+                    "color": "#{{c.teal.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "punctuation.bracket": {
+                    "color": "#{{c.teal.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "punctuation.delimiter": {
+                    "color": "#{{c.overlay2.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "punctuation.list_marker": {
+                    "color": "#{{c.teal.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "punctuation.special": {
+                    "color": "#{{c.teal.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "punctuation.special.symbol": {
+                    "color": "#{{c.red.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "string": {
+                    "color": "#{{c.green.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "string.escape": {
+                    "color": "#{{c.pink.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "string.regex": {
+                    "color": "#{{c.pink.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "string.special": {
+                    "color": "#{{c.pink.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "string.special.symbol": {
+                    "color": "#{{c.flamingo.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "tag": {
+                    "color": "#{{c.blue.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "text.literal": {
+                    "color": "#{{c.green.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "title": {
+                    "color": "#{{c.text.hex}}",
+                    "font_style": null,
+                    "font_weight": 800
+                },
+                "type": {
+                    "color": "#{{c.yellow.hex}}",
+                    "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
+                    "font_weight": null
+                },
+                "variable": {
+                    "color": "#{{c.text.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "variable.special": {
+                    "color": "#{{ c.text | mix(color=c.red, amount=0.6) | get(key="hex") }}",
+                    "font_style": null,
+                    "font_weight": null
+                },
+                "variant": {
+                    "color": "#{{c.red.hex}}",
+                    "font_style": null,
+                    "font_weight": null
+                }
+            }
+        }
+    }{% if not loop.last %},{% endif -%}
+    {% endfor %}
+    ]
+}

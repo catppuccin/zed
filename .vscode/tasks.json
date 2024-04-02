@@ -2,9 +2,49 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "build: whiskers",
+      "label": "dry run: whiskers",
       "type": "shell",
-      "command": "whiskers template.hbr all -o ./themes/catppuccin.json && echo \"SUCCESS ✔\"",
+      "command": "whiskers zed.tera -o json --dry-run",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "test: whiskers check",
+      "type": "shell",
+      "command": "whiskers zed.tera -o json --check themes/catppuccin.json",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "build: whiskers render",
+      "type": "shell",
+      "command": "whiskers zed.tera -o json && echo SUCCESS ✓",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "build: whiskers (accent: green)",
+      "type": "shell",
+      "command": "whiskers zed.tera -o json --overrides '{\"accent\": \"green\"}' && echo SUCCESS ✓",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "clean",
+      "type": "shell",
+      "command": "rm themes/*.json && echo SUCCESS ✓",
       "problemMatcher": [],
       "group": {
         "kind": "build",
