@@ -73,7 +73,7 @@
 5. (Optional) Generate the accent you want (default is `mauve`)
 
    ```bash
-   whiskers zed.tera -o json --overrides '{\"accent\": \"rosewater\"}'
+   whiskers zed.tera -o json --overrides '{"accent": "rosewater"}'
    ```
 
 6. Refresh Zed to load changes after ensuring local extension install
