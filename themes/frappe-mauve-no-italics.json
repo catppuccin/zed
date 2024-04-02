@@ -5,6 +5,7 @@
     "name": "Catppuccin",
     "themes": [
     {
+        
         "name": "Catppuccin Frappé - No Italics",
         "appearance": "dark",
         "style": {

@@ -5,7 +5,8 @@
     "name": "Catppuccin",
     "themes": [
     {
-        "name": "Catppuccin Latte - No Italics",
+        
+        "name": "Catppuccin Latte",
         "appearance": "light",
         "style": {
             "border": "#ccd0da",
@@ -192,12 +193,12 @@
                 },
                 "comment": {
                     "color": "#9ca0b0",
-                    "font_style": null,
+                    "font_style": "italic",
                     "font_weight": null
                 },
                 "comment.doc": {
                     "color": "#9ca0b0",
-                    "font_style": null,
+                    "font_style": "italic",
                     "font_weight": null
                 },
                 "constant": {
@@ -217,7 +218,7 @@
                 },
                 "emphasis": {
                     "color": "#d20f39",
-                    "font_style": null,
+                    "font_style": "italic",
                     "font_weight": null
                 },
                 "emphasis.strong": {
@@ -232,12 +233,12 @@
                 },
                 "function": {
                     "color": "#1e66f5",
-                    "font_style": null,
+                    "font_style": "italic",
                     "font_weight": null
                 },
                 "hint": {
                     "color": "#179299",
-                    "font_style": null,
+                    "font_style": "italic",
                     "font_weight": null
                 },
                 "keyword": {
@@ -357,7 +358,7 @@
                 },
                 "type": {
                     "color": "#df8e1d",
-                    "font_style": null,
+                    "font_style": "italic",
                     "font_weight": null
                 },
                 "variable": {

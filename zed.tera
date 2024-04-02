@@ -1,12 +1,14 @@
 ---
+accent: "mauve"
 whiskers:
     version: "2.0.1"
     matrix:
     - variant: ["normal", "no-italics"]
     - flavor
-    filename: "themes/{{flavor.identifier}}-{{variant}}.json"
+    ## if generating for all Catppuccin accents per flavor, this would be:
+    # - accent
+    filename: "themes/{{flavor.identifier}}-{{accent}}-{{variant}}.json"
 ---
-{% set accent = "mauve" -%}
 {% set c = flavor.colors -%}
 {# Zed collab feature has 8 players max (including us) #}
 {% set players = [
@@ -24,6 +26,7 @@ whiskers:
     "name": "Catppuccin",
     "themes": [
     {
+        {# use '(c[accent].identifier)' if generating all accents per flavor #}
         "name": "Catppuccin {{flavor.name}}{% if variant == "no-italics" %} - No Italics{% endif %}",
         "appearance": {% if flavor.dark %}"dark"{% else %}"light"{% endif %},
         "style": {

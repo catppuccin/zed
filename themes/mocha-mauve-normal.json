@@ -5,7 +5,8 @@
     "name": "Catppuccin",
     "themes": [
     {
-        "name": "Catppuccin Mocha - No Italics",
+        
+        "name": "Catppuccin Mocha",
         "appearance": "dark",
         "style": {
             "border": "#313244",
@@ -192,12 +193,12 @@
                 },
                 "comment": {
                     "color": "#6c7086",
-                    "font_style": null,
+                    "font_style": "italic",
                     "font_weight": null
                 },
                 "comment.doc": {
                     "color": "#6c7086",
-                    "font_style": null,
+                    "font_style": "italic",
                     "font_weight": null
                 },
                 "constant": {
@@ -217,7 +218,7 @@
                 },
                 "emphasis": {
                     "color": "#f38ba8",
-                    "font_style": null,
+                    "font_style": "italic",
                     "font_weight": null
                 },
                 "emphasis.strong": {
@@ -232,12 +233,12 @@
                 },
                 "function": {
                     "color": "#89b4fa",
-                    "font_style": null,
+                    "font_style": "italic",
                     "font_weight": null
                 },
                 "hint": {
                     "color": "#94e2d5",
-                    "font_style": null,
+                    "font_style": "italic",
                     "font_weight": null
                 },
                 "keyword": {
@@ -357,7 +358,7 @@
                 },
                 "type": {
                     "color": "#f9e2af",
-                    "font_style": null,
+                    "font_style": "italic",
                     "font_weight": null
                 },
                 "variable": {

@@ -22,9 +22,29 @@
       }
     },
     {
-      "label": "build: whiskers render",
+      "label": "build: whiskers render all",
       "type": "shell",
-      "command": "whiskers zed.tera -o json && echo 'OK ✓ themes/catppuccin.json created '",
+      "command": "whiskers zed.tera -o json && echo SUCCESS ✓",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "build: whiskers (accent: mauve)",
+      "type": "shell",
+      "command": "whiskers zed.tera -o json --overrides '{\"accent\": \"mauve\"}' && echo SUCCESS ✓",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "clean",
+      "type": "shell",
+      "command": "rm themes/*.json",
       "problemMatcher": [],
       "group": {
         "kind": "build",
