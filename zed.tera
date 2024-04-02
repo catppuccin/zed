@@ -4,8 +4,8 @@ whiskers:
     matrix:
     - variant: ["", "-no-italics"]
     - flavor
-    ## if generating for all Catppuccin accents per flavor, this would be:
-    # - accent
+    ## use 'accent' to generate all accents per flavor
+    #- accent
     filename: "themes/catppuccin{{variant}}.json"
 accent: "mauve"
 ---
@@ -25,8 +25,8 @@ accent: "mauve"
         c.text | mix(color=c.yellow, amount=0.6),
         c.text | mix(color=c.blue, amount=0.6),
     ] -%}
+    {# mention '(c[accent].identifier)' if generating all accents per flavor #}
     {
-        {# use '(c[accent].identifier)' if generating all accents per flavor #}
         "name": "Catppuccin {{flavor.name}}{% if variant == "-no-italics" %} - No Italics{% endif %}",
         "appearance": {% if flavor.dark %}"dark"{% else %}"light"{% endif %},
         "style": {

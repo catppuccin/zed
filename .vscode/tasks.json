@@ -22,7 +22,7 @@
       }
     },
     {
-      "label": "build: whiskers render all",
+      "label": "build: whiskers render",
       "type": "shell",
       "command": "whiskers zed.tera -o json && echo SUCCESS ✓",
       "problemMatcher": [],
@@ -44,7 +44,7 @@
     {
       "label": "clean",
       "type": "shell",
-      "command": "rm themes/*.json",
+      "command": "rm themes/*.json && echo SUCCESS ✓",
       "problemMatcher": [],
       "group": {
         "kind": "build",
