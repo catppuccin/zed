@@ -50,7 +50,7 @@
 <details>
 
 1. Install [Rust](https://www.rust-lang.org/tools/install)
-2. Install [`whiskers`](https://crates.io/crates/catppuccin-whiskers)
+2. Install [`whiskers`](https://crates.io/crates/catppuccin-whiskers) (>= 2.0.2)
 
    ```bash
    # from source (preferred)
