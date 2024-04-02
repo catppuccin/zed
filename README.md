@@ -60,7 +60,7 @@
 3. Test and check changes against current `themes/catppuccin.json` theme
 
    ```bash
-   # no changes returns nothing
+   # returns nothing if no differences found
    whiskers zed.tera -o json --check themes/catppuccin.json
    ```
 
