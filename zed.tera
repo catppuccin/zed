@@ -1,33 +1,33 @@
 ---
-accent: "mauve"
 whiskers:
-    version: "2.0.1"
+    version: "2.0.2"
     matrix:
-    - variant: ["normal", "no-italics"]
+    - variant: ["", "-no-italics"]
     - flavor
     ## if generating for all Catppuccin accents per flavor, this would be:
     # - accent
-    filename: "themes/{{flavor.identifier}}-{{accent}}-{{variant}}.json"
+    filename: "themes/catppuccin{{variant}}.json"
+accent: "mauve"
 ---
-{% set c = flavor.colors -%}
-{# Zed collab feature has 8 players max (including us) #}
-{% set players = [
-    c.text | mix(color=c.mauve, amount=0.6),
-    c.text | mix(color=c.green, amount=0.6),
-    c.text | mix(color=c.red, amount=0.6),
-    c.text | mix(color=c.teal, amount=0.6),
-    c.text | mix(color=c.peach, amount=0.6),
-    c.text | mix(color=c.yellow, amount=0.6),
-    c.text | mix(color=c.blue, amount=0.6),
-] -%}
 {
     "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
     "author": "Andrew Tec <andrewtec@enjoi.dev>",
     "name": "Catppuccin",
     "themes": [
+    {%- for _, flavor in flavors -%}
+    {% set c = flavor.colors -%}
+    {% set players = [
+        c.text | mix(color=c.mauve, amount=0.6),
+        c.text | mix(color=c.green, amount=0.6),
+        c.text | mix(color=c.red, amount=0.6),
+        c.text | mix(color=c.teal, amount=0.6),
+        c.text | mix(color=c.peach, amount=0.6),
+        c.text | mix(color=c.yellow, amount=0.6),
+        c.text | mix(color=c.blue, amount=0.6),
+    ] -%}
     {
         {# use '(c[accent].identifier)' if generating all accents per flavor #}
-        "name": "Catppuccin {{flavor.name}}{% if variant == "no-italics" %} - No Italics{% endif %}",
+        "name": "Catppuccin {{flavor.name}}{% if variant == "-no-italics" %} - No Italics{% endif %}",
         "appearance": {% if flavor.dark %}"dark"{% else %}"light"{% endif %},
         "style": {
             "border": "#{{c.surface0.hex}}",
@@ -186,12 +186,12 @@ whiskers:
                 },
                 "comment": {
                     "color": "#{{c.overlay0.hex}}",
-                    "font_style": {%if variant == 'no-italics'%}null{%else%}"italic"{%endif%},
+                    "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
                     "font_weight": null
                 },
                 "comment.doc": {
                     "color": "#{{c.overlay0.hex}}",
-                    "font_style": {%if variant == 'no-italics'%}null{%else%}"italic"{%endif%},
+                    "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
                     "font_weight": null
                 },
                 "constant": {
@@ -211,7 +211,7 @@ whiskers:
                 },
                 "emphasis": {
                     "color": "#{{c.red.hex}}",
-                    "font_style": {%if variant == 'no-italics'%}null{%else%}"italic"{%endif%},
+                    "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
                     "font_weight": null
                 },
                 "emphasis.strong": {
@@ -226,12 +226,12 @@ whiskers:
                 },
                 "function": {
                     "color": "#{{c.blue.hex}}",
-                    "font_style": {%if variant == 'no-italics'%}null{%else%}"italic"{%endif%},
+                    "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
                     "font_weight": null
                 },
                 "hint": {
                     "color": "#{{c.teal.hex}}",
-                    "font_style": {%if variant == 'no-italics'%}null{%else%}"italic"{%endif%},
+                    "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
                     "font_weight": null
                 },
                 "keyword": {
@@ -351,7 +351,7 @@ whiskers:
                 },
                 "type": {
                     "color": "#{{c.yellow.hex}}",
-                    "font_style": {%if variant == 'no-italics'%}null{%else%}"italic"{%endif%},
+                    "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
                     "font_weight": null
                 },
                 "variable": {
@@ -371,6 +371,7 @@ whiskers:
                 }
             }
         }
-    }
+    }{% if not loop.last %},{% endif -%}
+    {% endfor %}
     ]
 }

@@ -32,9 +32,9 @@
       }
     },
     {
-      "label": "build: whiskers (accent: mauve)",
+      "label": "build: whiskers (accent: green)",
       "type": "shell",
-      "command": "whiskers zed.tera -o json --overrides '{\"accent\": \"mauve\"}' && echo SUCCESS ✓",
+      "command": "whiskers zed.tera -o json --overrides '{\"accent\": \"green\"}' && echo SUCCESS ✓",
       "problemMatcher": [],
       "group": {
         "kind": "build",
