@@ -111,10 +111,12 @@ Zed organizes all extensions using `git submodules` in the [zed/extensions](http
    ```
 
 3. Bump catppuccin submodule
+
    ```
    cd extensions/catppuccin/ && git pull origin main
    ```
-4. Modify `extensions.json` to match version in [extension.json](./extension.json#L3)
+
+4. Modify the extensions/`extensions.toml` version to match value in [catpuccin/zed/extension.toml](./extension.toml#L3)
 5. Submit a PR to merge back to `zed/extensions`
 
 </details>
