@@ -22,9 +22,9 @@
       }
     },
     {
-      "label": "build: whiskers render",
+      "label": "build (zed publish) (mauve only)",
       "type": "shell",
-      "command": "whiskers zed.tera -o json && echo SUCCESS ✓",
+      "command": "whiskers zed.tera -o json --overrides '{\"accent\": [\"mauve\"]}' && echo SUCCESS ✓",
       "problemMatcher": [],
       "group": {
         "kind": "build",
@@ -32,9 +32,9 @@
       }
     },
     {
-      "label": "override build: whiskers (accent: green)",
+      "label": "build (all) (gh release)",
       "type": "shell",
-      "command": "whiskers zed.tera -o json --overrides '{\"accent\": \"green\"}' && echo SUCCESS ✓",
+      "command": "whiskers zed.tera -o json && echo SUCCESS ✓",
       "problemMatcher": [],
       "group": {
         "kind": "build",

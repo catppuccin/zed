@@ -4,10 +4,8 @@ whiskers:
     matrix:
     - variant: ["", "-no-italics"]
     - flavor
-    ## use 'accent' to generate all accents per flavor
-    #- accent
-    filename: "themes/catppuccin{{variant}}.json"
-accent: "mauve"
+    - accent
+    filename: "themes/catppuccin{{variant}}-{{accent}}.json"
 ---
 {
     "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
@@ -16,6 +14,7 @@ accent: "mauve"
     "themes": [
     {%- for _, flavor in flavors -%}
     {% set c = flavor.colors -%}
+    {% set accent = c[accent].identifier -%}
     {% set players = [
         c.text | mix(color=c.mauve, amount=0.6),
         c.text | mix(color=c.green, amount=0.6),
@@ -25,9 +24,8 @@ accent: "mauve"
         c.text | mix(color=c.yellow, amount=0.6),
         c.text | mix(color=c.blue, amount=0.6),
     ] -%}
-    {# mention '(c[accent].identifier)' if generating all accents per flavor #}
     {
-        "name": "Catppuccin {{flavor.name}}{% if variant == "-no-italics" %} - No Italics{% endif %}",
+        "name": "Catppuccin {{flavor.name}} {%- if accent != 'mauve' %} ({{accent}}) {% endif %} {%- if variant == "-no-italics" %}- No Italics {%- endif -%}",
         "appearance": {% if flavor.dark %}"dark"{% else %}"light"{% endif %},
         "style": {
             "border": "#{{c.surface0.hex}}",
