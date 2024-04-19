@@ -88,12 +88,18 @@ From [Zed Extensions docs](https://github.com/zed-industries/extensions/blob/c89
 
 1. Install/copy this project into `~/Library/Application\ Support/Zed/extensions/installed/` directory
 
-   ```bash
-   ln -sf $(pwd) ~/Library/Application\ Support/Zed/extensions/installed/
-   ```
+```
+cmd+shift+p > zed: install dev extension > (select current directory)
+```
+
+or
+
+```bash
+ln -sf $(pwd) ~/Library/Application\ Support/Zed/extensions/installed/
+```
 
 2. Refresh theme extension using: `cmd+shift+p` > `zed: reload extensions`
-3. (Optional) For larger changes, `zed: restart workspace` may be needed instead
+3. (Optional) `zed: restart workspace` may be needed if changes are not reflected
 
 </details>
 
