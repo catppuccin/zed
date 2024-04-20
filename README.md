@@ -45,13 +45,17 @@
 
 ### 🎨 Install Different Accents
 
-<img src="assets/previews/accents.webp"/>
+<details>
+
+<img src="./assets/accents.webp"/>
 
 1. Download accent`.json` from [GH Releases](https://github.com/catppuccin/zed/releases/latest)
 2. `mkdir -p ~/.config/zed/themes/`
 3. Move the accent`.json` file to `~/.config/zed/themes/`
 4. Restart Zed
 5. Select the accent in the dropdown shown after hitting ( `cmd+k`, `cmd+t` )
+
+</details>
 
 ## Development
 
