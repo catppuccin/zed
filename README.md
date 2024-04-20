@@ -41,7 +41,7 @@
 1. Open Zed.
 2. `cmd+shift+p` and select _zed: extensions_
 3. Select _Catppuccin Themes_ and Install
-4. Select your Catppuccin theme in the dropdown shown after hitting ( `cmd+k`, `cmd+t` )
+4. Select your Catppuccin theme in the dropdown shown after hitting `cmd+k`, `cmd+t`
 
 ### 🎨 Install Different Accents
 
@@ -53,7 +53,7 @@
 2. `mkdir -p ~/.config/zed/themes/`
 3. Move the accent`.json` file to `~/.config/zed/themes/`
 4. Restart Zed
-5. Select the accent in the dropdown shown after hitting ( `cmd+k`, `cmd+t` )
+5. Select the chosen theme in the dropdown shown after hitting `cmd+k`, `cmd+t`
 
 </details>
 
