@@ -1,0 +1,7 @@
+id = "catppuccin-themes"
+name = "Catppuccin Themes"
+schema_version = 1
+version = "0.2.6"
+authors = ["Andrew Tec <andrewtec@enjoi.dev>"]
+description = "🦀 Soothing pastel theme for Zed"
+repository = "https://github.com/catppuccin/zed"

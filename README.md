@@ -43,6 +43,16 @@
 3. Select _Catppuccin Themes_ and Install
 4. Select your Catppuccin theme in the dropdown shown after hitting ( `cmd+k`, `cmd+t` )
 
+### 🎨 Install Different Accents
+
+<img src="assets/previews/accents.webp"/>
+
+1. Download accent`.json` from [GH Releases](https://github.com/catppuccin/zed/releases/latest)
+2. `mkdir -p ~/.config/zed/themes/`
+3. Move the accent`.json` file to `~/.config/zed/themes/`
+4. Restart Zed
+5. Select the accent in the dropdown shown after hitting ( `cmd+k`, `cmd+t` )
+
 ## Development
 
 ### Use `whiskers` to Render Theme from `zed.tera` Template
@@ -88,12 +98,18 @@ From [Zed Extensions docs](https://github.com/zed-industries/extensions/blob/c89
 
 1. Install/copy this project into `~/Library/Application\ Support/Zed/extensions/installed/` directory
 
-   ```bash
-   ln -sf $(pwd) ~/Library/Application\ Support/Zed/extensions/installed/
-   ```
+```
+cmd+shift+p > zed: install dev extension > (select current directory)
+```
+
+or
+
+```bash
+ln -sf $(pwd) ~/Library/Application\ Support/Zed/extensions/installed/
+```
 
 2. Refresh theme extension using: `cmd+shift+p` > `zed: reload extensions`
-3. (Optional) For larger changes, `zed: restart workspace` may be needed instead
+3. (Optional) `zed: restart workspace` may be needed if changes are not reflected
 
 </details>
 
@@ -111,10 +127,12 @@ Zed organizes all extensions using `git submodules` in the [zed/extensions](http
    ```
 
 3. Bump catppuccin submodule
+
    ```
    cd extensions/catppuccin/ && git pull origin main
    ```
-4. Modify `extensions.json` to match version in [extension.json](./extension.json#L3)
+
+4. Modify the extensions/`extensions.toml` version to match value in [catpuccin/zed/extension.toml](./extension.toml#L3)
 5. Submit a PR to merge back to `zed/extensions`
 
 </details>
