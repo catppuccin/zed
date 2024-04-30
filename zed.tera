@@ -355,7 +355,17 @@ whiskers:
                     },
                     "type": {
                         "color": "#{{c.yellow.hex}}",
-                        "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "type.interface": {
+                        "color": "#{{c.yellow.hex}}",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "type.super": {
+                        "color": "#{{c.yellow.hex}}",
+                        "font_style": null,
                         "font_weight": null
                     },
                     "variable": {
@@ -363,9 +373,19 @@ whiskers:
                         "font_style": null,
                         "font_weight": null
                     },
-                    "variable.special": {
-                        "color": "#{{ c.text | mix(color=c.red, amount=0.6) | get(key="hex") }}",
+                    "variable.member": {
+                        "color": "#{{c.text.hex}}",
                         "font_style": null,
+                        "font_weight": null
+                    },
+                    "variable.parameter": {
+                        "color": "#{{c.peach.hex}}",
+                        "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
+                        "font_weight": null
+                    },
+                    "variable.special": {
+                        "color": "#{{ c.text | mix(color=c.red, amount=0.6) | get(key='hex') }}",
+                        "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
                         "font_weight": null
                     },
                     "variant": {

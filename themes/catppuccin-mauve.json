@@ -356,7 +356,17 @@
                     },
                     "type": {
                         "color": "#df8e1d",
-                        "font_style": "italic",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "type.interface": {
+                        "color": "#df8e1d",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "type.super": {
+                        "color": "#df8e1d",
+                        "font_style": null,
                         "font_weight": null
                     },
                     "variable": {
@@ -364,9 +374,19 @@
                         "font_style": null,
                         "font_weight": null
                     },
+                    "variable.member": {
+                        "color": "#4c4f69",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "variable.parameter": {
+                        "color": "#fe640b",
+                        "font_style": "italic",
+                        "font_weight": null
+                    },
                     "variable.special": {
                         "color": "#823556",
-                        "font_style": null,
+                        "font_style": "italic",
                         "font_weight": null
                     },
                     "variant": {
@@ -730,7 +750,17 @@
                     },
                     "type": {
                         "color": "#e5c890",
-                        "font_style": "italic",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "type.interface": {
+                        "color": "#e5c890",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "type.super": {
+                        "color": "#e5c890",
+                        "font_style": null,
                         "font_weight": null
                     },
                     "variable": {
@@ -738,9 +768,19 @@
                         "font_style": null,
                         "font_weight": null
                     },
+                    "variable.member": {
+                        "color": "#c6d0f5",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "variable.parameter": {
+                        "color": "#ef9f76",
+                        "font_style": "italic",
+                        "font_weight": null
+                    },
                     "variable.special": {
                         "color": "#d3b1c8",
-                        "font_style": null,
+                        "font_style": "italic",
                         "font_weight": null
                     },
                     "variant": {
@@ -1104,7 +1144,17 @@
                     },
                     "type": {
                         "color": "#eed49f",
-                        "font_style": "italic",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "type.interface": {
+                        "color": "#eed49f",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "type.super": {
+                        "color": "#eed49f",
+                        "font_style": null,
                         "font_weight": null
                     },
                     "variable": {
@@ -1112,9 +1162,19 @@
                         "font_style": null,
                         "font_weight": null
                     },
+                    "variable.member": {
+                        "color": "#cad3f5",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "variable.parameter": {
+                        "color": "#f5a97f",
+                        "font_style": "italic",
+                        "font_weight": null
+                    },
                     "variable.special": {
                         "color": "#d8b5cf",
-                        "font_style": null,
+                        "font_style": "italic",
                         "font_weight": null
                     },
                     "variant": {
@@ -1478,7 +1538,17 @@
                     },
                     "type": {
                         "color": "#f9e2af",
-                        "font_style": "italic",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "type.interface": {
+                        "color": "#f9e2af",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "type.super": {
+                        "color": "#f9e2af",
+                        "font_style": null,
                         "font_weight": null
                     },
                     "variable": {
@@ -1486,9 +1556,19 @@
                         "font_style": null,
                         "font_weight": null
                     },
+                    "variable.member": {
+                        "color": "#cdd6f4",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "variable.parameter": {
+                        "color": "#fab387",
+                        "font_style": "italic",
+                        "font_weight": null
+                    },
                     "variable.special": {
                         "color": "#dcb8d5",
-                        "font_style": null,
+                        "font_style": "italic",
                         "font_weight": null
                     },
                     "variant": {
