@@ -74,20 +74,20 @@
 3. Test and check changes against current `themes/catppuccin.json` theme
 
    ```bash
-   # returns nothing if no differences found
-   whiskers zed.tera -o json --check themes/catppuccin.json
+   # returns nothing if OK
+   whiskers zed.tera -o json --overrides '{"accent": "mauve"}' --check themes/catppuccin-mauve.json
    ```
 
-4. Generate the zed extension theme file
+4. Build the zed extension `.json` theme file (mauve accent only)
+
+   ```bash
+   whiskers zed.tera -o json --overrides '{"accent": "mauve"}'
+   ```
+
+5. (Optional) 🎨 Generate **all** accents per Flavor
 
    ```bash
    whiskers zed.tera -o json
-   ```
-
-5. (Optional) Generate the accent you want (default is `mauve`)
-
-   ```bash
-   whiskers zed.tera -o json --overrides '{"accent": "rosewater"}'
    ```
 
 6. Refresh Zed to load changes after ensuring local extension install
@@ -100,20 +100,14 @@
 
 From [Zed Extensions docs](https://github.com/zed-industries/extensions/blob/c891c83f2fed6e388184ac87e7966b150680a3d1/AUTHORING_EXTENSIONS.md#testing-your-extension-locally):
 
-1. Install/copy this project into `~/Library/Application\ Support/Zed/extensions/installed/` directory
+1. Install project as "Zed Dev Extension"
 
 ```
 cmd+shift+p > zed: install dev extension > (select current directory)
 ```
 
-or
-
-```bash
-ln -sf $(pwd) ~/Library/Application\ Support/Zed/extensions/installed/
-```
-
 2. Refresh theme extension using: `cmd+shift+p` > `zed: reload extensions`
-3. (Optional) `zed: restart workspace` may be needed if changes are not reflected
+3. (Optional) `zed: restart workspace` may be needed if changes are not reflected immediately
 
 </details>
 

@@ -14,7 +14,7 @@ whiskers:
     "themes": [
     {%- for _, flavor in flavors -%}
     {% set c = flavor.colors -%}
-    {% set accent = c[accent].identifier -%}
+    {% set accentName = c[accent].identifier -%}
     {% set players = [
         c.text | mix(color=c.mauve, amount=0.6),
         c.text | mix(color=c.green, amount=0.6),
@@ -25,7 +25,7 @@ whiskers:
         c.text | mix(color=c.blue, amount=0.6),
     ] %}
         {
-            "name": "Catppuccin {{flavor.name}} {%- if accent != 'mauve' %} ({{accent}}) {%- endif -%} {%- if variant == "-no-italics" %} - No Italics {%- endif -%}",
+            "name": "Catppuccin {{flavor.name}} {%- if accentName != 'mauve' %} ({{accentName}}) {%- endif -%} {%- if variant == "-no-italics" %} - No Italics {%- endif -%}",
             "appearance": {% if flavor.dark %}"dark"{% else %}"light"{% endif %},
             "style": {
                 "border": "#{{c.surface0.hex}}",
@@ -38,8 +38,8 @@ whiskers:
                 "surface.background": "#{{c.base.hex}}",
                 "background": "#{{c.base.hex}}",
                 "element.background": "#{{c.crust.hex}}",
-                "element.hover": "#{{ c.overlay0 | mod(opacity=0.6) | get(key="hex") }}",
-                "element.active": "#{{ c[accent] | mod(opacity=0.5) | get(key="hex") }}",
+                "element.hover": "#{{ c.overlay0 | mod(opacity=0.3) | get(key="hex") }}",
+                "element.active": "#{{ c[accent] | mod(opacity=0.2) | get(key="hex") }}",
                 "element.selected": "#{{ c.surface0 | mod(opacity=0.6) | get(key="hex") }}",
                 "element.disabled": "#{{c.overlay0.hex}}",
                 "drop_target.background": "#{{c.surface1.hex}}",
@@ -77,7 +77,7 @@ whiskers:
                 "editor.background": "#{{c.base.hex}}",
                 "editor.gutter.background": "#{{c.base.hex}}",
                 "editor.subheader.background": "#{{c.mantle.hex}}",
-                "editor.active_line.background": "#{{ c.text | mod(opacity=0.07) | get(key="hex") }}",
+                "editor.active_line.background": "#{{ c.text | mod(opacity=0.05) | get(key="hex") }}",
                 "editor.highlighted_line.background": null,
                 "editor.line_number": "#{{c.overlay1.hex}}",
                 "editor.active_line_number": "#{{c[accent].hex}}",
@@ -136,9 +136,9 @@ whiskers:
                 "hidden": "#{{c.overlay0.hex}}",
                 "hidden.border": "#{{c.overlay0.hex}}",
                 "hidden.background": "#{{c.mantle.hex}}",
-                "hint": "#{{ c.text | mod(opacity=0.38) | get(key="hex") }}",
-                "hint.border": "#{{c.surface0.hex}}",
-                "hint.background": "#{{ c.text | mod(opacity=0.38) | get(key="hex") }}",
+                "hint": "#{{c.surface2.hex}}",
+                "hint.border": "#{{c.surface2.hex}}",
+                "hint.background": "#{{ c.mantle.hex }}",
                 "ignored": "#{{c.overlay0.hex}}",
                 "ignored.border": "#{{c.overlay0.hex}}",
                 "ignored.background": "#{{c.mantle.hex}}",
@@ -148,8 +148,8 @@ whiskers:
                 "modified": "#{{c.yellow.hex}}",
                 "modified.border": "#{{c.yellow.hex}}",
                 "modified.background": "#{{c.mantle.hex}}",
-                "predictive": "#{{ c.overlay0 | mix(color=c.blue, amount=0.65) | get(key="hex") }}",
-                "predictive.border": "#{{c.lavender.hex}}",
+                "predictive": "#{{c.surface2.hex}}",
+                "predictive.border": "#{{c.surface2.hex}}",
                 "predictive.background": "#{{c.mantle.hex}}",
                 "renamed": "#{{c.sapphire.hex}}",
                 "renamed.border": "#{{c.sapphire.hex}}",
@@ -189,12 +189,12 @@ whiskers:
                         "font_weight": null
                     },
                     "comment": {
-                        "color": "#{{c.overlay0.hex}}",
+                        "color": "#{{c.overlay1.hex}}",
                         "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
                         "font_weight": null
                     },
                     "comment.doc": {
-                        "color": "#{{c.overlay0.hex}}",
+                        "color": "#{{c.overlay1.hex}}",
                         "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
                         "font_weight": null
                     },
@@ -264,7 +264,7 @@ whiskers:
                         "font_weight": null
                     },
                     "predictive": {
-                        "color": "#{{ c.blue | mix(color=c.overlay0, amount=0.65 ) | get(key="hex") }}",
+                        "color": "#{{ c.surface2.hex }}",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -355,7 +355,17 @@ whiskers:
                     },
                     "type": {
                         "color": "#{{c.yellow.hex}}",
-                        "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "type.interface": {
+                        "color": "#{{c.yellow.hex}}",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "type.super": {
+                        "color": "#{{c.yellow.hex}}",
+                        "font_style": null,
                         "font_weight": null
                     },
                     "variable": {
@@ -363,9 +373,19 @@ whiskers:
                         "font_style": null,
                         "font_weight": null
                     },
-                    "variable.special": {
-                        "color": "#{{ c.text | mix(color=c.red, amount=0.6) | get(key="hex") }}",
+                    "variable.member": {
+                        "color": "#{{c.text.hex}}",
                         "font_style": null,
+                        "font_weight": null
+                    },
+                    "variable.parameter": {
+                        "color": "#{{c.peach.hex}}",
+                        "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
+                        "font_weight": null
+                    },
+                    "variable.special": {
+                        "color": "#{{ c.text | mix(color=c.red, amount=0.6) | get(key='hex') }}",
+                        "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
                         "font_weight": null
                     },
                     "variant": {

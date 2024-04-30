@@ -22,7 +22,7 @@
       }
     },
     {
-      "label": "build (zed publish) (mauve only)",
+      "label": "build (mauve accent only) (for zed marketplace)",
       "type": "shell",
       "command": "whiskers zed.tera -o json --overrides '{\"accent\": [\"mauve\"]}' && echo SUCCESS ✓",
       "problemMatcher": [],
@@ -32,7 +32,7 @@
       }
     },
     {
-      "label": "build (all) (gh release)",
+      "label": "publish (all accents) (gh release)",
       "type": "shell",
       "command": "whiskers zed.tera -o json && echo SUCCESS ✓",
       "problemMatcher": [],
