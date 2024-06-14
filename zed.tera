@@ -16,13 +16,13 @@ whiskers:
     {% set c = flavor.colors -%}
     {% set accentName = c[accent].identifier -%}
     {% set players = [
-        c.text | mix(color=c.mauve, amount=0.6),
-        c.text | mix(color=c.green, amount=0.6),
-        c.text | mix(color=c.red, amount=0.6),
-        c.text | mix(color=c.teal, amount=0.6),
-        c.text | mix(color=c.peach, amount=0.6),
-        c.text | mix(color=c.yellow, amount=0.6),
-        c.text | mix(color=c.blue, amount=0.6),
+        c.text  | mix(color=c.sapphire, amount=0.6),
+        c.text  | mix(color=c.red, amount=0.6),
+        c.text  | mix(color=c.teal, amount=0.6),
+        c.text  | mix(color=c.peach, amount=0.6),
+        c.text  | mix(color=c.yellow, amount=0.6),
+        c.text  | mix(color=c.blue, amount=0.6),
+        c.text  | mix(color=c.green, amount=0.6),
     ] %}
         {
             "name": "Catppuccin {{flavor.name}} {%- if accentName != 'mauve' %} ({{accentName}}) {%- endif -%} {%- if variant == "-no-italics" %} - No Italics {%- endif -%}",
@@ -172,7 +172,7 @@ whiskers:
                     {%- for player in players %}
                     {
                         "cursor": "#{{player.hex}}",
-                        "selection": "#{{ player | mod(opacity=0.4) | get(key="hex") }}",
+                        "selection": "#{{ player | mod(opacity=0.2) | get(key="hex") }}",
                         "background": "#{{player.hex}}"
                     }{% if not loop.last %},{% endif -%}
                     {% endfor %}

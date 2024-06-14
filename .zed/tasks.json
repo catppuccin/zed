@@ -1,10 +1,10 @@
 [
   {
-    "label": "build (mauve only)",
+    "label": "build (mauve accent only)",
     "command": "whiskers zed.tera -o json --overrides '{\"accent\": [\"mauve\"]}' && echo SUCCESS ✓",
   },
   {
-    "label": "build (all accents)",
+    "label": "publish (all accents)",
     "command": "whiskers zed.tera -o json && echo SUCCESS ✓"
   },
   {
