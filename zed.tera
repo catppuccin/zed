@@ -42,11 +42,11 @@ whiskers:
                 "element.active": "#{{ c[accent] | mod(opacity=0.2) | get(key="hex") }}",
                 "element.selected": "#{{ c.surface0 | mod(opacity=0.6) | get(key="hex") }}",
                 "element.disabled": "#{{c.overlay0.hex}}",
-                "drop_target.background": "#{{c.surface1.hex}}",
+                "drop_target.background": "#{{ c[accent] | mod(opacity=0.4) | get(key="hex") }}",
                 "ghost_element.background": null,
                 "ghost_element.hover": "#{{ c.surface0 | mod(opacity=0.6) | get(key="hex") }}",
                 "ghost_element.active": "#{{ c.surface2 | mod(opacity=0.5) | get(key="hex") }}",
-                "ghost_element.selected": "#{{ c.overlay0 | mod(opacity=0.6) | get(key="hex") }}",
+                "ghost_element.selected": "#{{ c.overlay0 | mod(opacity=0.35) | get(key="hex") }}",
                 "ghost_element.disabled": "#{{c.overlay0.hex}}",
                 "text": "#{{c.text.hex}}",
                 "text.muted": "#{{c.subtext1.hex}}",
@@ -68,7 +68,7 @@ whiskers:
                 "panel.background": "#{{c.mantle.hex}}",
                 "panel.focused_border": "#{{c.text.hex}}",
                 "pane.focused_border": "#{{c.text.hex}}",
-                "scrollbar_thumb.background": "#{{ c.surface2 | mod(opacity=0.5) | get(key="hex") }}",
+                "scrollbar_thumb.background": "#{{ c[accent] | mod(opacity=0.2) | get(key="hex") }}",
                 "scrollbar.thumb.hover_background": "#{{c.overlay0.hex}}",
                 "scrollbar.thumb.border": "#{{ c.surface2 | mod(opacity=0.5) | get(key="hex") }}",
                 "scrollbar.track.background": "#{{c.base.hex}}",
@@ -166,7 +166,7 @@ whiskers:
                 "players": [
                     {
                         "cursor": "#{{c.rosewater.hex}}",
-                        "selection": "#{{ c.surface2 | mod(opacity=0.4) | get(key="hex") }}",
+                        "selection": "#{{ c.surface2 | mod(opacity=0.5) | get(key="hex") }}",
                         "background": "#{{c.rosewater.hex}}"
                     },
                     {%- for player in players %}

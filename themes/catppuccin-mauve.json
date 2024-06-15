@@ -21,11 +21,11 @@
                 "element.active": "#8839ef33",
                 "element.selected": "#ccd0da99",
                 "element.disabled": "#9ca0b0",
-                "drop_target.background": "#bcc0cc",
+                "drop_target.background": "#8839ef66",
                 "ghost_element.background": null,
                 "ghost_element.hover": "#ccd0da99",
                 "ghost_element.active": "#acb0be80",
-                "ghost_element.selected": "#9ca0b099",
+                "ghost_element.selected": "#9ca0b059",
                 "ghost_element.disabled": "#9ca0b0",
                 "text": "#4c4f69",
                 "text.muted": "#5c5f77",
@@ -47,7 +47,7 @@
                 "panel.background": "#e6e9ef",
                 "panel.focused_border": "#4c4f69",
                 "pane.focused_border": "#4c4f69",
-                "scrollbar_thumb.background": "#acb0be80",
+                "scrollbar_thumb.background": "#8839ef33",
                 "scrollbar.thumb.hover_background": "#9ca0b0",
                 "scrollbar.thumb.border": "#acb0be80",
                 "scrollbar.track.background": "#eff1f5",
@@ -139,7 +139,7 @@
                 "players": [
                     {
                         "cursor": "#dc8a78",
-                        "selection": "#acb0be66",
+                        "selection": "#acb0be80",
                         "background": "#dc8a78"
                     },
                     {
@@ -415,11 +415,11 @@
                 "element.active": "#ca9ee633",
                 "element.selected": "#41455999",
                 "element.disabled": "#737994",
-                "drop_target.background": "#51576d",
+                "drop_target.background": "#ca9ee666",
                 "ghost_element.background": null,
                 "ghost_element.hover": "#41455999",
                 "ghost_element.active": "#62688080",
-                "ghost_element.selected": "#73799499",
+                "ghost_element.selected": "#73799459",
                 "ghost_element.disabled": "#737994",
                 "text": "#c6d0f5",
                 "text.muted": "#b5bfe2",
@@ -441,7 +441,7 @@
                 "panel.background": "#292c3c",
                 "panel.focused_border": "#c6d0f5",
                 "pane.focused_border": "#c6d0f5",
-                "scrollbar_thumb.background": "#62688080",
+                "scrollbar_thumb.background": "#ca9ee633",
                 "scrollbar.thumb.hover_background": "#737994",
                 "scrollbar.thumb.border": "#62688080",
                 "scrollbar.track.background": "#303446",
@@ -533,7 +533,7 @@
                 "players": [
                     {
                         "cursor": "#f2d5cf",
-                        "selection": "#62688066",
+                        "selection": "#62688080",
                         "background": "#f2d5cf"
                     },
                     {
@@ -809,11 +809,11 @@
                 "element.active": "#c6a0f633",
                 "element.selected": "#363a4f99",
                 "element.disabled": "#6e738d",
-                "drop_target.background": "#494d64",
+                "drop_target.background": "#c6a0f666",
                 "ghost_element.background": null,
                 "ghost_element.hover": "#363a4f99",
                 "ghost_element.active": "#5b607880",
-                "ghost_element.selected": "#6e738d99",
+                "ghost_element.selected": "#6e738d59",
                 "ghost_element.disabled": "#6e738d",
                 "text": "#cad3f5",
                 "text.muted": "#b8c0e0",
@@ -835,7 +835,7 @@
                 "panel.background": "#1e2030",
                 "panel.focused_border": "#cad3f5",
                 "pane.focused_border": "#cad3f5",
-                "scrollbar_thumb.background": "#5b607880",
+                "scrollbar_thumb.background": "#c6a0f633",
                 "scrollbar.thumb.hover_background": "#6e738d",
                 "scrollbar.thumb.border": "#5b607880",
                 "scrollbar.track.background": "#24273a",
@@ -927,7 +927,7 @@
                 "players": [
                     {
                         "cursor": "#f4dbd6",
-                        "selection": "#5b607866",
+                        "selection": "#5b607880",
                         "background": "#f4dbd6"
                     },
                     {
@@ -1203,11 +1203,11 @@
                 "element.active": "#cba6f733",
                 "element.selected": "#31324499",
                 "element.disabled": "#6c7086",
-                "drop_target.background": "#45475a",
+                "drop_target.background": "#cba6f766",
                 "ghost_element.background": null,
                 "ghost_element.hover": "#31324499",
                 "ghost_element.active": "#585b7080",
-                "ghost_element.selected": "#6c708699",
+                "ghost_element.selected": "#6c708659",
                 "ghost_element.disabled": "#6c7086",
                 "text": "#cdd6f4",
                 "text.muted": "#bac2de",
@@ -1229,7 +1229,7 @@
                 "panel.background": "#181825",
                 "panel.focused_border": "#cdd6f4",
                 "pane.focused_border": "#cdd6f4",
-                "scrollbar_thumb.background": "#585b7080",
+                "scrollbar_thumb.background": "#cba6f733",
                 "scrollbar.thumb.hover_background": "#6c7086",
                 "scrollbar.thumb.border": "#585b7080",
                 "scrollbar.track.background": "#1e1e2e",
@@ -1321,7 +1321,7 @@
                 "players": [
                     {
                         "cursor": "#f5e0dc",
-                        "selection": "#585b7066",
+                        "selection": "#585b7080",
                         "background": "#f5e0dc"
                     },
                     {
