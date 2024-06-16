@@ -1,0 +1,14 @@
+[
+  {
+    "label": "build (mauve accent only)",
+    "command": "whiskers zed.tera -o json --overrides '{\"accent\": [\"mauve\"]}'"
+  },
+  {
+    "label": "publish (all accents)",
+    "command": "whiskers zed.tera -o json"
+  },
+  {
+    "label": "clean",
+    "command": "rm themes/*.json"
+  }
+]

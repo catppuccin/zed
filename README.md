@@ -64,11 +64,10 @@
 <details>
 
 1. Install [Rust](https://www.rust-lang.org/tools/install)
-2. Install [`whiskers`](https://crates.io/crates/catppuccin-whiskers) (>= 2.0.2)
+2. Install [`whiskers`](https://crates.io/crates/catppuccin-whiskers) (>= 2.4.0)
 
    ```bash
-   # from source (preferred)
-   cargo install --git https://github.com/catppuccin/toolbox catppuccin-whiskers
+   cargo install catppuccin-whiskers@2.4.0
    ```
 
 3. Test and check changes against current `themes/catppuccin.json` theme
@@ -81,7 +80,9 @@
 4. Build the zed extension `.json` theme file (mauve accent only)
 
    ```bash
-   whiskers zed.tera -o json --overrides '{"accent": "mauve"}'
+   whiskers zed.tera -o json --overrides '{"accent": ["mauve"]}'
+   whiskers zed.tera -o json --overrides '{"accent": ["mauve","lavender"]}'
+   ...
    ```
 
 5. (Optional) 🎨 Generate **all** accents per Flavor
