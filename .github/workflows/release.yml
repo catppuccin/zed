@@ -29,13 +29,14 @@ jobs:
       - uses: taiki-e/install-action@cargo-binstall
       - run: cargo-binstall catppuccin-whiskers@2.4.0 -y
 
-      # run whiskers
+      # run whiskers (all accents colors)
       - uses: actions/checkout@v2
       - name: build
         id: build
         run: |
           $HOME/.cargo/bin/whiskers zed.tera -o json
-          find themes -type f | tr '\n' ' ' >> $GITHUB_OUTPUT
+          zip catppuccin-zed-accents.zip themes/
+          echo "zipfile=themes/catppuccin-zed-accents.zip" >> $GITHUB_OUTPUT
 
       # view all accents in ci
       - name: upload accents
@@ -44,13 +45,16 @@ jobs:
           name: catppuccin-zed-${{ github.sha }}
           path: themes/catppuccin-*.json
 
+      # publish gh release
       - name: Upload to release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh release upload "${{ needs.release-please.outputs.tag_name }}" ${{ steps.build.outputs.binary }}
+        run: gh release upload "${{ needs.release-please.outputs.tag_name }}" ${{ steps.build.outputs.zipfile }}
 
   zed-publish:
-    name: Release Zed Extension
+    name: PR to zed/extensions repo (for publishing)
+    needs: release-please
+    if: ${{ needs.release-please.outputs.release_created }}
     runs-on: ubuntu-latest
     steps:
       - uses: huacnlee/zed-extension-action@v1
@@ -59,4 +63,4 @@ jobs:
           push-to: ${{ vars.FORKED_REPO_HANDLE }}
         env:
           # the personal access token should have "repo" & "workflow" scopes
-          COMMITTER_TOKEN: ${{ secrets.COMMITTER_TOKEN }}
+          COMMITTER_TOKEN: ${{ secrets.MAINTAINER_PAT }}
