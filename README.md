@@ -108,7 +108,7 @@ cmd+shift+p > zed: install dev extension > (select current directory)
 ```
 
 2. Refresh theme extension using: `cmd+shift+p` > `zed: reload extensions`
-3. (Optional) `zed: restart workspace` may be needed if changes are not reflected immediately
+3. (Optional) `workspace: reload` may be needed if changes are not reflected immediately
 
 </details>
 
