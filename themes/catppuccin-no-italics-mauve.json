@@ -7,6 +7,7 @@
             "name": "Catppuccin Latte - No Italics",
             "appearance": "light",
             "style": {
+                "background.appearance": "blurred",
                 "border": "#ccd0da",
                 "border.variant": "#9658eb",
                 "border.focused": "#7287fd",
@@ -39,6 +40,7 @@
                 "icon.accent": "#8839ef",
                 "status_bar.background": "#dce0e8",
                 "title_bar.background": "#dce0e8",
+                "title_bar.inactive_background": "#dce0e8d9",
                 "toolbar.background": "#eff1f5",
                 "tab_bar.background": "#dce0e8",
                 "tab.inactive_background": "#e6e9ef",
@@ -401,6 +403,7 @@
             "name": "Catppuccin Frappé - No Italics",
             "appearance": "dark",
             "style": {
+                "background.appearance": "blurred",
                 "border": "#414559",
                 "border.variant": "#af8cca",
                 "border.focused": "#babbf1",
@@ -433,6 +436,7 @@
                 "icon.accent": "#ca9ee6",
                 "status_bar.background": "#232634",
                 "title_bar.background": "#232634",
+                "title_bar.inactive_background": "#232634d9",
                 "toolbar.background": "#303446",
                 "tab_bar.background": "#232634",
                 "tab.inactive_background": "#292c3c",
@@ -795,6 +799,7 @@
             "name": "Catppuccin Macchiato - No Italics",
             "appearance": "dark",
             "style": {
+                "background.appearance": "blurred",
                 "border": "#363a4f",
                 "border.variant": "#a98cd5",
                 "border.focused": "#b7bdf8",
@@ -827,6 +832,7 @@
                 "icon.accent": "#c6a0f6",
                 "status_bar.background": "#181926",
                 "title_bar.background": "#181926",
+                "title_bar.inactive_background": "#181926d9",
                 "toolbar.background": "#24273a",
                 "tab_bar.background": "#181926",
                 "tab.inactive_background": "#1e2030",
@@ -1189,6 +1195,7 @@
             "name": "Catppuccin Mocha - No Italics",
             "appearance": "dark",
             "style": {
+                "background.appearance": "blurred",
                 "border": "#313244",
                 "border.variant": "#ac8fd4",
                 "border.focused": "#b4befe",
@@ -1221,6 +1228,7 @@
                 "icon.accent": "#cba6f7",
                 "status_bar.background": "#11111b",
                 "title_bar.background": "#11111b",
+                "title_bar.inactive_background": "#11111bd9",
                 "toolbar.background": "#1e1e2e",
                 "tab_bar.background": "#11111b",
                 "tab.inactive_background": "#181825",
