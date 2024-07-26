@@ -28,6 +28,7 @@ whiskers:
             "name": "Catppuccin {{flavor.name}} {%- if accentName != 'mauve' %} ({{accentName}}) {%- endif -%} {%- if variant == "-no-italics" %} - No Italics {%- endif -%}",
             "appearance": {% if flavor.dark %}"dark"{% else %}"light"{% endif %},
             "style": {
+                "background.appearance": "blurred",
                 "border": "#{{c.surface0.hex}}",
                 "border.variant": "#{{ c[accent] | mix(color=c.surface0, amount=0.8) | get(key="hex") }}",
                 "border.focused": "#{{c.lavender.hex}}",
@@ -60,6 +61,7 @@ whiskers:
                 "icon.accent": "#{{c[accent].hex}}",
                 "status_bar.background": "#{{c.crust.hex}}",
                 "title_bar.background": "#{{c.crust.hex}}",
+                "title_bar.inactive_background": "#{{ c.crust | mod(opacity=0.8) | get(key="hex") }}",
                 "toolbar.background": "#{{c.base.hex}}",
                 "tab_bar.background": "#{{c.crust.hex}}",
                 "tab.inactive_background": "#{{c.mantle.hex}}",
