@@ -7,7 +7,6 @@
             "name": "Catppuccin Latte - No Italics",
             "appearance": "light",
             "style": {
-                "background.appearance": "blurred",
                 "border": "#ccd0da",
                 "border.variant": "#9658eb",
                 "border.focused": "#7287fd",
@@ -403,7 +402,6 @@
             "name": "Catppuccin Frappé - No Italics",
             "appearance": "dark",
             "style": {
-                "background.appearance": "blurred",
                 "border": "#414559",
                 "border.variant": "#af8cca",
                 "border.focused": "#babbf1",
@@ -799,7 +797,6 @@
             "name": "Catppuccin Macchiato - No Italics",
             "appearance": "dark",
             "style": {
-                "background.appearance": "blurred",
                 "border": "#363a4f",
                 "border.variant": "#a98cd5",
                 "border.focused": "#b7bdf8",
@@ -1195,7 +1192,6 @@
             "name": "Catppuccin Mocha - No Italics",
             "appearance": "dark",
             "style": {
-                "background.appearance": "blurred",
                 "border": "#313244",
                 "border.variant": "#ac8fd4",
                 "border.focused": "#b4befe",
