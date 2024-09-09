@@ -64,10 +64,11 @@
 <details>
 
 1. Install [Rust](https://www.rust-lang.org/tools/install)
-2. Install [`whiskers`](https://crates.io/crates/catppuccin-whiskers) (>= 2.4.0)
+2. Install [`whiskers`](https://crates.io/crates/catppuccin-whiskers) (>= 2.5.0)
 
    ```bash
-   cargo install catppuccin-whiskers@2.4.0
+   # brew install catppuccin/tap/whiskers
+   cargo install catppuccin-whiskers@2.5.0
    ```
 
 3. Test and check changes against current `themes/catppuccin.json` theme
