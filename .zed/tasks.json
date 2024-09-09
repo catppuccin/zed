@@ -10,5 +10,9 @@
   {
     "label": "clean",
     "command": "rm themes/*.json"
+  },
+  {
+    "label": "test",
+    "command": "whiskers zed.tera -o json --overrides '{\"accent\": \"mauve\"}' --check themes/catppuccin-mauve.json"
   }
 ]

@@ -43,7 +43,7 @@
 3. Select _Catppuccin Themes_ and Install
 4. Select your Catppuccin theme in the dropdown shown after hitting `cmd+k`, `cmd+t`
 
-### 🎨 Install Different Accents
+### 🎨 Installing Different Catpuccin Flavor Accents
 
 <details>
 
@@ -64,24 +64,25 @@
 <details>
 
 1. Install [Rust](https://www.rust-lang.org/tools/install)
-2. Install [`whiskers`](https://crates.io/crates/catppuccin-whiskers) (>= 2.4.0)
+2. Install [`whiskers`](https://crates.io/crates/catppuccin-whiskers) (>= 2.5.0)
 
    ```bash
-   cargo install catppuccin-whiskers@2.4.0
+   # brew install catppuccin/tap/whiskers
+   cargo install catppuccin-whiskers@2.5.0
    ```
 
-3. Test and check changes against current `themes/catppuccin.json` theme
+3. Test and check changes against current `mauve` accent theme
 
    ```bash
    # returns nothing if OK
    whiskers zed.tera -o json --overrides '{"accent": "mauve"}' --check themes/catppuccin-mauve.json
    ```
 
-4. Build the zed extension `.json` theme file (mauve accent only)
+4. Build the `.json` theme file
 
    ```bash
    whiskers zed.tera -o json --overrides '{"accent": ["mauve"]}'
-   whiskers zed.tera -o json --overrides '{"accent": ["mauve","lavender"]}'
+   # whiskers zed.tera -o json --overrides '{"accent": ["mauve","lavender"]}'
    ...
    ```
 
