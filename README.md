@@ -43,7 +43,7 @@
 3. Select _Catppuccin Themes_ and Install
 4. Select your Catppuccin theme in the dropdown shown after hitting `cmd+k`, `cmd+t`
 
-### 🎨 Installing Different Catpuccin Flavor Accents
+### 🎨 Installing Different Catppuccin Flavor Accents
 
 <details>
 
