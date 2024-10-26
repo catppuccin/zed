@@ -64,11 +64,11 @@
 <details>
 
 1. Install [Rust](https://www.rust-lang.org/tools/install)
-2. Install [`whiskers`](https://crates.io/crates/catppuccin-whiskers) (>= 2.5.0)
+2. Install [`whiskers`](https://crates.io/crates/catppuccin-whiskers)
 
    ```bash
    # brew install catppuccin/tap/whiskers
-   cargo install catppuccin-whiskers@2.5.0
+   cargo install catppuccin-whiskers@2.5.1
    ```
 
 3. Test and check changes against current `mauve` accent theme
