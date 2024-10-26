@@ -13,8 +13,8 @@ whiskers:
     "author": "Andrew Tec <andrewtec@enjoi.dev>",
     "themes": [
     {%- for _, flavor in flavors -%}
-    {% set c = flavor.colors -%}
-    {% set accentName = c[accent].identifier -%}
+    {%- set c = flavor.colors -%}
+    {%- set accentName = c[accent].identifier -%}
     {% set players = [
         c.text  | mix(color=c.sapphire, amount=0.6),
         c.text  | mix(color=c.red, amount=0.6),
@@ -23,7 +23,9 @@ whiskers:
         c.text  | mix(color=c.yellow, amount=0.6),
         c.text  | mix(color=c.blue, amount=0.6),
         c.text  | mix(color=c.green, amount=0.6),
-    ] %}
+    ] -%}
+    {% set predictColor = c.surface2 | mix(color=c.blue, amount=0.35 ) -%}
+    {% set hintColor = c.surface2 | mix(color=c.teal, amount=0.50 ) -%}
         {
             "name": "Catppuccin {{flavor.name}} {%- if accentName != 'mauve' %} ({{accentName}}) {%- endif -%} {%- if variant == "-no-italics" %} - No Italics {%- endif -%}",
             "appearance": {% if flavor.dark %}"dark"{% else %}"light"{% endif %},
@@ -137,7 +139,7 @@ whiskers:
                 "hidden": "#{{c.overlay0.hex}}",
                 "hidden.border": "#{{c.overlay0.hex}}",
                 "hidden.background": "#{{c.mantle.hex}}",
-                "hint": "#{{c.surface2.hex}}",
+                "hint": "#{{ hintColor | get(key="hex") }}",
                 "hint.border": "#{{c.surface2.hex}}",
                 "hint.background": "#{{ c.mantle.hex }}",
                 "ignored": "#{{c.overlay0.hex}}",
@@ -149,8 +151,8 @@ whiskers:
                 "modified": "#{{c.yellow.hex}}",
                 "modified.border": "#{{c.yellow.hex}}",
                 "modified.background": "#{{c.mantle.hex}}",
-                "predictive": "#{{c.surface2.hex}}",
-                "predictive.border": "#{{c.surface2.hex}}",
+                "predictive": "#{{ predictColor | get(key="hex") }}",
+                "predictive.border": "#{{c.lavender.hex}}",
                 "predictive.background": "#{{c.mantle.hex}}",
                 "renamed": "#{{c.sapphire.hex}}",
                 "renamed.border": "#{{c.sapphire.hex}}",
@@ -235,7 +237,7 @@ whiskers:
                         "font_weight": null
                     },
                     "hint": {
-                        "color": "#{{c.teal.hex}}",
+                        "color": "#{{ hintColor | get(key="hex") }}",
                         "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
                         "font_weight": null
                     },
@@ -265,7 +267,7 @@ whiskers:
                         "font_weight": null
                     },
                     "predictive": {
-                        "color": "#{{ c.surface2.hex }}",
+                        "color": "#{{ predictColor | get(key="hex") }}",
                         "font_style": null,
                         "font_weight": null
                     },
