@@ -2,8 +2,7 @@
     "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
     "name": "Catppuccin",
     "author": "Andrew Tec <andrewtec@enjoi.dev>",
-    "themes": [
-        {
+    "themes": [{
             "name": "Catppuccin Latte",
             "appearance": "light",
             "style": {
@@ -110,7 +109,7 @@
                 "hidden": "#9ca0b0",
                 "hidden.border": "#9ca0b0",
                 "hidden.background": "#e6e9ef",
-                "hint": "#acb0be",
+                "hint": "#61a1ab",
                 "hint.border": "#acb0be",
                 "hint.background": "#e6e9ef",
                 "ignored": "#9ca0b0",
@@ -122,8 +121,8 @@
                 "modified": "#df8e1d",
                 "modified.border": "#df8e1d",
                 "modified.background": "#e6e9ef",
-                "predictive": "#acb0be",
-                "predictive.border": "#acb0be",
+                "predictive": "#507fe1",
+                "predictive.border": "#7287fd",
                 "predictive.background": "#e6e9ef",
                 "renamed": "#209fb5",
                 "renamed.border": "#209fb5",
@@ -236,7 +235,7 @@
                         "font_weight": null
                     },
                     "hint": {
-                        "color": "#179299",
+                        "color": "#61a1ab",
                         "font_style": "italic",
                         "font_weight": null
                     },
@@ -266,7 +265,7 @@
                         "font_weight": null
                     },
                     "predictive": {
-                        "color": "#acb0be",
+                        "color": "#507fe1",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -397,8 +396,7 @@
                     }
                 }
             }
-        },
-        {
+        },{
             "name": "Catppuccin Frappé",
             "appearance": "dark",
             "style": {
@@ -505,7 +503,7 @@
                 "hidden": "#737994",
                 "hidden.border": "#737994",
                 "hidden.background": "#292c3c",
-                "hint": "#626880",
+                "hint": "#71989f",
                 "hint.border": "#626880",
                 "hint.background": "#292c3c",
                 "ignored": "#737994",
@@ -517,8 +515,8 @@
                 "modified": "#e5c890",
                 "modified.border": "#e5c890",
                 "modified.background": "#292c3c",
-                "predictive": "#626880",
-                "predictive.border": "#626880",
+                "predictive": "#7d93c8",
+                "predictive.border": "#babbf1",
                 "predictive.background": "#292c3c",
                 "renamed": "#85c1dc",
                 "renamed.border": "#85c1dc",
@@ -631,7 +629,7 @@
                         "font_weight": null
                     },
                     "hint": {
-                        "color": "#81c8be",
+                        "color": "#71989f",
                         "font_style": "italic",
                         "font_weight": null
                     },
@@ -661,7 +659,7 @@
                         "font_weight": null
                     },
                     "predictive": {
-                        "color": "#626880",
+                        "color": "#7d93c8",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -792,8 +790,7 @@
                     }
                 }
             }
-        },
-        {
+        },{
             "name": "Catppuccin Macchiato",
             "appearance": "dark",
             "style": {
@@ -900,7 +897,7 @@
                 "hidden": "#6e738d",
                 "hidden.border": "#6e738d",
                 "hidden.background": "#1e2030",
-                "hint": "#5b6078",
+                "hint": "#739aa1",
                 "hint.border": "#5b6078",
                 "hint.background": "#1e2030",
                 "ignored": "#6e738d",
@@ -912,8 +909,8 @@
                 "modified": "#eed49f",
                 "modified.border": "#eed49f",
                 "modified.background": "#1e2030",
-                "predictive": "#5b6078",
-                "predictive.border": "#5b6078",
+                "predictive": "#7a93c9",
+                "predictive.border": "#b7bdf8",
                 "predictive.background": "#1e2030",
                 "renamed": "#7dc4e4",
                 "renamed.border": "#7dc4e4",
@@ -1026,7 +1023,7 @@
                         "font_weight": null
                     },
                     "hint": {
-                        "color": "#8bd5ca",
+                        "color": "#739aa1",
                         "font_style": "italic",
                         "font_weight": null
                     },
@@ -1056,7 +1053,7 @@
                         "font_weight": null
                     },
                     "predictive": {
-                        "color": "#5b6078",
+                        "color": "#7a93c9",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -1187,8 +1184,7 @@
                     }
                 }
             }
-        },
-        {
+        },{
             "name": "Catppuccin Mocha",
             "appearance": "dark",
             "style": {
@@ -1295,7 +1291,7 @@
                 "hidden": "#6c7086",
                 "hidden.border": "#6c7086",
                 "hidden.background": "#181825",
-                "hint": "#585b70",
+                "hint": "#769fa2",
                 "hint.border": "#585b70",
                 "hint.background": "#181825",
                 "ignored": "#6c7086",
@@ -1307,8 +1303,8 @@
                 "modified": "#f9e2af",
                 "modified.border": "#f9e2af",
                 "modified.background": "#181825",
-                "predictive": "#585b70",
-                "predictive.border": "#585b70",
+                "predictive": "#7895ca",
+                "predictive.border": "#b4befe",
                 "predictive.background": "#181825",
                 "renamed": "#74c7ec",
                 "renamed.border": "#74c7ec",
@@ -1421,7 +1417,7 @@
                         "font_weight": null
                     },
                     "hint": {
-                        "color": "#94e2d5",
+                        "color": "#769fa2",
                         "font_style": "italic",
                         "font_weight": null
                     },
@@ -1451,7 +1447,7 @@
                         "font_weight": null
                     },
                     "predictive": {
-                        "color": "#585b70",
+                        "color": "#7895ca",
                         "font_style": null,
                         "font_weight": null
                     },
