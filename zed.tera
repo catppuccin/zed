@@ -139,7 +139,7 @@ whiskers:
                 "hidden": "#{{c.overlay0.hex}}",
                 "hidden.border": "#{{c.overlay0.hex}}",
                 "hidden.background": "#{{c.mantle.hex}}",
-                "hint": "#{{ hintColor | get(key="hex") }}",
+                "hint": "#{{c.surface2.hex }}",
                 "hint.border": "#{{c.surface2.hex}}",
                 "hint.background": "#{{ c.mantle.hex }}",
                 "ignored": "#{{c.overlay0.hex}}",
