@@ -360,14 +360,19 @@ whiskers:
                         "font_style": null,
                         "font_weight": null
                     },
+                    "type.builtin": {
+                        "color": "#{{c.mauve.hex}}",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "type.interface": {
                         "color": "#{{c.yellow.hex}}",
-                        "font_style": null,
+                        "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
                         "font_weight": null
                     },
                     "type.super": {
                         "color": "#{{c.yellow.hex}}",
-                        "font_style": null,
+                        "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
                         "font_weight": null
                     },
                     "variable": {

@@ -359,14 +359,19 @@
                         "font_style": null,
                         "font_weight": null
                     },
+                    "type.builtin": {
+                        "color": "#8839ef",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "type.interface": {
                         "color": "#df8e1d",
-                        "font_style": null,
+                        "font_style": "italic",
                         "font_weight": null
                     },
                     "type.super": {
                         "color": "#df8e1d",
-                        "font_style": null,
+                        "font_style": "italic",
                         "font_weight": null
                     },
                     "variable": {
@@ -753,14 +758,19 @@
                         "font_style": null,
                         "font_weight": null
                     },
+                    "type.builtin": {
+                        "color": "#ca9ee6",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "type.interface": {
                         "color": "#e5c890",
-                        "font_style": null,
+                        "font_style": "italic",
                         "font_weight": null
                     },
                     "type.super": {
                         "color": "#e5c890",
-                        "font_style": null,
+                        "font_style": "italic",
                         "font_weight": null
                     },
                     "variable": {
@@ -1147,14 +1157,19 @@
                         "font_style": null,
                         "font_weight": null
                     },
+                    "type.builtin": {
+                        "color": "#c6a0f6",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "type.interface": {
                         "color": "#eed49f",
-                        "font_style": null,
+                        "font_style": "italic",
                         "font_weight": null
                     },
                     "type.super": {
                         "color": "#eed49f",
-                        "font_style": null,
+                        "font_style": "italic",
                         "font_weight": null
                     },
                     "variable": {
@@ -1541,14 +1556,19 @@
                         "font_style": null,
                         "font_weight": null
                     },
+                    "type.builtin": {
+                        "color": "#cba6f7",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "type.interface": {
                         "color": "#f9e2af",
-                        "font_style": null,
+                        "font_style": "italic",
                         "font_weight": null
                     },
                     "type.super": {
                         "color": "#f9e2af",
-                        "font_style": null,
+                        "font_style": "italic",
                         "font_weight": null
                     },
                     "variable": {
