@@ -255,6 +255,11 @@ whiskers:
                         "font_style": null,
                         "font_weight": null
                     },
+                    "namespace": {
+                        "color": "#{{ c.yellow.hex }}",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "number": {
                         "color": "#{{ c.peach.hex }}",
                         "font_style": null,
@@ -291,7 +296,7 @@ whiskers:
                         "font_weight": null
                     },
                     "punctuation.bracket": {
-                        "color": "#{{ c.teal.hex }}",
+                        "color": "#{{ c.overlay2.hex }}",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -377,6 +382,11 @@ whiskers:
                     },
                     "variable": {
                         "color": "#{{ c.text.hex }}",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "variable.builtin": {
+                        "color": "#{{ c.red.hex }}",
                         "font_style": null,
                         "font_weight": null
                     },
