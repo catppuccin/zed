@@ -14,7 +14,6 @@ whiskers:
     "themes": [
         {%- for _, flavor in flavors -%}
         {%- set c = flavor.colors -%}
-        {%- set accentName = c[accent].identifier -%}
         {% set players = [
             c.text  | mix(color=c.sapphire, amount=0.6),
             c.text  | mix(color=c.red, amount=0.6),
@@ -27,7 +26,7 @@ whiskers:
         {%- set italics = if(cond=variant == "-no-italics", t="null", f='"italic"') -%}
         {% set predictColor = c.surface2 | mix(color=c.blue, amount=0.33) %}
         {
-            "name": "Catppuccin {{ flavor.name }} {%- if accentName != 'mauve' %} ({{ accentName }}) {%- endif -%} {%- if variant == "-no-italics" %} - No Italics {%- endif -%}",
+            "name": "Catppuccin {{ flavor.name }} {%- if accent != 'mauve' %} ({{ accent }}) {%- endif -%} {%- if variant == "-no-italics" %} - No Italics {%- endif -%}",
             "appearance": {% if flavor.dark %}"dark"{% else %}"light"{% endif %},
             "style": {
                 "border": "#{{ c.surface0.hex }}",
@@ -103,7 +102,7 @@ whiskers:
                 "terminal.ansi.blue": "#{{ c.blue.hex }}",
                 "terminal.ansi.magenta": "#{{ c.pink.hex }}",
                 "terminal.ansi.cyan": "#{{ c.teal.hex }}",
-                "terminal.ansi.white": "#{{ c.text.hex }}",
+                "terminal.ansi.white": "#{{ c.subtext1.hex }}",
                 {#- colors.bright #}
                 "terminal.ansi.bright_black": "#{{ c.surface2.hex }}",
                 "terminal.ansi.bright_red": "#{{ c.red.hex }}",
