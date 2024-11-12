@@ -24,6 +24,7 @@ whiskers:
             c.text  | mix(color=c.blue, amount=0.6),
             c.text  | mix(color=c.green, amount=0.6),
         ] -%}
+        {%- set italics = if(cond=variant == "-no-italics", t="null", f='"italic"') -%}
         {% set predictColor = c.surface2 | mix(color=c.blue, amount=0.33) %}
         {
             "name": "Catppuccin {{flavor.name}} {%- if accentName != 'mauve' %} ({{accentName}}) {%- endif -%} {%- if variant == "-no-italics" %} - No Italics {%- endif -%}",
@@ -192,12 +193,12 @@ whiskers:
                     },
                     "comment": {
                         "color": "#{{c.overlay1.hex}}",
-                        "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
+                        "font_style": {{italics}},
                         "font_weight": null
                     },
                     "comment.doc": {
                         "color": "#{{c.overlay1.hex}}",
-                        "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
+                        "font_style": {{italics}},
                         "font_weight": null
                     },
                     "constant": {
@@ -217,7 +218,7 @@ whiskers:
                     },
                     "emphasis": {
                         "color": "#{{c.red.hex}}",
-                        "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
+                        "font_style": {{italics}},
                         "font_weight": null
                     },
                     "emphasis.strong": {
@@ -232,12 +233,12 @@ whiskers:
                     },
                     "function": {
                         "color": "#{{c.blue.hex}}",
-                        "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
+                        "font_style": {{italics}},
                         "font_weight": null
                     },
                     "hint": {
                         "color": "#{{c.surface2.hex}}",
-                        "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
+                        "font_style": {{italics}},
                         "font_weight": null
                     },
                     "keyword": {
@@ -367,12 +368,12 @@ whiskers:
                     },
                     "type.interface": {
                         "color": "#{{c.yellow.hex}}",
-                        "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
+                        "font_style": {{italics}},
                         "font_weight": null
                     },
                     "type.super": {
                         "color": "#{{c.yellow.hex}}",
-                        "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
+                        "font_style": {{italics}},
                         "font_weight": null
                     },
                     "variable": {
@@ -387,12 +388,12 @@ whiskers:
                     },
                     "variable.parameter": {
                         "color": "#{{c.peach.hex}}",
-                        "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
+                        "font_style": {{italics}},
                         "font_weight": null
                     },
                     "variable.special": {
                         "color": "#{{ c.text | mix(color=c.red, amount=0.6) | get(key='hex') }}",
-                        "font_style": {%if variant == '-no-italics'%}null{%else%}"italic"{%endif%},
+                        "font_style": {{italics}},
                         "font_weight": null
                     },
                     "variant": {
