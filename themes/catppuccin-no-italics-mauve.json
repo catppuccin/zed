@@ -2,7 +2,8 @@
     "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
     "name": "Catppuccin",
     "author": "Andrew Tec <andrewtec@enjoi.dev>",
-    "themes": [{
+    "themes": [
+        {
             "name": "Catppuccin Latte - No Italics",
             "appearance": "light",
             "style": {
@@ -401,7 +402,8 @@
                     }
                 }
             }
-        },{
+        },
+        {
             "name": "Catppuccin Frappé - No Italics",
             "appearance": "dark",
             "style": {
@@ -800,7 +802,8 @@
                     }
                 }
             }
-        },{
+        },
+        {
             "name": "Catppuccin Macchiato - No Italics",
             "appearance": "dark",
             "style": {
@@ -1199,7 +1202,8 @@
                     }
                 }
             }
-        },{
+        },
+        {
             "name": "Catppuccin Mocha - No Italics",
             "appearance": "dark",
             "style": {

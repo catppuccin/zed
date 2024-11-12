@@ -24,7 +24,7 @@ whiskers:
         c.text  | mix(color=c.blue, amount=0.6),
         c.text  | mix(color=c.green, amount=0.6),
     ] -%}
-    {% set predictColor = c.surface2 | mix(color=c.blue, amount=0.33) -%}
+    {% set predictColor = c.surface2 | mix(color=c.blue, amount=0.33) %}
         {
             "name": "Catppuccin {{flavor.name}} {%- if accentName != 'mauve' %} ({{accentName}}) {%- endif -%} {%- if variant == "-no-italics" %} - No Italics {%- endif -%}",
             "appearance": {% if flavor.dark %}"dark"{% else %}"light"{% endif %},
