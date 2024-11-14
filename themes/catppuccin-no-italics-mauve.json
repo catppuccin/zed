@@ -205,8 +205,38 @@
                         "font_style": null,
                         "font_weight": null
                     },
+                    "comment.doc": {
+                        "color": "#7c7f93",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "comment.documentation": {
                         "color": "#7c7f93",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "comment.error": {
+                        "color": "#d20f39",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "comment.warning": {
+                        "color": "#df8e1d",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "comment.hint": {
+                        "color": "#1e66f5",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "comment.todo": {
+                        "color": "#dd7878",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "comment.note": {
+                        "color": "#dc8a78",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -770,8 +800,38 @@
                         "font_style": null,
                         "font_weight": null
                     },
+                    "comment.doc": {
+                        "color": "#949cbb",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "comment.documentation": {
                         "color": "#949cbb",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "comment.error": {
+                        "color": "#e78284",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "comment.warning": {
+                        "color": "#e5c890",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "comment.hint": {
+                        "color": "#8caaee",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "comment.todo": {
+                        "color": "#eebebe",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "comment.note": {
+                        "color": "#f2d5cf",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -1335,8 +1395,38 @@
                         "font_style": null,
                         "font_weight": null
                     },
+                    "comment.doc": {
+                        "color": "#939ab7",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "comment.documentation": {
                         "color": "#939ab7",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "comment.error": {
+                        "color": "#ed8796",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "comment.warning": {
+                        "color": "#eed49f",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "comment.hint": {
+                        "color": "#8aadf4",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "comment.todo": {
+                        "color": "#f0c6c6",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "comment.note": {
+                        "color": "#f4dbd6",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -1900,8 +1990,38 @@
                         "font_style": null,
                         "font_weight": null
                     },
+                    "comment.doc": {
+                        "color": "#9399b2",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "comment.documentation": {
                         "color": "#9399b2",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "comment.error": {
+                        "color": "#f38ba8",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "comment.warning": {
+                        "color": "#f9e2af",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "comment.hint": {
+                        "color": "#89b4fa",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "comment.todo": {
+                        "color": "#f2cdcd",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "comment.note": {
+                        "color": "#f5e0dc",
                         "font_style": null,
                         "font_weight": null
                     },

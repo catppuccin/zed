@@ -205,8 +205,38 @@ whiskers:
                         "font_style": {{ italics }},
                         "font_weight": null
                     },
+                    "comment.doc": {
+                        "color": "#{{ c.overlay2.hex }}",
+                        "font_style": {{ italics }},
+                        "font_weight": null
+                    },
                     "comment.documentation": {
                         "color": "#{{ c.overlay2.hex }}",
+                        "font_style": {{ italics }},
+                        "font_weight": null
+                    },
+                    "comment.error": {
+                        "color": "#{{ c.red.hex }}",
+                        "font_style": {{ italics }},
+                        "font_weight": null
+                    },
+                    "comment.warning": {
+                        "color": "#{{ c.yellow.hex }}",
+                        "font_style": {{ italics }},
+                        "font_weight": null
+                    },
+                    "comment.hint": {
+                        "color": "#{{ c.blue.hex }}",
+                        "font_style": {{ italics }},
+                        "font_weight": null
+                    },
+                    "comment.todo": {
+                        "color": "#{{ c.flamingo.hex }}",
+                        "font_style": {{ italics }},
+                        "font_weight": null
+                    },
+                    "comment.note": {
+                        "color": "#{{ c.rosewater.hex }}",
                         "font_style": {{ italics }},
                         "font_weight": null
                     },
