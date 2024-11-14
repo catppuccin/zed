@@ -526,7 +526,17 @@ whiskers:
                         "font_weight": null
                     },
                     "tag": {
-                        "color": "#{{ c.blue.hex }}",
+                        "color": "#{{ c.mauve.hex }}",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "tag.attribute": {
+                        "color": "#{{ c.teal.hex }}",
+                        "font_style": {{ italics }},
+                        "font_weight": null
+                    },
+                    "tag.delimiter": {
+                        "color": "#{{ c.sky.hex }}",
                         "font_style": null,
                         "font_weight": null
                     },

@@ -526,7 +526,17 @@
                         "font_weight": null
                     },
                     "tag": {
-                        "color": "#1e66f5",
+                        "color": "#8839ef",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "tag.attribute": {
+                        "color": "#179299",
+                        "font_style": "italic",
+                        "font_weight": null
+                    },
+                    "tag.delimiter": {
+                        "color": "#04a5e5",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -1121,7 +1131,17 @@
                         "font_weight": null
                     },
                     "tag": {
-                        "color": "#8caaee",
+                        "color": "#ca9ee6",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "tag.attribute": {
+                        "color": "#81c8be",
+                        "font_style": "italic",
+                        "font_weight": null
+                    },
+                    "tag.delimiter": {
+                        "color": "#99d1db",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -1716,7 +1736,17 @@
                         "font_weight": null
                     },
                     "tag": {
-                        "color": "#8aadf4",
+                        "color": "#c6a0f6",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "tag.attribute": {
+                        "color": "#8bd5ca",
+                        "font_style": "italic",
+                        "font_weight": null
+                    },
+                    "tag.delimiter": {
+                        "color": "#91d7e3",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -2311,7 +2341,17 @@
                         "font_weight": null
                     },
                     "tag": {
-                        "color": "#89b4fa",
+                        "color": "#cba6f7",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "tag.attribute": {
+                        "color": "#94e2d5",
+                        "font_style": "italic",
+                        "font_weight": null
+                    },
+                    "tag.delimiter": {
+                        "color": "#89dceb",
                         "font_style": null,
                         "font_weight": null
                     },
