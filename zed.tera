@@ -222,7 +222,7 @@ whiskers:
                         "font_weight": null
                     },
                     "module": {
-                        "color": "#{{ c.lavender.hex }}",
+                        "color": "#{{ c.yellow.hex }}",
                         "font_style": {{ italics }},
                         "font_weight": null
                     },
@@ -533,17 +533,17 @@ whiskers:
                     {#- Diff (not supported) #}
                     {#- Tags #}
                     "tag": {
-                        "color": "#{{ c.mauve.hex }}",
+                        "color": "#{{ c.blue.hex }}",
                         "font_style": null,
                         "font_weight": null
                     },
                     "tag.attribute": {
-                        "color": "#{{ c.teal.hex }}",
+                        "color": "#{{ c.yellow.hex }}",
                         "font_style": {{ italics }},
                         "font_weight": null
                     },
                     "tag.delimiter": {
-                        "color": "#{{ c.sky.hex }}",
+                        "color": "#{{ c.teal.hex }}",
                         "font_style": null,
                         "font_weight": null
                     },
