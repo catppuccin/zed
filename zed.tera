@@ -243,7 +243,7 @@ whiskers:
                         "font_style": null,
                         "font_weight": null
                     },
-                    "string.regex": {
+                    "string.regexp": {
                         "color": "#{{ c.peach.hex }}",
                         "font_style": null,
                         "font_weight": null
@@ -335,6 +335,11 @@ whiskers:
                         "font_weight": null
                     },
                     {#- Functions #}
+                    "function": {
+                        "color": "#{{ c.blue.hex }}",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "function.builtin": {
                         "color": "#{{ c.peach.hex }}",
                         "font_style": null,
@@ -499,7 +504,7 @@ whiskers:
                         "font_style": {{ italics }},
                         "font_weight": null
                     },
-                    {#- ! untested, rollback if zed supports these #}
+                    {#- ! untested, rollback if Zed supports these #}
                     "comment.error": {
                         "color": "#{{ c.red.hex }}",
                         "font_style": {{ italics }},
@@ -566,30 +571,48 @@ whiskers:
                         "font_style": null,
                         "font_weight": null
                     },
-                    "embedded": {
-                        "color": "#{{ c.maroon.hex }}",
+                    "symbol": {
+                        "color": "#{{ c.pink.hex }}",
                         "font_style": null,
                         "font_weight": null
                     },
-                    "emphasis": {
-                        "color": "#{{ c.maroon.hex }}",
-                        "font_style": {{ italics }},
+                    "string.regex": {
+                        "color": "#{{ c.peach.hex }}",
+                        "font_style": null,
                         "font_weight": null
                     },
+                    "text": {
+                        "color": "#{{ c.text.hex }}",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    {#- 'text.strong' #}
                     "emphasis.strong": {
                         "color": "#{{ c.maroon.hex }}",
                         "font_style": null,
                         "font_weight": 700
                     },
+                    {#- 'text.emphasis' #}
+                    "emphasis": {
+                        "color": "#{{ c.maroon.hex }}",
+                        "font_style": {{ italics }},
+                        "font_weight": null
+                    },
+                    "embedded": {
+                        "color": "#{{ c.maroon.hex }}",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "text.literal": {
+                        "color": "#{{ c.green.hex }}",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    {#- Zed specific #}
                     "enum": {
                         "color": "#{{ c.teal.hex }}",
                         "font_style": null,
                         "font_weight": 700
-                    },
-                    "function": {
-                        "color": "#{{ c.blue.hex }}",
-                        "font_style": null,
-                        "font_weight": null
                     },
                     "hint": {
                         "color": "#{{ c.surface2.hex }}",
@@ -618,11 +641,6 @@ whiskers:
                     },
                     "primary": {
                         "color": "#{{ c.maroon.hex }}",
-                        "font_style": null,
-                        "font_weight": null
-                    },
-                    "text.literal": {
-                        "color": "#{{ c.green.hex }}",
                         "font_style": null,
                         "font_weight": null
                     },
