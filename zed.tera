@@ -203,7 +203,7 @@ whiskers:
                         "font_weight": null
                     },
                     "variable.special": {
-                        "color": "#{{ c.text | mix(color=c.red, amount=0.6) | get(key='hex') }}",
+                        "color": "#{{ c.pink.hex }}",
                         "font_style": {{ italics }},
                         "font_weight": null
                     },
