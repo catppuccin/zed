@@ -305,7 +305,7 @@ whiskers:
                         "font_weight": null
                     },
                     "type.builtin": {
-                        "color": "#{{ c.yellow.hex }}",
+                        "color": "#{{ c.mauve.hex }}",
                         "font_style": {{ italics }},
                         "font_weight": null
                     },
