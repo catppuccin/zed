@@ -266,12 +266,12 @@ whiskers:
                         "font_weight": null
                     },
                     "emphasis": {
-                        "color": "#{{ c.red.hex }}",
+                        "color": "#{{ c.maroon.hex }}",
                         "font_style": {{ italics }},
                         "font_weight": null
                     },
                     "emphasis.strong": {
-                        "color": "#{{ c.red.hex }}",
+                        "color": "#{{ c.maroon.hex }}",
                         "font_style": null,
                         "font_weight": 700
                     },
@@ -279,6 +279,11 @@ whiskers:
                         "color": "#{{ c.teal.hex }}",
                         "font_style": null,
                         "font_weight": 700
+                    },
+                    "field": {
+                        "color": "#{{ c.lavender.hex }}",
+                        "font_style": null,
+                        "font_weight": null
                     },
                     "function": {
                         "color": "#{{ c.blue.hex }}",
@@ -406,8 +411,8 @@ whiskers:
                         "font_weight": null
                     },
                     "link_uri": {
-                        "color": "#{{ c.blue.hex }}",
-                        "font_style": null,
+                        "color": "#{{ c.rosewater.hex }}",
+                        "font_style": {{ italics }},
                         "font_weight": null
                     },
                     "module": {
@@ -416,8 +421,8 @@ whiskers:
                         "font_weight": null
                     },
                     "namespace": {
-                        "color": "#{{ c.yellow.hex }}",
-                        "font_style": null,
+                        "color": "#{{ c.lavender.hex }}",
+                        "font_style": {{ italics }},
                         "font_weight": null
                     },
                     "number": {
@@ -432,6 +437,11 @@ whiskers:
                     },
                     "operator": {
                         "color": "#{{ c.sky.hex }}",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "parameter": {
+                        "color": "#{{ c.maroon.hex }}",
                         "font_style": null,
                         "font_weight": null
                     },
