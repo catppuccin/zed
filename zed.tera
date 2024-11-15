@@ -643,6 +643,11 @@ whiskers:
                         "font_style": null,
                         "font_weight": null
                     },
+                    "tag.doctype": {
+                        "color": "#{{ c.mauve.hex }}",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "title": {
                         "color": "#{{ c.text.hex }}",
                         "font_style": null,

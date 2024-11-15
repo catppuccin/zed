@@ -625,6 +625,11 @@
                         "font_style": null,
                         "font_weight": null
                     },
+                    "tag.doctype": {
+                        "color": "#8839ef",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "title": {
                         "color": "#4c4f69",
                         "font_style": null,
@@ -1257,6 +1262,11 @@
                     },
                     "primary": {
                         "color": "#ea999c",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "tag.doctype": {
+                        "color": "#ca9ee6",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -1895,6 +1905,11 @@
                         "font_style": null,
                         "font_weight": null
                     },
+                    "tag.doctype": {
+                        "color": "#c6a0f6",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "title": {
                         "color": "#cad3f5",
                         "font_style": null,
@@ -2527,6 +2542,11 @@
                     },
                     "primary": {
                         "color": "#eba0ac",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "tag.doctype": {
+                        "color": "#cba6f7",
                         "font_style": null,
                         "font_weight": null
                     },
