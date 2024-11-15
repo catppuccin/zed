@@ -23,8 +23,7 @@ whiskers:
             c.text  | mix(color=c.blue, amount=0.6),
             c.text  | mix(color=c.green, amount=0.6),
         ] -%}
-        {%- set italics = if(cond=variant == "-no-italics", t="null", f='"italic"') -%}
-        {% set predictColor = c.surface2 | mix(color=c.blue, amount=0.33) %}
+        {%- set italics = if(cond=variant == "-no-italics", t="null", f='"italic"') %}
         {
             "name": "Catppuccin {{ flavor.name }} {%- if accent != 'mauve' %} ({{ accent }}) {%- endif -%} {%- if variant == "-no-italics" %} - No Italics {%- endif -%}",
             "appearance": {% if flavor.dark %}"dark"{% else %}"light"{% endif %},
@@ -150,7 +149,7 @@ whiskers:
                 "modified": "#{{ c.yellow.hex }}",
                 "modified.border": "#{{ c.yellow.hex }}",
                 "modified.background": "#{{ c.mantle.hex }}",
-                "predictive": "#{{ predictColor | get(key="hex") }}",
+                "predictive": "#{{ c.overlay0.hex }}",
                 "predictive.border": "#{{ c.lavender.hex }}",
                 "predictive.background": "#{{ c.mantle.hex }}",
                 "renamed": "#{{ c.sapphire.hex }}",
@@ -630,7 +629,7 @@ whiskers:
                         "font_weight": null
                     },
                     "predictive": {
-                        "color": "#{{ predictColor | get(key="hex") }}",
+                        "color": "#{{ c.overlay0.hex }}",
                         "font_style": null,
                         "font_weight": null
                     },

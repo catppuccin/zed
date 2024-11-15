@@ -122,7 +122,7 @@
                 "modified": "#df8e1d",
                 "modified.border": "#df8e1d",
                 "modified.background": "#e6e9ef",
-                "predictive": "#4d7ee3",
+                "predictive": "#9ca0b0",
                 "predictive.border": "#7287fd",
                 "predictive.background": "#e6e9ef",
                 "renamed": "#209fb5",
@@ -611,7 +611,7 @@
                         "font_weight": null
                     },
                     "predictive": {
-                        "color": "#4d7ee3",
+                        "color": "#9ca0b0",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -757,7 +757,7 @@
                 "modified": "#e5c890",
                 "modified.border": "#e5c890",
                 "modified.background": "#292c3c",
-                "predictive": "#7e94ca",
+                "predictive": "#737994",
                 "predictive.border": "#babbf1",
                 "predictive.background": "#292c3c",
                 "renamed": "#85c1dc",
@@ -1246,7 +1246,7 @@
                         "font_weight": null
                     },
                     "predictive": {
-                        "color": "#7e94ca",
+                        "color": "#737994",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -1392,7 +1392,7 @@
                 "modified": "#eed49f",
                 "modified.border": "#eed49f",
                 "modified.background": "#1e2030",
-                "predictive": "#7b94cc",
+                "predictive": "#6e738d",
                 "predictive.border": "#b7bdf8",
                 "predictive.background": "#1e2030",
                 "renamed": "#7dc4e4",
@@ -1881,7 +1881,7 @@
                         "font_weight": null
                     },
                     "predictive": {
-                        "color": "#7b94cc",
+                        "color": "#6e738d",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -2027,7 +2027,7 @@
                 "modified": "#f9e2af",
                 "modified.border": "#f9e2af",
                 "modified.background": "#181825",
-                "predictive": "#7997cd",
+                "predictive": "#6c7086",
                 "predictive.border": "#b4befe",
                 "predictive.background": "#181825",
                 "renamed": "#74c7ec",
@@ -2516,7 +2516,7 @@
                         "font_weight": null
                     },
                     "predictive": {
-                        "color": "#7997cd",
+                        "color": "#6c7086",
                         "font_style": null,
                         "font_weight": null
                     },
