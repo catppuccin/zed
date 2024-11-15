@@ -207,6 +207,11 @@ whiskers:
                         "font_style": {{ italics }},
                         "font_weight": null
                     },
+                    "constant": {
+                        "color": "#{{ c.peach.hex }}",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "constant.builtin": {
                         "color": "#{{ c.peach.hex }}",
                         "font_style": null,
@@ -453,12 +458,12 @@ whiskers:
                         "font_style": null,
                         "font_weight": null
                     },
-                    "punctuation.bracket": {
+                    "punctuation.delimiter": {
                         "color": "#{{ c.overlay2.hex }}",
                         "font_style": null,
                         "font_weight": null
                     },
-                    "punctuation.delimiter": {
+                    "punctuation.bracket": {
                         "color": "#{{ c.overlay2.hex }}",
                         "font_style": null,
                         "font_weight": null
@@ -494,6 +499,7 @@ whiskers:
                         "font_style": {{ italics }},
                         "font_weight": null
                     },
+                    {#- ! untested, rollback if zed supports these #}
                     "comment.error": {
                         "color": "#{{ c.red.hex }}",
                         "font_style": {{ italics }},
@@ -519,7 +525,43 @@ whiskers:
                         "font_style": {{ italics }},
                         "font_weight": null
                     },
-                    "constant": {
+                    {#- ! end untested #}
+                    {#- Diff (not supported) #}
+                    {#- Tags #}
+                    "tag": {
+                        "color": "#{{ c.mauve.hex }}",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "tag.attribute": {
+                        "color": "#{{ c.teal.hex }}",
+                        "font_style": {{ italics }},
+                        "font_weight": null
+                    },
+                    "tag.delimiter": {
+                        "color": "#{{ c.sky.hex }}",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    {#- Misc #}
+                    {#- Language specific (not supported) #}
+                    {#- Legacy highlights #}
+                    "parameter": {
+                        "color": "#{{ c.maroon.hex }}",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "field": {
+                        "color": "#{{ c.lavender.hex }}",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "namespace": {
+                        "color": "#{{ c.lavender.hex }}",
+                        "font_style": {{ italics }},
+                        "font_weight": null
+                    },
+                    "float": {
                         "color": "#{{ c.peach.hex }}",
                         "font_style": null,
                         "font_weight": null
@@ -544,11 +586,6 @@ whiskers:
                         "font_style": null,
                         "font_weight": 700
                     },
-                    "field": {
-                        "color": "#{{ c.lavender.hex }}",
-                        "font_style": null,
-                        "font_weight": null
-                    },
                     "function": {
                         "color": "#{{ c.blue.hex }}",
                         "font_style": null,
@@ -569,16 +606,6 @@ whiskers:
                         "font_style": {{ italics }},
                         "font_weight": null
                     },
-                    "namespace": {
-                        "color": "#{{ c.lavender.hex }}",
-                        "font_style": {{ italics }},
-                        "font_weight": null
-                    },
-                    "parameter": {
-                        "color": "#{{ c.maroon.hex }}",
-                        "font_style": null,
-                        "font_weight": null
-                    },
                     "predictive": {
                         "color": "#{{ predictColor | get(key="hex") }}",
                         "font_style": null,
@@ -591,21 +618,6 @@ whiskers:
                     },
                     "primary": {
                         "color": "#{{ c.maroon.hex }}",
-                        "font_style": null,
-                        "font_weight": null
-                    },
-                    "tag": {
-                        "color": "#{{ c.mauve.hex }}",
-                        "font_style": null,
-                        "font_weight": null
-                    },
-                    "tag.attribute": {
-                        "color": "#{{ c.teal.hex }}",
-                        "font_style": {{ italics }},
-                        "font_weight": null
-                    },
-                    "tag.delimiter": {
-                        "color": "#{{ c.sky.hex }}",
                         "font_style": null,
                         "font_weight": null
                     },
