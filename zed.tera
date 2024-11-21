@@ -46,7 +46,7 @@ whiskers:
                 "ghost_element.background": "#{{ c.crust | mod(opacity=0.6) | get(key="hex") }}",
                 "ghost_element.hover": "#{{ c.surface2 | mod(opacity=0.3) | get(key="hex") }}",
                 "ghost_element.active": "#{{ c.surface2 | mod(opacity=0.5) | get(key="hex") }}",
-                "ghost_element.selected": "#{{ c.overlay0 | mod(opacity=0.35) | get(key="hex") }}",
+                "ghost_element.selected": "#{{ c.text | mod(opacity=0.10) | get(key="hex") }}",
                 "ghost_element.disabled": "#{{ c.overlay0.hex }}",
                 "text": "#{{ c.text.hex }}",
                 "text.muted": "#{{ c.subtext1.hex }}",
