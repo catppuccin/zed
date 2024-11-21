@@ -595,6 +595,16 @@
                         "font_style": null,
                         "font_weight": 700
                     },
+                    "function.decorator": {
+                        "color": "#fe640b",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "type.class.definition": {
+                        "color": "#df8e1d",
+                        "font_style": null,
+                        "font_weight": 600
+                    },
                     "hint": {
                         "color": "#acb0be",
                         "font_style": null,
@@ -1234,6 +1244,16 @@
                         "color": "#81c8be",
                         "font_style": null,
                         "font_weight": 700
+                    },
+                    "function.decorator": {
+                        "color": "#ef9f76",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "type.class.definition": {
+                        "color": "#e5c890",
+                        "font_style": null,
+                        "font_weight": 600
                     },
                     "hint": {
                         "color": "#626880",
@@ -1875,6 +1895,16 @@
                         "font_style": null,
                         "font_weight": 700
                     },
+                    "function.decorator": {
+                        "color": "#f5a97f",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "type.class.definition": {
+                        "color": "#eed49f",
+                        "font_style": null,
+                        "font_weight": 600
+                    },
                     "hint": {
                         "color": "#5b6078",
                         "font_style": null,
@@ -2514,6 +2544,16 @@
                         "color": "#94e2d5",
                         "font_style": null,
                         "font_weight": 700
+                    },
+                    "function.decorator": {
+                        "color": "#fab387",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "type.class.definition": {
+                        "color": "#f9e2af",
+                        "font_style": null,
+                        "font_weight": 600
                     },
                     "hint": {
                         "color": "#585b70",

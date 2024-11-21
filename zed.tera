@@ -613,6 +613,16 @@ whiskers:
                         "font_style": null,
                         "font_weight": 700
                     },
+                    "function.decorator": {
+                        "color": "#{{ c.peach.hex }}",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "type.class.definition": {
+                        "color": "#{{ c.yellow.hex }}",
+                        "font_style": null,
+                        "font_weight": 600
+                    },
                     "hint": {
                         "color": "#{{ c.surface2.hex }}",
                         "font_style": {{ italics }},
