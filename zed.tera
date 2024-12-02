@@ -561,7 +561,7 @@ whiskers:
                         "font_weight": null
                     },
                     "namespace": {
-                        "color": "#{{ c.lavender.hex }}",
+                        "color": "#{{ c.yellow.hex }}",
                         "font_style": {{ italics }},
                         "font_weight": null
                     },
