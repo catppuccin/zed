@@ -51,7 +51,7 @@ whiskers:
                 "text": "#{{ c.text.hex }}",
                 "text.muted": "#{{ c.subtext1.hex }}",
                 "text.placeholder": "#{{ c.surface2.hex }}",
-                "text.disabled": "#{{ c.subtext0.hex }}",
+                "text.disabled": "#{{ c.surface1.hex }}",
                 "text.accent": "#{{ c[accent].hex }}",
                 "icon": "#{{ c.text.hex }}",
                 "icon.muted": "#{{ c.overlay1.hex }}",
