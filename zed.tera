@@ -608,6 +608,11 @@ whiskers:
                         "font_weight": null
                     },
                     {#- Zed specific #}
+                    "concept": {
+                        "color": "#{{ c.sapphire.hex }}",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "enum": {
                         "color": "#{{ c.teal.hex }}",
                         "font_style": null,
@@ -621,7 +626,7 @@ whiskers:
                     "type.class.definition": {
                         "color": "#{{ c.yellow.hex }}",
                         "font_style": null,
-                        "font_weight": 600
+                        "font_weight": 700
                     },
                     "hint": {
                         "color": "#{{ c.surface2.hex }}",
@@ -636,6 +641,11 @@ whiskers:
                     "link_uri": {
                         "color": "#{{ c.rosewater.hex }}",
                         "font_style": {{ italics }},
+                        "font_weight": null
+                    },
+                    "parent": {
+                        "color": "#{{ c.peach.hex }}",
+                        "font_style": null,
                         "font_weight": null
                     },
                     "predictive": {
@@ -657,6 +667,11 @@ whiskers:
                         "color": "#{{ c.mauve.hex }}",
                         "font_style": null,
                         "font_weight": null
+                    },
+                    "string.doc": {
+                      "color": "#{{ c.overlay2.hex }}",
+                      "font_style": {{ italics }},
+                      "font_weight": null
                     },
                     "title": {
                         "color": "#{{ c.text.hex }}",
