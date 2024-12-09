@@ -99,6 +99,7 @@ whiskers:
                 {#- terminal is built-in Alacritty, use same colors as (https://github.com/catppuccin/alacritty/) -#}
                 {#- colors.primary #}
                 "terminal.background": "#{{ c.base.hex }}",
+                "terminal.ansi.background": "#{{ c.base.hex }}",
                 "terminal.foreground": "#{{ c.text.hex }}",
                 "terminal.dim_foreground": "#{{ c.overlay1.hex }}",
                 "terminal.bright_foreground": "#{{ c.text.hex }}",
