@@ -73,7 +73,7 @@ whiskers:
                 "pane.focused_border": "#{{ c.text.hex }}",
                 "scrollbar.thumb.background": "#{{ c[accent] | mod(opacity=0.2) | get(key="hex") }}",
                 "scrollbar.thumb.hover_background": "#{{ c.overlay0.hex }}",
-                "scrollbar.thumb.border": "#{{ c.surface2 | mod(opacity=0.5) | get(key="hex") }}",
+                "scrollbar.thumb.border": "#{{ c[accent] | mod(opacity=0.8) | get(key="hex") }}",
                 "scrollbar.track.background": "#{{ c.base.hex }}",
                 "scrollbar.track.border": "#{{ c.text | mod(opacity=0.07) | get(key="hex") }}",
                 "editor.foreground": "#{{ c.text.hex }}",
@@ -90,6 +90,8 @@ whiskers:
                 "editor.document_highlight.bracket_background": "#{{ c.rosewater | mod(opacity=0.25) | get(key="hex") }}",
                 "editor.document_highlight.read_background": "#{{ c.subtext0 | mod(opacity=0.16) | get(key="hex") }}",
                 "editor.document_highlight.write_background": "#{{ c.subtext0 | mod(opacity=0.16) | get(key="hex") }}",
+                "editor.indent_guide": "#{{ c.surface0 | mod(opacity=0.40) | get(key="hex") }}",
+                "editor.indent_guide_active": "#{{ c[accent].hex }}",
                 {#- terminal is built-in Alacritty, use same colors as (https://github.com/catppuccin/alacritty/) -#}
                 {#- colors.primary #}
                 "terminal.background": "#{{ c.base.hex }}",
