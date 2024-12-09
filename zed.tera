@@ -37,7 +37,7 @@ whiskers:
                 "border.transparent": "#{{ c.green.hex }}",
                 "border.disabled": "#{{ c.overlay0.hex }}",
                 "elevated_surface.background": "#{{ c.mantle.hex }}",
-                "surface.background": "#{{ c.base.hex }}",
+                "surface.background": "#{{ c.mantle.hex }}",
                 "background": "#{{ c.base.hex }}",
                 "element.background": "#{{ c.crust.hex }}",
                 "element.hover": "#{{ c.surface1 | mod(opacity=0.3) | get(key="hex") }}",
