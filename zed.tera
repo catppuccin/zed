@@ -10,7 +10,7 @@ whiskers:
 {
     "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
     "name": "Catppuccin",
-    "author": "Andrew Tec <andrewtec@enjoi.dev>",
+    "author": "Catppuccin <releases@catppuccin.dev>",
     "themes": [
         {%- for _, flavor in flavors -%}
         {%- set c = flavor.colors -%}
