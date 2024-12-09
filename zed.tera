@@ -71,6 +71,7 @@ whiskers:
                 "panel.background": "#{{ c.mantle.hex }}",
                 "panel.focused_border": "#{{ c.text.hex }}",
                 "pane.focused_border": "#{{ c.text.hex }}",
+                "pane_group.border": "#{{ c.surface0.hex }}",
                 "scrollbar.thumb.background": "#{{ c[accent] | mod(opacity=0.2) | get(key="hex") }}",
                 "scrollbar.thumb.hover_background": "#{{ c.overlay0.hex }}",
                 "scrollbar.thumb.border": "#{{ c[accent] | mod(opacity=0.8) | get(key="hex") }}",
