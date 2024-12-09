@@ -1,18 +1,14 @@
 [
   {
-    "label": "build (mauve accent only)",
-    "command": "whiskers zed.tera -o json --overrides '{\"accent\": [\"mauve\"]}'"
+    "label": "Build (all)",
+    "command": "whiskers zed.tera"
   },
   {
-    "label": "publish (all accents)",
-    "command": "whiskers zed.tera -o json"
+    "label": "Build (mauve only)",
+    "command": "whiskers zed.tera --overrides '{\"accent\": [\"mauve\"]}'"
   },
   {
-    "label": "clean",
+    "label": "Clean",
     "command": "rm themes/*.json"
-  },
-  {
-    "label": "test",
-    "command": "whiskers zed.tera -o json --overrides '{\"accent\": \"mauve\"}' --check themes/catppuccin-mauve.json"
   }
 ]
