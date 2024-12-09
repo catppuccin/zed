@@ -87,6 +87,7 @@ whiskers:
                 "editor.invisible": "#{{ c.overlay2 | mod(opacity=0.4) | get(key="hex") }}",
                 "editor.wrap_guide": "#{{ c.surface2.hex }}",
                 "editor.active_wrap_guide": "#{{ c.surface2.hex }}",
+                "editor.document_highlight.bracket_background": "#{{ c.rosewater | mod(opacity=0.25) | get(key="hex") }}",
                 "editor.document_highlight.read_background": "#{{ c.subtext0 | mod(opacity=0.16) | get(key="hex") }}",
                 "editor.document_highlight.write_background": "#{{ c.subtext0 | mod(opacity=0.16) | get(key="hex") }}",
                 {#- terminal is built-in Alacritty, use same colors as (https://github.com/catppuccin/alacritty/) -#}
