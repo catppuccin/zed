@@ -530,7 +530,17 @@ whiskers:
                         "font_weight": null
                     },
                     {#- ! end untested #}
-                    {#- Diff (not supported) #}
+                    {#- Diff #}
+                    "diff.plus": {
+                        "color": "#{{ c.green.hex }}",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "diff.minus": {
+                        "color": "#{{ c.red.hex }}",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     {#- Tags #}
                     "tag": {
                         "color": "#{{ c.blue.hex }}",

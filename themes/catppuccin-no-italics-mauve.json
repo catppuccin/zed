@@ -520,6 +520,16 @@
                         "font_style": null,
                         "font_weight": null
                     },
+                    "diff.plus": {
+                        "color": "#40a02b",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "diff.minus": {
+                        "color": "#d20f39",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "tag": {
                         "color": "#1e66f5",
                         "font_style": null,
@@ -1182,6 +1192,16 @@
                     },
                     "comment.note": {
                         "color": "#f2d5cf",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "diff.plus": {
+                        "color": "#a6d189",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "diff.minus": {
+                        "color": "#e78284",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -1850,6 +1870,16 @@
                         "font_style": null,
                         "font_weight": null
                     },
+                    "diff.plus": {
+                        "color": "#a6da95",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "diff.minus": {
+                        "color": "#ed8796",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "tag": {
                         "color": "#8aadf4",
                         "font_style": null,
@@ -2512,6 +2542,16 @@
                     },
                     "comment.note": {
                         "color": "#f5e0dc",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "diff.plus": {
+                        "color": "#a6e3a1",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "diff.minus": {
+                        "color": "#f38ba8",
                         "font_style": null,
                         "font_weight": null
                     },
