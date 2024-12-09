@@ -91,7 +91,7 @@ whiskers:
                 "editor.document_highlight.read_background": "#{{ c.subtext0 | mod(opacity=0.16) | get(key="hex") }}",
                 "editor.document_highlight.write_background": "#{{ c.subtext0 | mod(opacity=0.16) | get(key="hex") }}",
                 "editor.indent_guide": "#{{ c.surface0 | mod(opacity=0.40) | get(key="hex") }}",
-                "editor.indent_guide_active": "#{{ c[accent].hex }}",
+                "editor.indent_guide_active": "#{{ c.surface2.hex }}",
                 {#- terminal is built-in Alacritty, use same colors as (https://github.com/catppuccin/alacritty/) -#}
                 {#- colors.primary #}
                 "terminal.background": "#{{ c.base.hex }}",
