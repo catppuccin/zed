@@ -70,6 +70,9 @@ whiskers:
                 "search.match_background": "#{{ c.teal | mod(opacity=0.2) | get(key="hex") }}",
                 "panel.background": "#{{ c.mantle.hex }}",
                 "panel.focused_border": "#{{ c.text.hex }}",
+                "panel.indent_guide": "#{{ c.surface0 | mod(opacity=0.60) | get(key="hex") }}",
+                "panel.indent_guide_active": "#{{ c.surface2.hex }}",
+                "panel.indent_guide_hover": "#{{ c[accent].hex }}",
                 "pane.focused_border": "#{{ c.text.hex }}",
                 "pane_group.border": "#{{ c.surface0.hex }}",
                 "scrollbar.thumb.background": "#{{ c[accent] | mod(opacity=0.2) | get(key="hex") }}",
@@ -91,7 +94,7 @@ whiskers:
                 "editor.document_highlight.bracket_background": "#{{ c.rosewater | mod(opacity=0.25) | get(key="hex") }}",
                 "editor.document_highlight.read_background": "#{{ c.subtext0 | mod(opacity=0.16) | get(key="hex") }}",
                 "editor.document_highlight.write_background": "#{{ c.subtext0 | mod(opacity=0.16) | get(key="hex") }}",
-                "editor.indent_guide": "#{{ c.surface0 | mod(opacity=0.40) | get(key="hex") }}",
+                "editor.indent_guide": "#{{ c.surface0 | mod(opacity=0.60) | get(key="hex") }}",
                 "editor.indent_guide_active": "#{{ c.surface2.hex }}",
                 {#- terminal is built-in Alacritty, use same colors as (https://github.com/catppuccin/alacritty/) -#}
                 {#- colors.primary #}
