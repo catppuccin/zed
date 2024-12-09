@@ -7,6 +7,8 @@
             "name": "Catppuccin Latte",
             "appearance": "light",
             "style": {
+                "accent": [],
+                "background.appearance": "opaque",
                 "border": "#ccd0da",
                 "border.variant": "#9658eb",
                 "border.focused": "#7287fd",
@@ -682,6 +684,8 @@
             "name": "Catppuccin Frappé",
             "appearance": "dark",
             "style": {
+                "accent": [],
+                "background.appearance": "opaque",
                 "border": "#414559",
                 "border.variant": "#af8cca",
                 "border.focused": "#babbf1",
@@ -1357,6 +1361,8 @@
             "name": "Catppuccin Macchiato",
             "appearance": "dark",
             "style": {
+                "accent": [],
+                "background.appearance": "opaque",
                 "border": "#363a4f",
                 "border.variant": "#a98cd5",
                 "border.focused": "#b7bdf8",
@@ -2032,6 +2038,8 @@
             "name": "Catppuccin Mocha",
             "appearance": "dark",
             "style": {
+                "accent": [],
+                "background.appearance": "opaque",
                 "border": "#313244",
                 "border.variant": "#ac8fd4",
                 "border.focused": "#b4befe",
