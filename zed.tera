@@ -8,7 +8,7 @@ whiskers:
     filename: "themes/catppuccin{{ variant }}-{{ accent }}.json"
 ---
 {
-    "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+    "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
     "name": "Catppuccin",
     "author": "Catppuccin <releases@catppuccin.dev>",
     "themes": [
@@ -28,6 +28,8 @@ whiskers:
             "name": "Catppuccin {{ flavor.name }} {%- if accent != 'mauve' %} ({{ accent }}) {%- endif -%} {%- if variant == "-no-italics" %} - No Italics {%- endif -%}",
             "appearance": {% if flavor.dark %}"dark"{% else %}"light"{% endif %},
             "style": {
+                "accent": [], {#- TODO (doesn't seem to do anything now) #}
+                "background.appearance": "opaque", {#- all others remove app window shadow-backdrop on macOS #}
                 "border": "#{{ c.surface0.hex }}",
                 "border.variant": "#{{ c[accent] | mix(color=c.surface0, amount=0.8) | get(key="hex") }}",
                 "border.focused": "#{{ c.lavender.hex }}",
@@ -68,10 +70,14 @@ whiskers:
                 "search.match_background": "#{{ c.teal | mod(opacity=0.2) | get(key="hex") }}",
                 "panel.background": "#{{ c.mantle.hex }}",
                 "panel.focused_border": "#{{ c.text.hex }}",
+                "panel.indent_guide": "#{{ c.surface0 | mod(opacity=0.60) | get(key="hex") }}",
+                "panel.indent_guide_active": "#{{ c.surface2.hex }}",
+                "panel.indent_guide_hover": "#{{ c[accent].hex }}",
                 "pane.focused_border": "#{{ c.text.hex }}",
+                "pane_group.border": "#{{ c.surface0.hex }}",
                 "scrollbar.thumb.background": "#{{ c[accent] | mod(opacity=0.2) | get(key="hex") }}",
                 "scrollbar.thumb.hover_background": "#{{ c.overlay0.hex }}",
-                "scrollbar.thumb.border": "#{{ c.surface2 | mod(opacity=0.5) | get(key="hex") }}",
+                "scrollbar.thumb.border": "#{{ c[accent] | mod(opacity=0.8) | get(key="hex") }}",
                 "scrollbar.track.background": "#{{ c.base.hex }}",
                 "scrollbar.track.border": "#{{ c.text | mod(opacity=0.07) | get(key="hex") }}",
                 "editor.foreground": "#{{ c.text.hex }}",
@@ -85,11 +91,15 @@ whiskers:
                 "editor.invisible": "#{{ c.overlay2 | mod(opacity=0.4) | get(key="hex") }}",
                 "editor.wrap_guide": "#{{ c.surface2.hex }}",
                 "editor.active_wrap_guide": "#{{ c.surface2.hex }}",
+                "editor.document_highlight.bracket_background": "#{{ c.rosewater | mod(opacity=0.25) | get(key="hex") }}",
                 "editor.document_highlight.read_background": "#{{ c.subtext0 | mod(opacity=0.16) | get(key="hex") }}",
                 "editor.document_highlight.write_background": "#{{ c.subtext0 | mod(opacity=0.16) | get(key="hex") }}",
+                "editor.indent_guide": "#{{ c.surface0 | mod(opacity=0.60) | get(key="hex") }}",
+                "editor.indent_guide_active": "#{{ c.surface2.hex }}",
                 {#- terminal is built-in Alacritty, use same colors as (https://github.com/catppuccin/alacritty/) -#}
                 {#- colors.primary #}
                 "terminal.background": "#{{ c.base.hex }}",
+                "terminal.ansi.background": "#{{ c.base.hex }}",
                 "terminal.foreground": "#{{ c.text.hex }}",
                 "terminal.dim_foreground": "#{{ c.overlay1.hex }}",
                 "terminal.bright_foreground": "#{{ c.text.hex }}",
