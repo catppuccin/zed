@@ -14,21 +14,26 @@ whiskers:
     "themes": [
         {%- for _, flavor in flavors -%}
         {%- set c = flavor.colors -%}
-        {% set players = [
-            c.text  | mix(color=c.sapphire, amount=0.6),
-            c.text  | mix(color=c.red, amount=0.6),
-            c.text  | mix(color=c.teal, amount=0.6),
-            c.text  | mix(color=c.peach, amount=0.6),
-            c.text  | mix(color=c.yellow, amount=0.6),
-            c.text  | mix(color=c.blue, amount=0.6),
-            c.text  | mix(color=c.green, amount=0.6),
+        {% set rainbow = [
+            c.red       | mix(color=c.text, amount=0.8),
+            c.peach     | mix(color=c.text, amount=0.8),
+            c.yellow    | mix(color=c.text, amount=0.8),
+            c.green     | mix(color=c.text, amount=0.8),
+            c.sapphire  | mix(color=c.text, amount=0.8),
+            c.lavender  | mix(color=c.text, amount=0.8),
+            c.mauve     | mix(color=c.text, amount=0.8),
         ] -%}
         {%- set italics = if(cond=variant == "-no-italics", t="null", f='"italic"') %}
         {
             "name": "Catppuccin {{ flavor.name }} {%- if accent != 'mauve' %} ({{ accent }}) {%- endif -%} {%- if variant == "-no-italics" %} - No Italics {%- endif -%}",
             "appearance": {% if flavor.dark %}"dark"{% else %}"light"{% endif %},
             "style": {
-                "accent": [], {#- TODO (doesn't seem to do anything now) #}
+                "accents": [
+                {#- NOTE: not Catppuccin accents, but for indent_aware coloring #}
+                {%- for color in rainbow %}
+                    "#{{ color.hex }}ff"{%- if not loop.last %},{% endif -%}
+                {% endfor %}
+                ],
                 "background.appearance": "opaque", {#- all others remove app window shadow-backdrop on macOS #}
                 "border": "#{{ c.surface0.hex }}",
                 "border.variant": "#{{ c[accent] | mix(color=c.surface0, amount=0.8) | get(key="hex") }}",
@@ -180,11 +185,11 @@ whiskers:
                         "selection": "#{{ c.surface2 | mod(opacity=0.5) | get(key="hex") }}",
                         "background": "#{{ c.rosewater.hex }}"
                     },
-                    {%- for player in players %}
+                    {%- for color in rainbow %}
                     {
-                        "cursor": "#{{ player.hex }}",
-                        "selection": "#{{ player | mod(opacity=0.2) | get(key="hex") }}",
-                        "background": "#{{ player.hex }}"
+                        "cursor": "#{{ color.hex }}",
+                        "selection": "#{{ color | mod(opacity=0.2) | get(key="hex") }}",
+                        "background": "#{{ color.hex }}"
                     }{% if not loop.last %},{% endif -%}
                     {% endfor %}
                 ],

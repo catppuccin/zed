@@ -7,7 +7,15 @@
             "name": "Catppuccin Latte",
             "appearance": "light",
             "style": {
-                "accent": [],
+                "accents": [
+                    "#b71c43ff",
+                    "#da601eff",
+                    "#c1822cff",
+                    "#429037ff",
+                    "#298fa6ff",
+                    "#6a7cdfff",
+                    "#7c3ed4ff"
+                ],
                 "background.appearance": "opaque",
                 "border": "#ccd0da",
                 "border.variant": "#9658eb",
@@ -154,39 +162,39 @@
                         "background": "#dc8a78"
                     },
                     {
-                        "cursor": "#3b6f87",
-                        "selection": "#3b6f8733",
-                        "background": "#3b6f87"
+                        "cursor": "#b71c43",
+                        "selection": "#b71c4333",
+                        "background": "#b71c43"
                     },
                     {
-                        "cursor": "#823556",
-                        "selection": "#82355633",
-                        "background": "#823556"
+                        "cursor": "#da601e",
+                        "selection": "#da601e33",
+                        "background": "#da601e"
                     },
                     {
-                        "cursor": "#37697c",
-                        "selection": "#37697c33",
-                        "background": "#37697c"
+                        "cursor": "#c1822c",
+                        "selection": "#c1822c33",
+                        "background": "#c1822c"
                     },
                     {
-                        "cursor": "#945743",
-                        "selection": "#94574333",
-                        "background": "#945743"
+                        "cursor": "#429037",
+                        "selection": "#42903733",
+                        "background": "#429037"
                     },
                     {
-                        "cursor": "#87684b",
-                        "selection": "#87684b33",
-                        "background": "#87684b"
+                        "cursor": "#298fa6",
+                        "selection": "#298fa633",
+                        "background": "#298fa6"
                     },
                     {
-                        "cursor": "#3a58a1",
-                        "selection": "#3a58a133",
-                        "background": "#3a58a1"
+                        "cursor": "#6a7cdf",
+                        "selection": "#6a7cdf33",
+                        "background": "#6a7cdf"
                     },
                     {
-                        "cursor": "#486f50",
-                        "selection": "#486f5033",
-                        "background": "#486f50"
+                        "cursor": "#7c3ed4",
+                        "selection": "#7c3ed433",
+                        "background": "#7c3ed4"
                     }
                 ],
                 "syntax": {
@@ -692,7 +700,15 @@
             "name": "Catppuccin Frappé",
             "appearance": "dark",
             "style": {
-                "accent": [],
+                "accents": [
+                    "#e1929bff",
+                    "#e7a98fff",
+                    "#dfcaa4ff",
+                    "#add19fff",
+                    "#92c4e1ff",
+                    "#bdc0f2ff",
+                    "#caa8e9ff"
+                ],
                 "background.appearance": "opaque",
                 "border": "#414559",
                 "border.variant": "#af8cca",
@@ -839,39 +855,39 @@
                         "background": "#f2d5cf"
                     },
                     {
-                        "cursor": "#accaeb",
-                        "selection": "#accaeb33",
-                        "background": "#accaeb"
+                        "cursor": "#e1929b",
+                        "selection": "#e1929b33",
+                        "background": "#e1929b"
                     },
                     {
-                        "cursor": "#d3b1c8",
-                        "selection": "#d3b1c833",
-                        "background": "#d3b1c8"
+                        "cursor": "#e7a98f",
+                        "selection": "#e7a98f33",
+                        "background": "#e7a98f"
                     },
                     {
-                        "cursor": "#abcddf",
-                        "selection": "#abcddf33",
-                        "background": "#abcddf"
+                        "cursor": "#dfcaa4",
+                        "selection": "#dfcaa433",
+                        "background": "#dfcaa4"
                     },
                     {
-                        "cursor": "#d7bdc2",
-                        "selection": "#d7bdc233",
-                        "background": "#d7bdc2"
+                        "cursor": "#add19f",
+                        "selection": "#add19f33",
+                        "background": "#add19f"
                     },
                     {
-                        "cursor": "#d3cdcd",
-                        "selection": "#d3cdcd33",
-                        "background": "#d3cdcd"
+                        "cursor": "#92c4e1",
+                        "selection": "#92c4e133",
+                        "background": "#92c4e1"
                     },
                     {
-                        "cursor": "#afc1f2",
-                        "selection": "#afc1f233",
-                        "background": "#afc1f2"
+                        "cursor": "#bdc0f2",
+                        "selection": "#bdc0f233",
+                        "background": "#bdc0f2"
                     },
                     {
-                        "cursor": "#b9d1ca",
-                        "selection": "#b9d1ca33",
-                        "background": "#b9d1ca"
+                        "cursor": "#caa8e9",
+                        "selection": "#caa8e933",
+                        "background": "#caa8e9"
                     }
                 ],
                 "syntax": {
@@ -1377,7 +1393,15 @@
             "name": "Catppuccin Macchiato",
             "appearance": "dark",
             "style": {
-                "accent": [],
+                "accents": [
+                    "#e696a9ff",
+                    "#ecb197ff",
+                    "#e6d4b0ff",
+                    "#add8a8ff",
+                    "#8cc7e7ff",
+                    "#bac1f7ff",
+                    "#c6aaf6ff"
+                ],
                 "background.appearance": "opaque",
                 "border": "#363a4f",
                 "border.variant": "#a98cd5",
@@ -1524,39 +1548,39 @@
                         "background": "#f4dbd6"
                     },
                     {
-                        "cursor": "#abcdee",
-                        "selection": "#abcdee33",
-                        "background": "#abcdee"
+                        "cursor": "#e696a9",
+                        "selection": "#e696a933",
+                        "background": "#e696a9"
                     },
                     {
-                        "cursor": "#d8b5cf",
-                        "selection": "#d8b5cf33",
-                        "background": "#d8b5cf"
+                        "cursor": "#ecb197",
+                        "selection": "#ecb19733",
+                        "background": "#ecb197"
                     },
                     {
-                        "cursor": "#b1d4e4",
-                        "selection": "#b1d4e433",
-                        "background": "#b1d4e4"
+                        "cursor": "#e6d4b0",
+                        "selection": "#e6d4b033",
+                        "background": "#e6d4b0"
                     },
                     {
-                        "cursor": "#dbc3c6",
-                        "selection": "#dbc3c633",
-                        "background": "#dbc3c6"
+                        "cursor": "#add8a8",
+                        "selection": "#add8a833",
+                        "background": "#add8a8"
                     },
                     {
-                        "cursor": "#d8d4d3",
-                        "selection": "#d8d4d333",
-                        "background": "#d8d4d3"
+                        "cursor": "#8cc7e7",
+                        "selection": "#8cc7e733",
+                        "background": "#8cc7e7"
                     },
                     {
-                        "cursor": "#b0c4f5",
-                        "selection": "#b0c4f533",
-                        "background": "#b0c4f5"
+                        "cursor": "#bac1f7",
+                        "selection": "#bac1f733",
+                        "background": "#bac1f7"
                     },
                     {
-                        "cursor": "#bbd6cf",
-                        "selection": "#bbd6cf33",
-                        "background": "#bbd6cf"
+                        "cursor": "#c6aaf6",
+                        "selection": "#c6aaf633",
+                        "background": "#c6aaf6"
                     }
                 ],
                 "syntax": {
@@ -2062,7 +2086,15 @@
             "name": "Catppuccin Mocha",
             "appearance": "dark",
             "style": {
-                "accent": [],
+                "accents": [
+                    "#eb9ab7ff",
+                    "#f1ba9dff",
+                    "#f0e0bdff",
+                    "#aee1b2ff",
+                    "#86caeeff",
+                    "#b9c3fcff",
+                    "#cbb0f7ff"
+                ],
                 "background.appearance": "opaque",
                 "border": "#313244",
                 "border.variant": "#ac8fd4",
@@ -2209,39 +2241,39 @@
                         "background": "#f5e0dc"
                     },
                     {
-                        "cursor": "#a9d0f0",
-                        "selection": "#a9d0f033",
-                        "background": "#a9d0f0"
+                        "cursor": "#eb9ab7",
+                        "selection": "#eb9ab733",
+                        "background": "#eb9ab7"
                     },
                     {
-                        "cursor": "#dcb8d5",
-                        "selection": "#dcb8d533",
-                        "background": "#dcb8d5"
+                        "cursor": "#f1ba9d",
+                        "selection": "#f1ba9d33",
+                        "background": "#f1ba9d"
                     },
                     {
-                        "cursor": "#b6dae7",
-                        "selection": "#b6dae733",
-                        "background": "#b6dae7"
+                        "cursor": "#f0e0bd",
+                        "selection": "#f0e0bd33",
+                        "background": "#f0e0bd"
                     },
                     {
-                        "cursor": "#dfc8c8",
-                        "selection": "#dfc8c833",
-                        "background": "#dfc8c8"
+                        "cursor": "#aee1b2",
+                        "selection": "#aee1b233",
+                        "background": "#aee1b2"
                     },
                     {
-                        "cursor": "#dfdad8",
-                        "selection": "#dfdad833",
-                        "background": "#dfdad8"
+                        "cursor": "#86caee",
+                        "selection": "#86caee33",
+                        "background": "#86caee"
                     },
                     {
-                        "cursor": "#b2c8f6",
-                        "selection": "#b2c8f633",
-                        "background": "#b2c8f6"
+                        "cursor": "#b9c3fc",
+                        "selection": "#b9c3fc33",
+                        "background": "#b9c3fc"
                     },
                     {
-                        "cursor": "#bddbd2",
-                        "selection": "#bddbd233",
-                        "background": "#bddbd2"
+                        "cursor": "#cbb0f7",
+                        "selection": "#cbb0f733",
+                        "background": "#cbb0f7"
                     }
                 ],
                 "syntax": {
