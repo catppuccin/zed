@@ -27,13 +27,13 @@ whiskers:
         {
             "name": "Catppuccin {{ flavor.name }} {%- if accent != 'mauve' %} ({{ accent }}) {%- endif -%} {%- if variant == "-no-italics" %} - No Italics {%- endif -%}",
             "appearance": {% if flavor.dark %}"dark"{% else %}"light"{% endif %},
-            "accents": [
-            {#- NOTE: not Catppuccin accents, but for indent_aware coloring #}
-            {%- for color in rainbow %}
-                "#{{ color.hex }}ff"{%- if not loop.last %},{% endif -%}
-            {% endfor %}
-            ],
             "style": {
+                "accents": [
+                {#- NOTE: not Catppuccin accents, but for indent_aware coloring #}
+                {%- for color in rainbow %}
+                    "#{{ color.hex }}ff"{%- if not loop.last %},{% endif -%}
+                {% endfor %}
+                ],
                 "background.appearance": "opaque", {#- all others remove app window shadow-backdrop on macOS #}
                 "border": "#{{ c.surface0.hex }}",
                 "border.variant": "#{{ c[accent] | mix(color=c.surface0, amount=0.8) | get(key="hex") }}",

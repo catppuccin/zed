@@ -6,16 +6,16 @@
         {
             "name": "Catppuccin Latte",
             "appearance": "light",
-            "accents": [
-                "#823556ff",
-                "#87684bff",
-                "#486f50ff",
-                "#37697cff",
-                "#3a58a1ff",
-                "#64469fff",
-                "#3b6f87ff"
-            ],
             "style": {
+                "accents": [
+                    "#823556ff",
+                    "#87684bff",
+                    "#486f50ff",
+                    "#37697cff",
+                    "#3a58a1ff",
+                    "#64469fff",
+                    "#3b6f87ff"
+                ],
                 "background.appearance": "opaque",
                 "border": "#ccd0da",
                 "border.variant": "#9658eb",
@@ -699,16 +699,16 @@
         {
             "name": "Catppuccin Frappé",
             "appearance": "dark",
-            "accents": [
-                "#d3b1c8ff",
-                "#d3cdcdff",
-                "#b9d1caff",
-                "#abcddfff",
-                "#afc1f2ff",
-                "#c8bcefff",
-                "#accaebff"
-            ],
             "style": {
+                "accents": [
+                    "#d3b1c8ff",
+                    "#d3cdcdff",
+                    "#b9d1caff",
+                    "#abcddfff",
+                    "#afc1f2ff",
+                    "#c8bcefff",
+                    "#accaebff"
+                ],
                 "background.appearance": "opaque",
                 "border": "#414559",
                 "border.variant": "#af8cca",
@@ -1392,16 +1392,16 @@
         {
             "name": "Catppuccin Macchiato",
             "appearance": "dark",
-            "accents": [
-                "#d8b5cfff",
-                "#d8d4d3ff",
-                "#bbd6cfff",
-                "#b1d4e4ff",
-                "#b0c4f5ff",
-                "#c8bff5ff",
-                "#abcdeeff"
-            ],
             "style": {
+                "accents": [
+                    "#d8b5cfff",
+                    "#d8d4d3ff",
+                    "#bbd6cfff",
+                    "#b1d4e4ff",
+                    "#b0c4f5ff",
+                    "#c8bff5ff",
+                    "#abcdeeff"
+                ],
                 "background.appearance": "opaque",
                 "border": "#363a4f",
                 "border.variant": "#a98cd5",
@@ -2085,16 +2085,16 @@
         {
             "name": "Catppuccin Mocha",
             "appearance": "dark",
-            "accents": [
-                "#dcb8d5ff",
-                "#dfdad8ff",
-                "#bddbd2ff",
-                "#b6dae7ff",
-                "#b2c8f6ff",
-                "#ccc2f5ff",
-                "#a9d0f0ff"
-            ],
             "style": {
+                "accents": [
+                    "#dcb8d5ff",
+                    "#dfdad8ff",
+                    "#bddbd2ff",
+                    "#b6dae7ff",
+                    "#b2c8f6ff",
+                    "#ccc2f5ff",
+                    "#a9d0f0ff"
+                ],
                 "background.appearance": "opaque",
                 "border": "#313244",
                 "border.variant": "#ac8fd4",
