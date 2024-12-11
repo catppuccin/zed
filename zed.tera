@@ -15,13 +15,13 @@ whiskers:
         {%- for _, flavor in flavors -%}
         {%- set c = flavor.colors -%}
         {% set rainbow = [
-            c.text  | mix(color=c.red, amount=0.6),
-            c.text  | mix(color=c.yellow, amount=0.6),
-            c.text  | mix(color=c.green, amount=0.6),
-            c.text  | mix(color=c.teal, amount=0.6),
-            c.text  | mix(color=c.blue, amount=0.6),
-            c.text  | mix(color=c.mauve, amount=0.6),
-            c.text  | mix(color=c.sapphire, amount=0.6),
+            c.red       | mix(color=c.text, amount=0.8),
+            c.peach     | mix(color=c.text, amount=0.8),
+            c.yellow    | mix(color=c.text, amount=0.8),
+            c.green     | mix(color=c.text, amount=0.8),
+            c.sapphire  | mix(color=c.text, amount=0.8),
+            c.lavender  | mix(color=c.text, amount=0.8),
+            c.mauve     | mix(color=c.text, amount=0.8),
         ] -%}
         {%- set italics = if(cond=variant == "-no-italics", t="null", f='"italic"') %}
         {
