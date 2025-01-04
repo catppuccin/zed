@@ -212,7 +212,7 @@ whiskers:
                         "font_weight": null
                     },
                     "variable.member": {
-                        "color": "#{{ c.red.hex }}",
+                        "color": "#{{ c.blue.hex }}",
                         "font_style": null,
                         "font_weight": null
                     },
