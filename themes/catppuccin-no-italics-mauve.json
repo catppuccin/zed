@@ -64,8 +64,8 @@
                 "pane_group.border": "#ccd0da",
                 "scrollbar.thumb.background": "#8839ef33",
                 "scrollbar.thumb.hover_background": "#9ca0b0",
-                "scrollbar.thumb.border": "#8839efcc",
-                "scrollbar.track.background": "#eff1f5",
+                "scrollbar.thumb.border": "#8839ef",
+                "scrollbar.track.background": null,
                 "scrollbar.track.border": "#4c4f6912",
                 "editor.foreground": "#4c4f69",
                 "editor.background": "#eff1f5",
@@ -214,7 +214,7 @@
                         "font_weight": null
                     },
                     "variable.member": {
-                        "color": "#d20f39",
+                        "color": "#1e66f5",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -679,7 +679,7 @@
                         "font_weight": null
                     },
                     "string.doc": {
-                      "color": "#7c7f93",
+                      "color": "#179299",
                       "font_style": null,
                       "font_weight": null
                     },
@@ -757,8 +757,8 @@
                 "pane_group.border": "#414559",
                 "scrollbar.thumb.background": "#ca9ee633",
                 "scrollbar.thumb.hover_background": "#737994",
-                "scrollbar.thumb.border": "#ca9ee6cc",
-                "scrollbar.track.background": "#303446",
+                "scrollbar.thumb.border": "#ca9ee6",
+                "scrollbar.track.background": null,
                 "scrollbar.track.border": "#c6d0f512",
                 "editor.foreground": "#c6d0f5",
                 "editor.background": "#303446",
@@ -907,7 +907,7 @@
                         "font_weight": null
                     },
                     "variable.member": {
-                        "color": "#e78284",
+                        "color": "#8caaee",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -1372,7 +1372,7 @@
                         "font_weight": null
                     },
                     "string.doc": {
-                      "color": "#949cbb",
+                      "color": "#81c8be",
                       "font_style": null,
                       "font_weight": null
                     },
@@ -1450,8 +1450,8 @@
                 "pane_group.border": "#363a4f",
                 "scrollbar.thumb.background": "#c6a0f633",
                 "scrollbar.thumb.hover_background": "#6e738d",
-                "scrollbar.thumb.border": "#c6a0f6cc",
-                "scrollbar.track.background": "#24273a",
+                "scrollbar.thumb.border": "#c6a0f6",
+                "scrollbar.track.background": null,
                 "scrollbar.track.border": "#cad3f512",
                 "editor.foreground": "#cad3f5",
                 "editor.background": "#24273a",
@@ -1600,7 +1600,7 @@
                         "font_weight": null
                     },
                     "variable.member": {
-                        "color": "#ed8796",
+                        "color": "#8aadf4",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -2065,7 +2065,7 @@
                         "font_weight": null
                     },
                     "string.doc": {
-                      "color": "#939ab7",
+                      "color": "#8bd5ca",
                       "font_style": null,
                       "font_weight": null
                     },
@@ -2143,8 +2143,8 @@
                 "pane_group.border": "#313244",
                 "scrollbar.thumb.background": "#cba6f733",
                 "scrollbar.thumb.hover_background": "#6c7086",
-                "scrollbar.thumb.border": "#cba6f7cc",
-                "scrollbar.track.background": "#1e1e2e",
+                "scrollbar.thumb.border": "#cba6f7",
+                "scrollbar.track.background": null,
                 "scrollbar.track.border": "#cdd6f412",
                 "editor.foreground": "#cdd6f4",
                 "editor.background": "#1e1e2e",
@@ -2293,7 +2293,7 @@
                         "font_weight": null
                     },
                     "variable.member": {
-                        "color": "#f38ba8",
+                        "color": "#89b4fa",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -2758,7 +2758,7 @@
                         "font_weight": null
                     },
                     "string.doc": {
-                      "color": "#9399b2",
+                      "color": "#94e2d5",
                       "font_style": null,
                       "font_weight": null
                     },
