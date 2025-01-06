@@ -694,7 +694,7 @@ whiskers:
                         "font_weight": null
                     },
                     "string.doc": {
-                      "color": "#{{ c.overlay2.hex }}",
+                      "color": "#{{ c.teal.hex }}",
                       "font_style": {{ italics }},
                       "font_weight": null
                     },
