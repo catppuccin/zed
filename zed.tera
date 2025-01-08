@@ -30,7 +30,7 @@ whiskers:
             "style": {
                 "accents": [
                 {#- NOTE: not Catppuccin accents, but for indent_aware coloring #}
-                {%- for color in rainbow %}
+                {%- for color in rainbow | reverse %}
                     "#{{ color.hex }}ff"{%- if not loop.last %},{% endif -%}
                 {% endfor %}
                 ],

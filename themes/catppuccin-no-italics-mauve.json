@@ -8,13 +8,13 @@
             "appearance": "light",
             "style": {
                 "accents": [
-                    "#b71c43ff",
-                    "#da601eff",
-                    "#c1822cff",
-                    "#429037ff",
-                    "#298fa6ff",
+                    "#7c3ed4ff",
                     "#6a7cdfff",
-                    "#7c3ed4ff"
+                    "#298fa6ff",
+                    "#429037ff",
+                    "#c1822cff",
+                    "#da601eff",
+                    "#b71c43ff"
                 ],
                 "background.appearance": "opaque",
                 "border": "#ccd0da",
@@ -701,13 +701,13 @@
             "appearance": "dark",
             "style": {
                 "accents": [
-                    "#e1929bff",
-                    "#e7a98fff",
-                    "#dfcaa4ff",
-                    "#add19fff",
-                    "#92c4e1ff",
+                    "#caa8e9ff",
                     "#bdc0f2ff",
-                    "#caa8e9ff"
+                    "#92c4e1ff",
+                    "#add19fff",
+                    "#dfcaa4ff",
+                    "#e7a98fff",
+                    "#e1929bff"
                 ],
                 "background.appearance": "opaque",
                 "border": "#414559",
@@ -1394,13 +1394,13 @@
             "appearance": "dark",
             "style": {
                 "accents": [
-                    "#e696a9ff",
-                    "#ecb197ff",
-                    "#e6d4b0ff",
-                    "#add8a8ff",
-                    "#8cc7e7ff",
+                    "#c6aaf6ff",
                     "#bac1f7ff",
-                    "#c6aaf6ff"
+                    "#8cc7e7ff",
+                    "#add8a8ff",
+                    "#e6d4b0ff",
+                    "#ecb197ff",
+                    "#e696a9ff"
                 ],
                 "background.appearance": "opaque",
                 "border": "#363a4f",
@@ -2087,13 +2087,13 @@
             "appearance": "dark",
             "style": {
                 "accents": [
-                    "#eb9ab7ff",
-                    "#f1ba9dff",
-                    "#f0e0bdff",
-                    "#aee1b2ff",
-                    "#86caeeff",
+                    "#cbb0f7ff",
                     "#b9c3fcff",
-                    "#cbb0f7ff"
+                    "#86caeeff",
+                    "#aee1b2ff",
+                    "#f0e0bdff",
+                    "#f1ba9dff",
+                    "#eb9ab7ff"
                 ],
                 "background.appearance": "opaque",
                 "border": "#313244",
