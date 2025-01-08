@@ -162,29 +162,9 @@
                         "background": "#dc8a78"
                     },
                     {
-                        "cursor": "#b71c43",
-                        "selection": "#b71c4333",
-                        "background": "#b71c43"
-                    },
-                    {
-                        "cursor": "#da601e",
-                        "selection": "#da601e33",
-                        "background": "#da601e"
-                    },
-                    {
-                        "cursor": "#c1822c",
-                        "selection": "#c1822c33",
-                        "background": "#c1822c"
-                    },
-                    {
-                        "cursor": "#429037",
-                        "selection": "#42903733",
-                        "background": "#429037"
-                    },
-                    {
-                        "cursor": "#298fa6",
-                        "selection": "#298fa633",
-                        "background": "#298fa6"
+                        "cursor": "#7c3ed4",
+                        "selection": "#7c3ed433",
+                        "background": "#7c3ed4"
                     },
                     {
                         "cursor": "#6a7cdf",
@@ -192,9 +172,29 @@
                         "background": "#6a7cdf"
                     },
                     {
-                        "cursor": "#7c3ed4",
-                        "selection": "#7c3ed433",
-                        "background": "#7c3ed4"
+                        "cursor": "#298fa6",
+                        "selection": "#298fa633",
+                        "background": "#298fa6"
+                    },
+                    {
+                        "cursor": "#429037",
+                        "selection": "#42903733",
+                        "background": "#429037"
+                    },
+                    {
+                        "cursor": "#c1822c",
+                        "selection": "#c1822c33",
+                        "background": "#c1822c"
+                    },
+                    {
+                        "cursor": "#da601e",
+                        "selection": "#da601e33",
+                        "background": "#da601e"
+                    },
+                    {
+                        "cursor": "#b71c43",
+                        "selection": "#b71c4333",
+                        "background": "#b71c43"
                     }
                 ],
                 "syntax": {
@@ -855,29 +855,9 @@
                         "background": "#f2d5cf"
                     },
                     {
-                        "cursor": "#e1929b",
-                        "selection": "#e1929b33",
-                        "background": "#e1929b"
-                    },
-                    {
-                        "cursor": "#e7a98f",
-                        "selection": "#e7a98f33",
-                        "background": "#e7a98f"
-                    },
-                    {
-                        "cursor": "#dfcaa4",
-                        "selection": "#dfcaa433",
-                        "background": "#dfcaa4"
-                    },
-                    {
-                        "cursor": "#add19f",
-                        "selection": "#add19f33",
-                        "background": "#add19f"
-                    },
-                    {
-                        "cursor": "#92c4e1",
-                        "selection": "#92c4e133",
-                        "background": "#92c4e1"
+                        "cursor": "#caa8e9",
+                        "selection": "#caa8e933",
+                        "background": "#caa8e9"
                     },
                     {
                         "cursor": "#bdc0f2",
@@ -885,9 +865,29 @@
                         "background": "#bdc0f2"
                     },
                     {
-                        "cursor": "#caa8e9",
-                        "selection": "#caa8e933",
-                        "background": "#caa8e9"
+                        "cursor": "#92c4e1",
+                        "selection": "#92c4e133",
+                        "background": "#92c4e1"
+                    },
+                    {
+                        "cursor": "#add19f",
+                        "selection": "#add19f33",
+                        "background": "#add19f"
+                    },
+                    {
+                        "cursor": "#dfcaa4",
+                        "selection": "#dfcaa433",
+                        "background": "#dfcaa4"
+                    },
+                    {
+                        "cursor": "#e7a98f",
+                        "selection": "#e7a98f33",
+                        "background": "#e7a98f"
+                    },
+                    {
+                        "cursor": "#e1929b",
+                        "selection": "#e1929b33",
+                        "background": "#e1929b"
                     }
                 ],
                 "syntax": {
@@ -1548,29 +1548,9 @@
                         "background": "#f4dbd6"
                     },
                     {
-                        "cursor": "#e696a9",
-                        "selection": "#e696a933",
-                        "background": "#e696a9"
-                    },
-                    {
-                        "cursor": "#ecb197",
-                        "selection": "#ecb19733",
-                        "background": "#ecb197"
-                    },
-                    {
-                        "cursor": "#e6d4b0",
-                        "selection": "#e6d4b033",
-                        "background": "#e6d4b0"
-                    },
-                    {
-                        "cursor": "#add8a8",
-                        "selection": "#add8a833",
-                        "background": "#add8a8"
-                    },
-                    {
-                        "cursor": "#8cc7e7",
-                        "selection": "#8cc7e733",
-                        "background": "#8cc7e7"
+                        "cursor": "#c6aaf6",
+                        "selection": "#c6aaf633",
+                        "background": "#c6aaf6"
                     },
                     {
                         "cursor": "#bac1f7",
@@ -1578,9 +1558,29 @@
                         "background": "#bac1f7"
                     },
                     {
-                        "cursor": "#c6aaf6",
-                        "selection": "#c6aaf633",
-                        "background": "#c6aaf6"
+                        "cursor": "#8cc7e7",
+                        "selection": "#8cc7e733",
+                        "background": "#8cc7e7"
+                    },
+                    {
+                        "cursor": "#add8a8",
+                        "selection": "#add8a833",
+                        "background": "#add8a8"
+                    },
+                    {
+                        "cursor": "#e6d4b0",
+                        "selection": "#e6d4b033",
+                        "background": "#e6d4b0"
+                    },
+                    {
+                        "cursor": "#ecb197",
+                        "selection": "#ecb19733",
+                        "background": "#ecb197"
+                    },
+                    {
+                        "cursor": "#e696a9",
+                        "selection": "#e696a933",
+                        "background": "#e696a9"
                     }
                 ],
                 "syntax": {
@@ -2241,29 +2241,9 @@
                         "background": "#f5e0dc"
                     },
                     {
-                        "cursor": "#eb9ab7",
-                        "selection": "#eb9ab733",
-                        "background": "#eb9ab7"
-                    },
-                    {
-                        "cursor": "#f1ba9d",
-                        "selection": "#f1ba9d33",
-                        "background": "#f1ba9d"
-                    },
-                    {
-                        "cursor": "#f0e0bd",
-                        "selection": "#f0e0bd33",
-                        "background": "#f0e0bd"
-                    },
-                    {
-                        "cursor": "#aee1b2",
-                        "selection": "#aee1b233",
-                        "background": "#aee1b2"
-                    },
-                    {
-                        "cursor": "#86caee",
-                        "selection": "#86caee33",
-                        "background": "#86caee"
+                        "cursor": "#cbb0f7",
+                        "selection": "#cbb0f733",
+                        "background": "#cbb0f7"
                     },
                     {
                         "cursor": "#b9c3fc",
@@ -2271,9 +2251,29 @@
                         "background": "#b9c3fc"
                     },
                     {
-                        "cursor": "#cbb0f7",
-                        "selection": "#cbb0f733",
-                        "background": "#cbb0f7"
+                        "cursor": "#86caee",
+                        "selection": "#86caee33",
+                        "background": "#86caee"
+                    },
+                    {
+                        "cursor": "#aee1b2",
+                        "selection": "#aee1b233",
+                        "background": "#aee1b2"
+                    },
+                    {
+                        "cursor": "#f0e0bd",
+                        "selection": "#f0e0bd33",
+                        "background": "#f0e0bd"
+                    },
+                    {
+                        "cursor": "#f1ba9d",
+                        "selection": "#f1ba9d33",
+                        "background": "#f1ba9d"
+                    },
+                    {
+                        "cursor": "#eb9ab7",
+                        "selection": "#eb9ab733",
+                        "background": "#eb9ab7"
                     }
                 ],
                 "syntax": {

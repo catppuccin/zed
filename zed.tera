@@ -185,7 +185,7 @@ whiskers:
                         "selection": "#{{ c.surface2 | mod(opacity=0.5) | get(key="hex") }}",
                         "background": "#{{ c.rosewater.hex }}"
                     },
-                    {%- for color in rainbow %}
+                    {%- for color in rainbow | reverse %}
                     {
                         "cursor": "#{{ color.hex }}",
                         "selection": "#{{ color | mod(opacity=0.2) | get(key="hex") }}",
