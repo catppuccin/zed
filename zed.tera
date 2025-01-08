@@ -31,7 +31,7 @@ whiskers:
                 "accents": [
                 {#- NOTE: not Catppuccin accents, but for indent_aware coloring #}
                 {%- for color in rainbow | reverse %}
-                    "#{{ color.hex }}ff"{%- if not loop.last %},{% endif -%}
+                    "#{{ color | mod(opacity=0.4) | get(key="hex") }}"{%- if not loop.last %},{% endif -%}
                 {% endfor %}
                 ],
                 "background.appearance": "opaque", {#- all others remove app window shadow-backdrop on macOS #}
