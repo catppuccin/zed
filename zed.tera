@@ -53,7 +53,7 @@ whiskers:
                 "ghost_element.background": "#{{ c.crust | mod(opacity=0.35) | get(key="hex") }}",
                 "ghost_element.hover": "#{{ c.surface1 | mod(opacity=0.3) | get(key="hex") }}",
                 "ghost_element.active": "#{{ c.surface2 | mod(opacity=0.6) | get(key="hex") }}",
-                "ghost_element.selected": "#{{ c.text | mod(opacity=0.10) | get(key="hex") }}",
+                "ghost_element.selected": {% if flavor.dark %}"#{{ c.surface2 | add(lightness=10) | mod(opacity=0.4) | get(key="hex") }}"{% else %}"#{{ c.surface2 | sub(lightness=10) | mod(opacity=0.4) | get(key="hex") }}"{%- endif -%},
                 "ghost_element.disabled": "#{{ c.overlay0.hex }}",
                 "text": "#{{ c.text.hex }}",
                 "text.muted": "#{{ c.subtext1.hex }}",
