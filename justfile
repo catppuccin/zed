@@ -8,5 +8,12 @@ default: (build "mauve")
 @all:
     whiskers zed.tera
 
+[doc("create & push tag, then upload assets to GH release")]
+[confirm]
+@release tag: all
+    git tag -s "{{ tag }}" -m "{{ tag }}"
+    git push origin "{{ tag }}"
+    gh release create "{{ tag }}" themes/*.json --title "{{ tag }}" --generate-notes
+
 @clean:
     rm themes/*.json
