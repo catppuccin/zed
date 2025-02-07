@@ -10,5 +10,17 @@
   {
     "label": "Clean",
     "command": "rm themes/*.json"
+  },
+  {
+    "label": "just",
+    "command": "just"
+  },
+  {
+    "label": "just all",
+    "command": "just"
+  },
+  {
+    "label": "just clean",
+    "command": "just clean"
   }
 ]
