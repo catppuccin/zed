@@ -74,7 +74,6 @@
                 "editor.active_line.background": "#4c4f6914",
                 "editor.highlighted_line.background": null,
                 "editor.line_number": "#8c8fa1",
-                "editor.hover_line_number": "#4c4f69",
                 "editor.active_line_number": "#8839ef",
                 "editor.invisible": "#7c7f9366",
                 "editor.wrap_guide": "#acb0be",
@@ -198,6 +197,16 @@
                         "background": "#b71c43"
                     }
                 ],
+                "version_control.added": "#40a02b",
+                "version_control.added_background": "$40a02b1a",
+                "version_control.deleted": "#d20f39",
+                "version_control.deleted_background": "#d20f391a",
+                "version_control.modified": "#df8e1d",
+                "version_control.modified_background": "#df8e1d1a",
+                "version_control.renamed": "#209fb5",
+                "version_control.conflict": "#df8e1d",
+                "version_control.conflict_background": "#df8e1d1a",
+                "version_control.ignored": "#9ca0b0",
                 "syntax": {
                     "variable": {
                         "color": "#4c4f69",
@@ -768,7 +777,6 @@
                 "editor.active_line.background": "#c6d0f514",
                 "editor.highlighted_line.background": null,
                 "editor.line_number": "#838ba7",
-                "editor.hover_line_number": "#c6d0f5",
                 "editor.active_line_number": "#ca9ee6",
                 "editor.invisible": "#949cbb66",
                 "editor.wrap_guide": "#626880",
@@ -892,6 +900,16 @@
                         "background": "#e1929b"
                     }
                 ],
+                "version_control.added": "#a6d189",
+                "version_control.added_background": "$a6d1891a",
+                "version_control.deleted": "#e78284",
+                "version_control.deleted_background": "#e782841a",
+                "version_control.modified": "#e5c890",
+                "version_control.modified_background": "#e5c8901a",
+                "version_control.renamed": "#85c1dc",
+                "version_control.conflict": "#e5c890",
+                "version_control.conflict_background": "#e5c8901a",
+                "version_control.ignored": "#737994",
                 "syntax": {
                     "variable": {
                         "color": "#c6d0f5",
@@ -1462,7 +1480,6 @@
                 "editor.active_line.background": "#cad3f514",
                 "editor.highlighted_line.background": null,
                 "editor.line_number": "#8087a2",
-                "editor.hover_line_number": "#cad3f5",
                 "editor.active_line_number": "#c6a0f6",
                 "editor.invisible": "#939ab766",
                 "editor.wrap_guide": "#5b6078",
@@ -1586,6 +1603,16 @@
                         "background": "#e696a9"
                     }
                 ],
+                "version_control.added": "#a6da95",
+                "version_control.added_background": "$a6da951a",
+                "version_control.deleted": "#ed8796",
+                "version_control.deleted_background": "#ed87961a",
+                "version_control.modified": "#eed49f",
+                "version_control.modified_background": "#eed49f1a",
+                "version_control.renamed": "#7dc4e4",
+                "version_control.conflict": "#eed49f",
+                "version_control.conflict_background": "#eed49f1a",
+                "version_control.ignored": "#6e738d",
                 "syntax": {
                     "variable": {
                         "color": "#cad3f5",
@@ -2156,7 +2183,6 @@
                 "editor.active_line.background": "#cdd6f414",
                 "editor.highlighted_line.background": null,
                 "editor.line_number": "#7f849c",
-                "editor.hover_line_number": "#cdd6f4",
                 "editor.active_line_number": "#cba6f7",
                 "editor.invisible": "#9399b266",
                 "editor.wrap_guide": "#585b70",
@@ -2280,6 +2306,16 @@
                         "background": "#eb9ab7"
                     }
                 ],
+                "version_control.added": "#a6e3a1",
+                "version_control.added_background": "$a6e3a11a",
+                "version_control.deleted": "#f38ba8",
+                "version_control.deleted_background": "#f38ba81a",
+                "version_control.modified": "#f9e2af",
+                "version_control.modified_background": "#f9e2af1a",
+                "version_control.renamed": "#74c7ec",
+                "version_control.conflict": "#f9e2af",
+                "version_control.conflict_background": "#f9e2af1a",
+                "version_control.ignored": "#6c7086",
                 "syntax": {
                     "variable": {
                         "color": "#cdd6f4",

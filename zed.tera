@@ -92,7 +92,6 @@ whiskers:
                 "editor.active_line.background": "#{{ c.text | mod(opacity=0.08) | get(key="hex") }}",
                 "editor.highlighted_line.background": null,
                 "editor.line_number": "#{{ c.overlay1.hex }}",
-                "editor.hover_line_number": "#{{ c.text.hex }}",
                 "editor.active_line_number": "#{{ c[accent].hex }}",
                 "editor.invisible": "#{{ c.overlay2 | mod(opacity=0.4) | get(key="hex") }}",
                 "editor.wrap_guide": "#{{ c.surface2.hex }}",
@@ -138,8 +137,8 @@ whiskers:
                 "terminal.ansi.dim_white": "#{{ c.subtext1.hex }}",
                 {#- end alacritty #}
                 "link_text.hover": "#{{ c.sky.hex }}",
-                "conflict": "#{{ c.yellow.hex }}",
-                "conflict.border": "#{{ c.yellow.hex }}",
+                "conflict": "#{{ c.peach.hex }}",
+                "conflict.border": "#{{ c.peach.hex }}",
                 "conflict.background": "#{{ c.mantle.hex }}",
                 "created": "#{{ c.green.hex }}",
                 "created.border": "#{{ c.green.hex }}",
@@ -194,6 +193,16 @@ whiskers:
                     }{% if not loop.last %},{% endif -%}
                     {% endfor %}
                 ],
+                "version_control.added": "#{{ c.green.hex }}",
+                "version_control.added_background": "${{ c.green | mod(opacity=0.1) | get(key="hex") }}",
+                "version_control.deleted": "#{{ c.red.hex }}",
+                "version_control.deleted_background": "#{{ c.red | mod(opacity=0.1) | get(key="hex") }}",
+                "version_control.modified": "#{{ c.yellow.hex }}",
+                "version_control.modified_background": "#{{ c.yellow | mod(opacity=0.1) | get(key="hex") }}",
+                "version_control.renamed": "#{{ c.sapphire.hex }}",
+                "version_control.conflict": "#{{ c.peach.hex }}",
+                "version_control.conflict_background": "#{{ c.peach | mod(opacity=0.1) | get(key="hex") }}",
+                "version_control.ignored": "#{{ c.overlay0.hex }}",
                 {#- ref: https://github.com/catppuccin/nvim/blob/637d99e638bc6f1efedac582f6ccab08badac0c6/lua/catppuccin/groups/integrations/treesitter.lua #}
                 "syntax": {
                     {#- Identifiers #}
