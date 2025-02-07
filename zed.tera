@@ -92,6 +92,7 @@ whiskers:
                 "editor.active_line.background": "#{{ c.text | mod(opacity=0.08) | get(key="hex") }}",
                 "editor.highlighted_line.background": null,
                 "editor.line_number": "#{{ c.overlay1.hex }}",
+                "editor.hover_line_number": "#{{ c.text.hex }}",
                 "editor.active_line_number": "#{{ c[accent].hex }}",
                 "editor.invisible": "#{{ c.overlay2 | mod(opacity=0.4) | get(key="hex") }}",
                 "editor.wrap_guide": "#{{ c.surface2.hex }}",
