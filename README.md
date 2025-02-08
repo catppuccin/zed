@@ -36,6 +36,9 @@
 
 ## Usage
 
+> [!Note]
+> We also have a [Catppuccin Icon Pack](https://zed.dev/extensions?query=catppuccin+icons)!
+
 1. Open Zed.
 2. Open the command palette (<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>) and enter _zed: extensions_.
 3. Search for the _Catppuccin_ extension and install.
