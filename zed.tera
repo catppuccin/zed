@@ -89,7 +89,7 @@ whiskers:
                 "editor.background": "#{{ c.base.hex }}",
                 "editor.gutter.background": "#{{ c.base.hex }}",
                 "editor.subheader.background": "#{{ c.mantle.hex }}",
-                "editor.active_line.background": "#{{ c.text | mod(opacity=0.08) | get(key="hex") }}",
+                "editor.active_line.background": "#{{ c.text | mod(opacity=0.06) | get(key="hex") }}",
                 "editor.highlighted_line.background": null,
                 "editor.line_number": "#{{ c.overlay1.hex }}",
                 "editor.active_line_number": "#{{ c[accent].hex }}",
@@ -149,7 +149,8 @@ whiskers:
                 "hidden": "#{{ c.overlay0.hex }}",
                 "hidden.border": "#{{ c.overlay0.hex }}",
                 "hidden.background": "#{{ c.mantle.hex }}",
-                "hint": "#{{ c.surface2.hex  }}",
+                {#- NOTE: this affects inline git text AND inlay hints #}
+                "hint": {% if flavor.dark %}"#{{ c.surface2 | add(lightness=15) | get(key="hex") }}"{% else %}"#{{ c.surface2 | sub(lightness=15) | get(key="hex") }}"{%- endif -%},
                 "hint.border": "#{{ c.surface2.hex }}",
                 "hint.background": "#{{ c.mantle.hex }}",
                 "ignored": "#{{ c.overlay0.hex }}",
