@@ -227,7 +227,7 @@ whiskers:
                         "font_weight": null
                     },
                     "variable.special": {
-                        "color": "#{{ c.pink.hex }}",
+                        "color": "#{{ c.red.hex }}",
                         "font_style": {{ italics }},
                         "font_weight": null
                     },
