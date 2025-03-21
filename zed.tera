@@ -87,7 +87,7 @@ whiskers:
                 "scrollbar.track.border": "#{{ c.text | mod(opacity=0.07) | get(key="hex") }}",
                 "editor.foreground": "#{{ c.text.hex }}",
                 "editor.background": "#{{ c.base.hex }}",
-                "editor.gutter.background": "#{{ c.base.hex }}",
+                "editor.gutter.background": "#{{ c.mantle.hex }}",
                 "editor.subheader.background": "#{{ c.mantle.hex }}",
                 "editor.active_line.background": "#{{ c.text | mod(opacity=0.06) | get(key="hex") }}",
                 "editor.highlighted_line.background": null,
