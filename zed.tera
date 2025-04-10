@@ -43,7 +43,7 @@ whiskers:
                 "border.disabled": "#{{ c.overlay0.hex }}",
                 "elevated_surface.background": "#{{ c.mantle.hex }}",
                 "surface.background": "#{{ c.mantle.hex }}",
-                "background": "#{{ c.base.hex }}",
+                "background": {% if flavor.dark %}"#{{ c.mantle | add(lightness=7) | get(key="hex") }}"{% else %}"#{{ c.mantle | sub(lightness=5) | get(key="hex") }}"{% endif %}, {#- despite the name, the only place I could see the `background` color used were elevated buttons. #}
                 "element.background": "#{{ c.crust.hex }}",
                 "element.hover": "#{{ c.surface1 | mod(opacity=0.3) | get(key="hex") }}",
                 "element.active": "#{{ c.surface2 | mod(opacity=0.3) | get(key="hex") }}",
