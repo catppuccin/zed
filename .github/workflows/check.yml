@@ -1,12 +1,11 @@
 name: whiskers check
 on:
-  push:
+  workflow_dispatch:
+  pull_request:
 
 jobs:
-  check:
-    runs-on: ubuntu-24.04
-    steps:
-      - uses: catppuccin/whiskers/.github/workflows/check.yml@ci/reusable-action
-        with:
-          templates: zed.tera
-        secrets: inherit
+  run:
+    uses: catppuccin/whiskers/.github/workflows/check.yml@ci/reusable-action
+    with:
+      templates: zed.tera
+    secrets: inherit
