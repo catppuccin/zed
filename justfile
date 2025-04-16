@@ -17,3 +17,12 @@ default: (build "mauve")
 
 @clean:
     rm themes/*.json
+
+[group('github')]
+@act event_name="" +args="":
+    act -P ubuntu-24.04=catthehacker/ubuntu:act-latest {{ event_name }} -s GITHUB_TOKEN="$(gh auth token)" --container-architecture linux/amd64 {{ args }}
+
+alias aj := act-job
+[group('github')]
+@act-job job_name:
+    act -P ubuntu-24.04=catthehacker/ubuntu:act-latest -j {{ job_name }} -s GITHUB_TOKEN="$(gh auth token)" --container-architecture linux/amd64

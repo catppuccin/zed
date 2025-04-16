@@ -654,12 +654,12 @@
                         "font_weight": null
                     },
                     "link_text": {
-                        "color": "#1e66f5",
+                        "color": "#7287fd",
                         "font_style": null,
                         "font_weight": null
                     },
                     "link_uri": {
-                        "color": "#dc8a78",
+                        "color": "#1e66f5",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -1357,12 +1357,12 @@
                         "font_weight": null
                     },
                     "link_text": {
-                        "color": "#8caaee",
+                        "color": "#babbf1",
                         "font_style": null,
                         "font_weight": null
                     },
                     "link_uri": {
-                        "color": "#f2d5cf",
+                        "color": "#8caaee",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -2060,12 +2060,12 @@
                         "font_weight": null
                     },
                     "link_text": {
-                        "color": "#8aadf4",
+                        "color": "#b7bdf8",
                         "font_style": null,
                         "font_weight": null
                     },
                     "link_uri": {
-                        "color": "#f4dbd6",
+                        "color": "#8aadf4",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -2763,12 +2763,12 @@
                         "font_weight": null
                     },
                     "link_text": {
-                        "color": "#89b4fa",
+                        "color": "#b4befe",
                         "font_style": null,
                         "font_weight": null
                     },
                     "link_uri": {
-                        "color": "#f5e0dc",
+                        "color": "#89b4fa",
                         "font_style": null,
                         "font_weight": null
                     },
