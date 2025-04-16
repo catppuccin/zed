@@ -15,4 +15,4 @@ jobs:
         with:
           whiskers-version: 2.5.1
       - run: |
-          whiskers zed.tera --overrides '{"accent": ["{{ mauve }}"]}' --check
+          whiskers zed.tera --overrides '{\"accent\": [\"mauve\"]}' --check
