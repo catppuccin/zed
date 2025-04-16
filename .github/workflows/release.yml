@@ -1,0 +1,22 @@
+name: Publish to zed-industries/extensions
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  release:
+    runs-on: ubuntu-24.04-arm
+    steps:
+      - uses: huacnlee/zed-extension-action@v1
+        with:
+          extension-name: catppuccin
+          push-to: tecandrew/zed-extensions
+        env:
+          COMMITTER_TOKEN: ${{ secrets.COMMITTER_TOKEN }}
