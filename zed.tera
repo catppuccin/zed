@@ -419,7 +419,7 @@ whiskers:
                     "keyword.coroutine": {
                         "color": "#{{ c.mauve.hex }}",
                         "font_style": null,
-                        "font_weight": null,
+                        "font_weight": null
                     },
                     "keyword.function": {
                         "color": "#{{ c.mauve.hex }}",
@@ -670,12 +670,12 @@ whiskers:
                         "font_weight": null
                     },
                     "link_text": {
-                        "color": "#{{ c.blue.hex }}",
+                        "color": "#{{ c.lavender.hex }}",
                         "font_style": null,
                         "font_weight": null
                     },
                     "link_uri": {
-                        "color": "#{{ c.rosewater.hex }}",
+                        "color": "#{{ c.blue.hex }}",
                         "font_style": {{ italics }},
                         "font_weight": null
                     },
