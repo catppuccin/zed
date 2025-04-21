@@ -1,18 +1,16 @@
-name: Whiskers Check
+name: whiskers
 
 on:
+  workflow_dispatch:
   push:
     branches: [main]
   pull_request:
     branches: [main]
 
 jobs:
-  check:
-    runs-on: ubuntu-24.04
-    steps:
-      - uses: actions/checkout@v4
-      - uses: catppuccin/setup-whiskers@v1
-        with:
-          whiskers-version: 2.5.1
-      - run: |
-          whiskers zed.tera --overrides '{"accent": ["mauve"]}' --check
+  run:
+    uses: catppuccin/actions/.github/workflows/whiskers-check.yml@v1
+    with:
+      args: |
+        zed.tera --overrides '{"accent": ["mauve"]}'
+    secrets: inherit
