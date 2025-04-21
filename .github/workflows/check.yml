@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
-      - uses: catppuccin/setup-whiskers@v1
+      - uses: catppuccin/setup-whiskers@v2
         with:
           whiskers-version: 2.5.1
       - run: |
