@@ -198,7 +198,7 @@
                     }
                 ],
                 "version_control.added": "#40a02b",
-                "version_control.added_background": "$40a02b26",
+                "version_control.added_background": "#40a02b26",
                 "version_control.deleted": "#d20f39",
                 "version_control.deleted_background": "#d20f3926",
                 "version_control.modified": "#df8e1d",
@@ -901,7 +901,7 @@
                     }
                 ],
                 "version_control.added": "#a6d189",
-                "version_control.added_background": "$a6d18926",
+                "version_control.added_background": "#a6d18926",
                 "version_control.deleted": "#e78284",
                 "version_control.deleted_background": "#e7828426",
                 "version_control.modified": "#e5c890",
@@ -1604,7 +1604,7 @@
                     }
                 ],
                 "version_control.added": "#a6da95",
-                "version_control.added_background": "$a6da9526",
+                "version_control.added_background": "#a6da9526",
                 "version_control.deleted": "#ed8796",
                 "version_control.deleted_background": "#ed879626",
                 "version_control.modified": "#eed49f",
@@ -2307,7 +2307,7 @@
                     }
                 ],
                 "version_control.added": "#a6e3a1",
-                "version_control.added_background": "$a6e3a126",
+                "version_control.added_background": "#a6e3a126",
                 "version_control.deleted": "#f38ba8",
                 "version_control.deleted_background": "#f38ba826",
                 "version_control.modified": "#f9e2af",
