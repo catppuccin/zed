@@ -46,7 +46,7 @@ whiskers:
                 "surface.background": "{{ c.mantle.hex }}",
                 "background": {% if flavor.dark %}"{{ c.mantle | add(lightness=7) | get(key="hex") }}"{% else %}"{{ c.mantle | sub(lightness=5) | get(key="hex") }}"{% endif %}, {#- despite the name, the only place I could see the `background` color used were elevated buttons. #}
                 "element.background": "{{ c.crust.hex }}",
-                "element.hover": "{{ c.surface1 | mod(opacity=0.3) | get(key="hex") }}",
+                "element.hover": "{{ c.surface0.hex }}",
                 "element.active": "{{ c.surface2 | mod(opacity=0.3) | get(key="hex") }}",
                 "element.selected": "{{ c.surface0 | mod(opacity=0.3) | get(key="hex") }}",
                 "element.disabled": "{{ c.overlay0.hex }}",
@@ -79,6 +79,7 @@ whiskers:
                 "panel.indent_guide": "{{ c.surface0 | mod(opacity=0.60) | get(key="hex") }}",
                 "panel.indent_guide_active": "{{ c.surface2.hex }}",
                 "panel.indent_guide_hover": "{{ c[accent].hex }}",
+                "panel.overlay_background": "{{ c.crust.hex }}",
                 "pane.focused_border": "{{ c.text.hex }}",
                 "pane_group.border": "{{ c.surface0.hex }}",
                 "scrollbar.thumb.background": "{{ c[accent] | mod(opacity=0.2) | get(key="hex") }}",

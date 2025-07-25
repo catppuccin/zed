@@ -12,12 +12,12 @@
     "command": "rm themes/*.json"
   },
   {
-    "label": "just",
-    "command": "just"
+    "label": "just build",
+    "command": "just build"
   },
   {
     "label": "just all",
-    "command": "just"
+    "command": "just all"
   },
   {
     "label": "just clean",
