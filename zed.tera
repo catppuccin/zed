@@ -113,7 +113,7 @@ whiskers:
                 "editor.document_highlight.write_background": "{{ c.subtext0 | mod(opacity=0.16) | get(key="hex") }}",
                 "editor.indent_guide": "{{ c.surface0 | mod(opacity=0.60) | get(key="hex") }}",
                 "editor.indent_guide_active": "{{ c.surface2.hex }}",
-                {#- terminal is built-in Alacritty, use same colors as (https://github.com/catppuccin/alacritty/) -#}
+                {#- terminal is built-in Alacritty, use same colors as (https://github.com/catppuccin/alacritty/) + style guide -#}
                 {#- colors.primary #}
                 "terminal.background": "{{ c.base.hex }}",
                 "terminal.ansi.background": "{{ c.base.hex }}",
@@ -121,32 +121,32 @@ whiskers:
                 "terminal.dim_foreground": "{{ c.overlay1.hex }}",
                 "terminal.bright_foreground": "{{ c.text.hex }}",
                 {#- colors.normal #}
-                "terminal.ansi.black": "{{ c.surface1.hex }}",
+                "terminal.ansi.black": {% if flavor.dark %}"{{ c.surface1.hex }}"{% else %}"{{ c.subtext1.hex }}"{%- endif -%},
+                "terminal.ansi.white": {% if flavor.dark %}"{{ c.subtext0.hex }}"{% else %}"{{ c.surface2.hex }}"{%- endif -%},
                 "terminal.ansi.red": "{{ c.red.hex }}",
                 "terminal.ansi.green": "{{ c.green.hex }}",
                 "terminal.ansi.yellow": "{{ c.yellow.hex }}",
                 "terminal.ansi.blue": "{{ c.blue.hex }}",
                 "terminal.ansi.magenta": "{{ c.pink.hex }}",
                 "terminal.ansi.cyan": "{{ c.teal.hex }}",
-                "terminal.ansi.white": "{{ c.subtext1.hex }}",
                 {#- colors.bright #}
-                "terminal.ansi.bright_black": "{{ c.surface2.hex }}",
+                "terminal.ansi.bright_black": {% if flavor.dark %}"{{ c.surface2.hex }}"{% else %}"{{ c.subtext0.hex }}"{%- endif -%},
+                "terminal.ansi.bright_white": {% if flavor.dark %}"{{ c.subtext1.hex }}"{% else %}"{{ c.surface1.hex }}"{%- endif -%},
                 "terminal.ansi.bright_red": "{{ c.red.hex }}",
                 "terminal.ansi.bright_green": "{{ c.green.hex }}",
                 "terminal.ansi.bright_yellow": "{{ c.yellow.hex }}",
                 "terminal.ansi.bright_blue": "{{ c.blue.hex }}",
                 "terminal.ansi.bright_magenta": "{{ c.pink.hex }}",
                 "terminal.ansi.bright_cyan": "{{ c.teal.hex }}",
-                "terminal.ansi.bright_white": "{{ c.subtext0.hex }}",
                 {#- colors.dim #}
-                "terminal.ansi.dim_black": "{{ c.surface1.hex }}",
+                "terminal.ansi.dim_black": {% if flavor.dark %}"{{ c.surface1.hex }}"{% else %}"{{ c.subtext1.hex }}"{%- endif -%},
+                "terminal.ansi.dim_white": {% if flavor.dark %}"{{ c.subtext0.hex }}"{% else %}"{{ c.surface2.hex }}"{%- endif -%},
                 "terminal.ansi.dim_red": "{{ c.red.hex }}",
                 "terminal.ansi.dim_green": "{{ c.green.hex }}",
                 "terminal.ansi.dim_yellow": "{{ c.yellow.hex }}",
                 "terminal.ansi.dim_blue": "{{ c.blue.hex }}",
                 "terminal.ansi.dim_magenta": "{{ c.pink.hex }}",
                 "terminal.ansi.dim_cyan": "{{ c.teal.hex }}",
-                "terminal.ansi.dim_white": "{{ c.subtext1.hex }}",
                 {#- end alacritty #}
                 "link_text.hover": "{{ c.sky.hex }}",
                 "conflict": "{{ c.peach.hex }}",
