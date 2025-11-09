@@ -135,7 +135,7 @@
                 "hidden": "#9ca0b0",
                 "hidden.border": "#9ca0b0",
                 "hidden.background": "#e6e9ef",
-                "hint": "#81879d",
+                "hint": "#acb0be",
                 "hint.border": "#acb0be",
                 "hint.background": "#e6e9ef",
                 "ignored": "#9ca0b0",
@@ -658,8 +658,9 @@
                         "font_style": null,
                         "font_weight": 700
                     },
+
                     "hint": {
-                        "color": "#acb0be",
+                        "color": "#8c8fa1",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -848,7 +849,7 @@
                 "hidden": "#737994",
                 "hidden.border": "#737994",
                 "hidden.background": "#292c3c",
-                "hint": "#898fa5",
+                "hint": "#626880",
                 "hint.border": "#626880",
                 "hint.background": "#292c3c",
                 "ignored": "#737994",
@@ -1371,8 +1372,9 @@
                         "font_style": null,
                         "font_weight": 700
                     },
+
                     "hint": {
-                        "color": "#626880",
+                        "color": "#838ba7",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -1561,7 +1563,7 @@
                 "hidden": "#6e738d",
                 "hidden.border": "#6e738d",
                 "hidden.background": "#1e2030",
-                "hint": "#81869f",
+                "hint": "#5b6078",
                 "hint.border": "#5b6078",
                 "hint.background": "#1e2030",
                 "ignored": "#6e738d",
@@ -2084,8 +2086,9 @@
                         "font_style": null,
                         "font_weight": 700
                     },
+
                     "hint": {
-                        "color": "#5b6078",
+                        "color": "#8087a2",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -2274,7 +2277,7 @@
                 "hidden": "#6c7086",
                 "hidden.border": "#6c7086",
                 "hidden.background": "#181825",
-                "hint": "#7c7f98",
+                "hint": "#585b70",
                 "hint.border": "#585b70",
                 "hint.background": "#181825",
                 "ignored": "#6c7086",
@@ -2797,8 +2800,9 @@
                         "font_style": null,
                         "font_weight": 700
                     },
+
                     "hint": {
-                        "color": "#585b70",
+                        "color": "#7f849c",
                         "font_style": null,
                         "font_weight": null
                     },
