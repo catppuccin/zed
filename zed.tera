@@ -78,7 +78,7 @@ whiskers:
                 "icon.accent": "{{ c[accent].hex }}",
                 "status_bar.background": "{{ c.crust.hex }}",
                 "title_bar.background": "{{ c.crust.hex }}",
-                "title_bar.inactive_background": "{{ c.crust | mod(opacity=0.85) | get(key="hex") }}",
+                "title_bar.inactive_background": "{{ c.crust | add(lightness=3) | get(key="hex") }}",
                 "toolbar.background": "{{ c.base.hex }}",
                 "tab_bar.background": "{{ c.crust.hex }}",
                 "tab.inactive_background": "{{ c.crust | sub(lightness=3) | get(key="hex") }}",
