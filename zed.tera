@@ -35,6 +35,16 @@ whiskers:
                     "{{ color | mod(opacity=0.4) | get(key="hex") }}"{%- if not loop.last %},{% endif -%}
                 {% endfor %}
                 ],
+                {#- vim mode indicator #}
+                "vim.mode.text": "{{ c.crust.hex }}",
+                "vim.normal.background": "{{ c.rosewater.hex }}",
+                "vim.helix_normal.background": "{{ c.rosewater.hex }}",
+                "vim.visual.background": "{{ c.lavender.hex }}",
+                "vim.helix_select.background": "{{ c.lavender.hex }}",
+                "vim.insert.background": "{{ c.green.hex }}",
+                "vim.visual_line.background": "{{ c.lavender.hex }}",
+                "vim.visual_block.background": "{{ c.mauve.hex }}",
+                "vim.replace.background": "{{ c.maroon.hex }}",
                 "background.appearance": "opaque", {#- all others remove app window shadow-backdrop on macOS #}
                 "border": "{{ c.surface0.hex }}",
                 "border.variant": "{{ c[accent] | mix(color=c.surface0, amount=0.8) | get(key="hex") }}",
