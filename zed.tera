@@ -161,8 +161,9 @@ whiskers:
                 "hidden": "{{ c.overlay0.hex }}",
                 "hidden.border": "{{ c.overlay0.hex }}",
                 "hidden.background": "{{ c.mantle.hex }}",
-                {#- NOTE: this affects inline git text AND inlay hints #}
-                "hint": {% if flavor.dark %}"{{ c.surface2 | add(lightness=15) | get(key="hex") }}"{% else %}"{{ c.surface2 | sub(lightness=15) | get(key="hex") }}"{%- endif -%},
+                {#- NOTE: this affects inline git text #}
+                "hint": "{{ c.surface2.hex }}",
+                {#- NOTE: affect inlay hints bg #}
                 "hint.border": "{{ c.surface2.hex }}",
                 "hint.background": "{{ c.mantle.hex }}",
                 "ignored": "{{ c.overlay0.hex }}",
@@ -676,8 +677,9 @@ whiskers:
                         "font_style": null,
                         "font_weight": 700
                     },
+
                     "hint": {
-                        "color": "{{ c.surface2.hex }}",
+                        "color": "{{ c.overlay1.hex }}",
                         "font_style": {{ italics }},
                         "font_weight": null
                     },
