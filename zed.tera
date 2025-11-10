@@ -113,7 +113,9 @@ whiskers:
                 "editor.document_highlight.write_background": "{{ c.subtext0 | mod(opacity=0.16) | get(key="hex") }}",
                 "editor.indent_guide": "{{ c.surface0 | mod(opacity=0.60) | get(key="hex") }}",
                 "editor.indent_guide_active": "{{ c.surface2.hex }}",
-                {#- terminal is built-in Alacritty, use same colors as (https://github.com/catppuccin/alacritty/) -#}
+                {#- terminal is built-in Alacritty, use same colors as (https://github.com/catppuccin/alacritty/) + style guide -#}
+                {#- ref: https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md#1-ansi-color-generation #}
+                {#- TODO simplify when https://github.com/catppuccin/whiskers/pull/66 merges #}
                 {#- colors.primary #}
                 "terminal.background": "{{ c.base.hex }}",
                 "terminal.ansi.background": "{{ c.base.hex }}",
@@ -121,32 +123,63 @@ whiskers:
                 "terminal.dim_foreground": "{{ c.overlay1.hex }}",
                 "terminal.bright_foreground": "{{ c.text.hex }}",
                 {#- colors.normal #}
-                "terminal.ansi.black": "{{ c.surface1.hex }}",
+                "terminal.ansi.black": {% if flavor.dark %}"{{ c.surface1.hex }}"{% else %}"{{ c.subtext1.hex }}"{%- endif -%},
+                "terminal.ansi.white": {% if flavor.dark %}"{{ c.subtext0.hex }}"{% else %}"{{ c.surface2.hex }}"{%- endif -%},
                 "terminal.ansi.red": "{{ c.red.hex }}",
                 "terminal.ansi.green": "{{ c.green.hex }}",
                 "terminal.ansi.yellow": "{{ c.yellow.hex }}",
                 "terminal.ansi.blue": "{{ c.blue.hex }}",
                 "terminal.ansi.magenta": "{{ c.pink.hex }}",
                 "terminal.ansi.cyan": "{{ c.teal.hex }}",
-                "terminal.ansi.white": "{{ c.subtext1.hex }}",
                 {#- colors.bright #}
-                "terminal.ansi.bright_black": "{{ c.surface2.hex }}",
+                "terminal.ansi.bright_black": {% if flavor.dark %}"{{ c.surface2.hex }}"{% else %}"{{ c.subtext0.hex }}"{%- endif -%},
+                "terminal.ansi.bright_white": {% if flavor.dark %}"{{ c.subtext1.hex }}"{% else %}"{{ c.surface1.hex }}"{%- endif -%},
+              {#- colors from ctp/palette#}
+              {%- if flavor.identifier == "latte" %}
+                "terminal.ansi.bright_red": "#de293e",
+                "terminal.ansi.bright_green": "#49af3d",
+                "terminal.ansi.bright_yellow": "#eea02d",
+                "terminal.ansi.bright_blue": "#456eff",
+                "terminal.ansi.bright_magenta": "#fe85d8",
+                "terminal.ansi.bright_cyan": "#2d9fa8",
+              {%- elif flavor.identifier == "frappe" %}
+                "terminal.ansi.bright_red": "#e67172",
+                "terminal.ansi.bright_green": "#8ec772",
+                "terminal.ansi.bright_yellow": "#d9ba73",
+                "terminal.ansi.bright_blue": "#7b9ef0",
+                "terminal.ansi.bright_magenta": "#f4b8e4",
+                "terminal.ansi.bright_cyan": "#5abfb5",
+              {%- elif flavor.identifier == "macchiato" %}
+                "terminal.ansi.bright_red": "#ec7486",
+                "terminal.ansi.bright_green": "#8ccf7f",
+                "terminal.ansi.bright_yellow": "#e1c682",
+                "terminal.ansi.bright_blue": "#78a1f6",
+                "terminal.ansi.bright_magenta": "#f2a9dd",
+                "terminal.ansi.bright_cyan": "#63cbc0",
+              {%- elif flavor.identifier == "mocha" %}
+                "terminal.ansi.bright_red": "#f37799",
+                "terminal.ansi.bright_green": "#89d88b",
+                "terminal.ansi.bright_yellow": "#ebd391",
+                "terminal.ansi.bright_blue": "#74a8fc",
+                "terminal.ansi.bright_magenta": "#f2aede",
+                "terminal.ansi.bright_cyan": "#6bd7ca",
+              {%- else %}
                 "terminal.ansi.bright_red": "{{ c.red.hex }}",
                 "terminal.ansi.bright_green": "{{ c.green.hex }}",
                 "terminal.ansi.bright_yellow": "{{ c.yellow.hex }}",
                 "terminal.ansi.bright_blue": "{{ c.blue.hex }}",
                 "terminal.ansi.bright_magenta": "{{ c.pink.hex }}",
                 "terminal.ansi.bright_cyan": "{{ c.teal.hex }}",
-                "terminal.ansi.bright_white": "{{ c.subtext0.hex }}",
+              {%- endif -%}
                 {#- colors.dim #}
-                "terminal.ansi.dim_black": "{{ c.surface1.hex }}",
+                "terminal.ansi.dim_black": {% if flavor.dark %}"{{ c.surface1.hex }}"{% else %}"{{ c.subtext1.hex }}"{%- endif -%},
+                "terminal.ansi.dim_white": {% if flavor.dark %}"{{ c.subtext0.hex }}"{% else %}"{{ c.surface2.hex }}"{%- endif -%},
                 "terminal.ansi.dim_red": "{{ c.red.hex }}",
                 "terminal.ansi.dim_green": "{{ c.green.hex }}",
                 "terminal.ansi.dim_yellow": "{{ c.yellow.hex }}",
                 "terminal.ansi.dim_blue": "{{ c.blue.hex }}",
                 "terminal.ansi.dim_magenta": "{{ c.pink.hex }}",
                 "terminal.ansi.dim_cyan": "{{ c.teal.hex }}",
-                "terminal.ansi.dim_white": "{{ c.subtext1.hex }}",
                 {#- end alacritty #}
                 "link_text.hover": "{{ c.sky.hex }}",
                 "conflict": "{{ c.peach.hex }}",
