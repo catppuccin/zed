@@ -241,14 +241,12 @@ whiskers:
                     {% endfor %}
                 ],
                 "version_control.added": "{{ c.green.hex }}",
-                "version_control.added_background": "{{ c.green | mod(opacity=0.15) | get(key="hex") }}",
                 "version_control.deleted": "{{ c.red.hex }}",
-                "version_control.deleted_background": "{{ c.red | mod(opacity=0.15) | get(key="hex") }}",
                 "version_control.modified": "{{ c.yellow.hex }}",
-                "version_control.modified_background": "{{ c.yellow | mod(opacity=0.15) | get(key="hex") }}",
                 "version_control.renamed": "{{ c.sapphire.hex }}",
                 "version_control.conflict": "{{ c.peach.hex }}",
-                "version_control.conflict_background": "{{ c.peach | mod(opacity=0.15) | get(key="hex") }}",
+                "version_control.conflict_marker.ours": "{{ c.green | mod(opacity=0.2) | get(key="hex") }}",
+                "version_control.conflict_marker.theirs": "{{ c.blue | mod(opacity=0.2) | get(key="hex") }}",
                 "version_control.ignored": "{{ c.overlay0.hex }}",
                 {#- ref: https://github.com/catppuccin/nvim/blob/637d99e638bc6f1efedac582f6ccab08badac0c6/lua/catppuccin/groups/integrations/treesitter.lua #}
                 "syntax": {

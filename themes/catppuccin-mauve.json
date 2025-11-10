@@ -208,14 +208,12 @@
                     }
                 ],
                 "version_control.added": "#40a02b",
-                "version_control.added_background": "#40a02b26",
                 "version_control.deleted": "#d20f39",
-                "version_control.deleted_background": "#d20f3926",
                 "version_control.modified": "#df8e1d",
-                "version_control.modified_background": "#df8e1d26",
                 "version_control.renamed": "#209fb5",
                 "version_control.conflict": "#fe640b",
-                "version_control.conflict_background": "#fe640b26",
+                "version_control.conflict_marker.ours": "#40a02b33",
+                "version_control.conflict_marker.theirs": "#1e66f533",
                 "version_control.ignored": "#9ca0b0",
                 "syntax": {
                     "variable": {
@@ -922,14 +920,12 @@
                     }
                 ],
                 "version_control.added": "#a6d189",
-                "version_control.added_background": "#a6d18926",
                 "version_control.deleted": "#e78284",
-                "version_control.deleted_background": "#e7828426",
                 "version_control.modified": "#e5c890",
-                "version_control.modified_background": "#e5c89026",
                 "version_control.renamed": "#85c1dc",
                 "version_control.conflict": "#ef9f76",
-                "version_control.conflict_background": "#ef9f7626",
+                "version_control.conflict_marker.ours": "#a6d18933",
+                "version_control.conflict_marker.theirs": "#8caaee33",
                 "version_control.ignored": "#737994",
                 "syntax": {
                     "variable": {
@@ -1636,14 +1632,12 @@
                     }
                 ],
                 "version_control.added": "#a6da95",
-                "version_control.added_background": "#a6da9526",
                 "version_control.deleted": "#ed8796",
-                "version_control.deleted_background": "#ed879626",
                 "version_control.modified": "#eed49f",
-                "version_control.modified_background": "#eed49f26",
                 "version_control.renamed": "#7dc4e4",
                 "version_control.conflict": "#f5a97f",
-                "version_control.conflict_background": "#f5a97f26",
+                "version_control.conflict_marker.ours": "#a6da9533",
+                "version_control.conflict_marker.theirs": "#8aadf433",
                 "version_control.ignored": "#6e738d",
                 "syntax": {
                     "variable": {
@@ -2350,14 +2344,12 @@
                     }
                 ],
                 "version_control.added": "#a6e3a1",
-                "version_control.added_background": "#a6e3a126",
                 "version_control.deleted": "#f38ba8",
-                "version_control.deleted_background": "#f38ba826",
                 "version_control.modified": "#f9e2af",
-                "version_control.modified_background": "#f9e2af26",
                 "version_control.renamed": "#74c7ec",
                 "version_control.conflict": "#fab387",
-                "version_control.conflict_background": "#fab38726",
+                "version_control.conflict_marker.ours": "#a6e3a133",
+                "version_control.conflict_marker.theirs": "#89b4fa33",
                 "version_control.ignored": "#6c7086",
                 "syntax": {
                     "variable": {
