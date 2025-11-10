@@ -101,7 +101,7 @@ whiskers:
                 "editor.background": "{{ c.base.hex }}",
                 "editor.gutter.background": "{{ c.base.hex }}",
                 "editor.subheader.background": "{{ c.mantle.hex }}",
-                "editor.active_line.background": "{{ c.text | mod(opacity=0.06) | get(key="hex") }}",
+                "editor.active_line.background": "{{ c.text | mod(opacity=0.07) | get(key="hex") }}",
                 "editor.highlighted_line.background": null,
                 "editor.line_number": "{{ c.overlay1.hex }}",
                 "editor.active_line_number": "{{ c[accent].hex }}",
@@ -230,13 +230,13 @@ whiskers:
                 "players": [
                     {
                         "cursor": "{{ c.rosewater.hex }}",
-                        "selection": "{{ c.surface2 | mod(opacity=0.5) | get(key="hex") }}",
+                        "selection": {% if flavor.dark %}"{{ c.overlay2 | mod(opacity=0.25) | get(key="hex") }}"{% else %}"{{ c.overlay2 | mod(opacity=0.3) | get(key="hex") }}"{% endif -%},
                         "background": "{{ c.rosewater.hex }}"
                     },
                     {%- for color in rainbow | reverse %}
                     {
                         "cursor": "{{ color.hex }}",
-                        "selection": "{{ color | mod(opacity=0.2) | get(key="hex") }}",
+                        "selection": {% if flavor.dark %}"{{ color | mod(opacity=0.25) | get(key="hex") }}"{% else %}"{{ color | mod(opacity=0.3) | get(key="hex") }}"{% endif -%},
                         "background": "{{ color.hex }}"
                     }{% if not loop.last %},{% endif -%}
                     {% endfor %}
@@ -249,6 +249,8 @@ whiskers:
                 "version_control.conflict_marker.ours": "{{ c.green | mod(opacity=0.2) | get(key="hex") }}",
                 "version_control.conflict_marker.theirs": "{{ c.blue | mod(opacity=0.2) | get(key="hex") }}",
                 "version_control.ignored": "{{ c.overlay0.hex }}",
+                "debugger.accent": "{{ c.red.hex }}",
+                "editor.debugger_active_line.background": "{{ c.peach | mod(opacity=0.07) | get(key="hex") }}",
                 {#- ref: https://github.com/catppuccin/nvim/blob/637d99e638bc6f1efedac582f6ccab08badac0c6/lua/catppuccin/groups/integrations/treesitter.lua #}
                 "syntax": {
                     {#- Identifiers #}
