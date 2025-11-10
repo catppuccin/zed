@@ -115,6 +115,7 @@ whiskers:
                 "editor.indent_guide_active": "{{ c.surface2.hex }}",
                 {#- terminal is built-in Alacritty, use same colors as (https://github.com/catppuccin/alacritty/) + style guide -#}
                 {#- ref: https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md#1-ansi-color-generation #}
+                {#- TODO simplify when https://github.com/catppuccin/whiskers/pull/66 merges #}
                 {#- colors.primary #}
                 "terminal.background": "{{ c.base.hex }}",
                 "terminal.ansi.background": "{{ c.base.hex }}",
@@ -131,16 +132,45 @@ whiskers:
                 "terminal.ansi.magenta": "{{ c.pink.hex }}",
                 "terminal.ansi.cyan": "{{ c.teal.hex }}",
                 {#- colors.bright #}
-                {#- TODO redefine when https://github.com/catppuccin/whiskers/pull/66 merges #}
-                {#- `mod(lightness=<TARGET_VAL>` value was calculated using TARGET_VAL = style-guide_val * color.HSL.lightness_val #}
                 "terminal.ansi.bright_black": {% if flavor.dark %}"{{ c.surface2.hex }}"{% else %}"{{ c.subtext0.hex }}"{%- endif -%},
                 "terminal.ansi.bright_white": {% if flavor.dark %}"{{ c.subtext1.hex }}"{% else %}"{{ c.surface1.hex }}"{%- endif -%},
-                "terminal.ansi.bright_red": {% if flavor.dark %}"{{ c.red.hex }}"{% else %}"{{ c.red | mod(lightness=48) | add(hue=2) | get(key="hex") }}"{%- endif -%},
-                "terminal.ansi.bright_green": {% if flavor.dark %}"{{ c.green.hex }}"{% else %}"{{ c.green | mod(lightness=43) | add(hue=2) | get(key="hex") }}"{%- endif -%},
-                "terminal.ansi.bright_yellow": {% if flavor.dark %}"{{ c.yellow.hex }}"{% else %}"{{ c.yellow | mod(lightness=53) | add(hue=2) | get(key="hex") }}"{%- endif -%},
-                "terminal.ansi.bright_blue": {% if flavor.dark %}"{{ c.blue.hex }}"{% else %}"{{ c.blue | mod(lightness=59) | add(hue=2) | get(key="hex") }}"{%- endif -%},
-                "terminal.ansi.bright_magenta": {% if flavor.dark %}"{{ c.pink.hex }}"{% else %}"{{ c.pink | mod(lightness=75) | add(hue=2) | get(key="hex") }}"{%- endif -%},
-                "terminal.ansi.bright_cyan": {% if flavor.dark %}"{{ c.teal.hex }}"{% else %}"{{ c.teal | mod(lightness=38) | add(hue=2) | get(key="hex") }}"{%- endif -%},
+              {#- colors from ctp/palette#}
+              {%- if flavor.identifier == "latte" %}
+                "terminal.ansi.bright_red": "{{ c.red | mod(lightness=48) | add(hue=2) | get(key="hex") }}",
+                "terminal.ansi.bright_green": "{{ c.green | mod(lightness=43) | add(hue=2) | get(key="hex") }}",
+                "terminal.ansi.bright_yellow": "{{ c.yellow | mod(lightness=53) | add(hue=2) | get(key="hex") }}",
+                "terminal.ansi.bright_blue": "{{ c.blue | mod(lightness=59) | add(hue=2) | get(key="hex") }}",
+                "terminal.ansi.bright_magenta": "{{ c.pink | mod(lightness=75) | add(hue=2) | get(key="hex") }}",
+                "terminal.ansi.bright_cyan": "{{ c.teal | mod(lightness=38) | add(hue=2) | get(key="hex") }}",
+              {%- elif flavor.identifier == "frappe" %}
+                "terminal.ansi.bright_red": "{{ c.red | mod(lightness=67) | add(hue=2) | get(key="hex") }}",
+                "terminal.ansi.bright_green": "{{ c.green | mod(lightness=64) | add(hue=2) | get(key="hex") }}",
+                "terminal.ansi.bright_yellow": "{{ c.yellow | mod(lightness=69) | add(hue=2) | get(key="hex") }}",
+                "terminal.ansi.bright_blue": "{{ c.blue | mod(lightness=69) | add(hue=2) | get(key="hex") }}",
+                "terminal.ansi.bright_magenta": "{{ c.pink | mod(lightness=79) | add(hue=2) | get(key="hex") }}",
+                "terminal.ansi.bright_cyan": "{{ c.teal | mod(lightness=61) | add(hue=2) | get(key="hex") }}",
+              {%- elif flavor.identifier == "macchiato" %}
+                "terminal.ansi.bright_red": "{{ c.red | mod(lightness=69) | add(hue=2) | get(key="hex") }}",
+                "terminal.ansi.bright_green": "{{ c.green | mod(lightness=68) | add(hue=2) | get(key="hex") }}",
+                "terminal.ansi.bright_yellow": "{{ c.yellow | mod(lightness=73) | add(hue=2) | get(key="hex") }}",
+                "terminal.ansi.bright_blue": "{{ c.blue | mod(lightness=70) | add(hue=2) | get(key="hex") }}",
+                "terminal.ansi.bright_magenta": "{{ c.pink | mod(lightness=80) | add(hue=2) | get(key="hex") }}",
+                "terminal.ansi.bright_cyan": "{{ c.teal | mod(lightness=65) | add(hue=2) | get(key="hex") }}",
+              {%- elif flavor.identifier == "mocha" %}
+                "terminal.ansi.bright_red": "{{ c.red | mod(lightness=70) | add(hue=2) | get(key="hex") }}",
+                "terminal.ansi.bright_green": "{{ c.green | mod(lightness=71) | add(hue=2) | get(key="hex") }}",
+                "terminal.ansi.bright_yellow": "{{ c.yellow | mod(lightness=78) | add(hue=2) | get(key="hex") }}",
+                "terminal.ansi.bright_blue": "{{ c.blue | mod(lightness=71) | add(hue=2) | get(key="hex") }}",
+                "terminal.ansi.bright_magenta": "{{ c.pink | mod(lightness=81) | add(hue=2) | get(key="hex") }}",
+                "terminal.ansi.bright_cyan": "{{ c.teal | mod(lightness=69) | add(hue=2) | get(key="hex") }}",
+              {%- else %}
+                "terminal.ansi.bright_red": "{{ c.red.hex }}",
+                "terminal.ansi.bright_green": "{{ c.green.hex }}",
+                "terminal.ansi.bright_yellow": "{{ c.yellow.hex }}",
+                "terminal.ansi.bright_blue": "{{ c.blue.hex }}",
+                "terminal.ansi.bright_magenta": "{{ c.pink.hex }}",
+                "terminal.ansi.bright_cyan": "{{ c.teal.hex }}",
+              {%- endif -%}
                 {#- colors.dim #}
                 "terminal.ansi.dim_black": {% if flavor.dark %}"{{ c.surface1.hex }}"{% else %}"{{ c.subtext1.hex }}"{%- endif -%},
                 "terminal.ansi.dim_white": {% if flavor.dark %}"{{ c.subtext0.hex }}"{% else %}"{{ c.surface2.hex }}"{%- endif -%},
