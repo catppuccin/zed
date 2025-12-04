@@ -8,13 +8,13 @@
             "appearance": "light",
             "style": {
                 "accents": [
-                    "#7c3ed466",
-                    "#6a7cdf66",
-                    "#298fa666",
-                    "#42903766",
-                    "#c1822c66",
-                    "#da601e66",
-                    "#b71c4366"
+                    "#8839ef",
+                    "#7287fd",
+                    "#209fb5",
+                    "#40a02b",
+                    "#df8e1d",
+                    "#fe640b",
+                    "#d20f39"
                 ],
                 "vim.mode.text": "#dce0e8",
                 "vim.normal.background": "#dc8a78",
@@ -177,39 +177,39 @@
                         "background": "#dc8a78"
                     },
                     {
-                        "cursor": "#7c3ed4",
-                        "selection": "#7c3ed44d",
-                        "background": "#7c3ed4"
+                        "cursor": "#8839ef",
+                        "selection": "#8839ef4d",
+                        "background": "#8839ef"
                     },
                     {
-                        "cursor": "#6a7cdf",
-                        "selection": "#6a7cdf4d",
-                        "background": "#6a7cdf"
+                        "cursor": "#7287fd",
+                        "selection": "#7287fd4d",
+                        "background": "#7287fd"
                     },
                     {
-                        "cursor": "#298fa6",
-                        "selection": "#298fa64d",
-                        "background": "#298fa6"
+                        "cursor": "#209fb5",
+                        "selection": "#209fb54d",
+                        "background": "#209fb5"
                     },
                     {
-                        "cursor": "#429037",
-                        "selection": "#4290374d",
-                        "background": "#429037"
+                        "cursor": "#40a02b",
+                        "selection": "#40a02b4d",
+                        "background": "#40a02b"
                     },
                     {
-                        "cursor": "#c1822c",
-                        "selection": "#c1822c4d",
-                        "background": "#c1822c"
+                        "cursor": "#df8e1d",
+                        "selection": "#df8e1d4d",
+                        "background": "#df8e1d"
                     },
                     {
-                        "cursor": "#da601e",
-                        "selection": "#da601e4d",
-                        "background": "#da601e"
+                        "cursor": "#fe640b",
+                        "selection": "#fe640b4d",
+                        "background": "#fe640b"
                     },
                     {
-                        "cursor": "#b71c43",
-                        "selection": "#b71c434d",
-                        "background": "#b71c43"
+                        "cursor": "#d20f39",
+                        "selection": "#d20f394d",
+                        "background": "#d20f39"
                     }
                 ],
                 "version_control.added": "#40a02b",
@@ -727,13 +727,13 @@
             "appearance": "dark",
             "style": {
                 "accents": [
-                    "#caa8e966",
-                    "#bdc0f266",
-                    "#92c4e166",
-                    "#add19f66",
-                    "#dfcaa466",
-                    "#e7a98f66",
-                    "#e1929b66"
+                    "#ca9ee6",
+                    "#babbf1",
+                    "#85c1dc",
+                    "#a6d189",
+                    "#e5c890",
+                    "#ef9f76",
+                    "#e78284"
                 ],
                 "vim.mode.text": "#232634",
                 "vim.normal.background": "#f2d5cf",
@@ -896,39 +896,39 @@
                         "background": "#f2d5cf"
                     },
                     {
-                        "cursor": "#caa8e9",
-                        "selection": "#caa8e940",
-                        "background": "#caa8e9"
+                        "cursor": "#ca9ee6",
+                        "selection": "#ca9ee640",
+                        "background": "#ca9ee6"
                     },
                     {
-                        "cursor": "#bdc0f2",
-                        "selection": "#bdc0f240",
-                        "background": "#bdc0f2"
+                        "cursor": "#babbf1",
+                        "selection": "#babbf140",
+                        "background": "#babbf1"
                     },
                     {
-                        "cursor": "#92c4e1",
-                        "selection": "#92c4e140",
-                        "background": "#92c4e1"
+                        "cursor": "#85c1dc",
+                        "selection": "#85c1dc40",
+                        "background": "#85c1dc"
                     },
                     {
-                        "cursor": "#add19f",
-                        "selection": "#add19f40",
-                        "background": "#add19f"
+                        "cursor": "#a6d189",
+                        "selection": "#a6d18940",
+                        "background": "#a6d189"
                     },
                     {
-                        "cursor": "#dfcaa4",
-                        "selection": "#dfcaa440",
-                        "background": "#dfcaa4"
+                        "cursor": "#e5c890",
+                        "selection": "#e5c89040",
+                        "background": "#e5c890"
                     },
                     {
-                        "cursor": "#e7a98f",
-                        "selection": "#e7a98f40",
-                        "background": "#e7a98f"
+                        "cursor": "#ef9f76",
+                        "selection": "#ef9f7640",
+                        "background": "#ef9f76"
                     },
                     {
-                        "cursor": "#e1929b",
-                        "selection": "#e1929b40",
-                        "background": "#e1929b"
+                        "cursor": "#e78284",
+                        "selection": "#e7828440",
+                        "background": "#e78284"
                     }
                 ],
                 "version_control.added": "#a6d189",
@@ -1446,13 +1446,13 @@
             "appearance": "dark",
             "style": {
                 "accents": [
-                    "#c6aaf666",
-                    "#bac1f766",
-                    "#8cc7e766",
-                    "#add8a866",
-                    "#e6d4b066",
-                    "#ecb19766",
-                    "#e696a966"
+                    "#c6a0f6",
+                    "#b7bdf8",
+                    "#7dc4e4",
+                    "#a6da95",
+                    "#eed49f",
+                    "#f5a97f",
+                    "#ed8796"
                 ],
                 "vim.mode.text": "#181926",
                 "vim.normal.background": "#f4dbd6",
@@ -1615,39 +1615,39 @@
                         "background": "#f4dbd6"
                     },
                     {
-                        "cursor": "#c6aaf6",
-                        "selection": "#c6aaf640",
-                        "background": "#c6aaf6"
+                        "cursor": "#c6a0f6",
+                        "selection": "#c6a0f640",
+                        "background": "#c6a0f6"
                     },
                     {
-                        "cursor": "#bac1f7",
-                        "selection": "#bac1f740",
-                        "background": "#bac1f7"
+                        "cursor": "#b7bdf8",
+                        "selection": "#b7bdf840",
+                        "background": "#b7bdf8"
                     },
                     {
-                        "cursor": "#8cc7e7",
-                        "selection": "#8cc7e740",
-                        "background": "#8cc7e7"
+                        "cursor": "#7dc4e4",
+                        "selection": "#7dc4e440",
+                        "background": "#7dc4e4"
                     },
                     {
-                        "cursor": "#add8a8",
-                        "selection": "#add8a840",
-                        "background": "#add8a8"
+                        "cursor": "#a6da95",
+                        "selection": "#a6da9540",
+                        "background": "#a6da95"
                     },
                     {
-                        "cursor": "#e6d4b0",
-                        "selection": "#e6d4b040",
-                        "background": "#e6d4b0"
+                        "cursor": "#eed49f",
+                        "selection": "#eed49f40",
+                        "background": "#eed49f"
                     },
                     {
-                        "cursor": "#ecb197",
-                        "selection": "#ecb19740",
-                        "background": "#ecb197"
+                        "cursor": "#f5a97f",
+                        "selection": "#f5a97f40",
+                        "background": "#f5a97f"
                     },
                     {
-                        "cursor": "#e696a9",
-                        "selection": "#e696a940",
-                        "background": "#e696a9"
+                        "cursor": "#ed8796",
+                        "selection": "#ed879640",
+                        "background": "#ed8796"
                     }
                 ],
                 "version_control.added": "#a6da95",
@@ -2165,13 +2165,13 @@
             "appearance": "dark",
             "style": {
                 "accents": [
-                    "#cbb0f766",
-                    "#b9c3fc66",
-                    "#86caee66",
-                    "#aee1b266",
-                    "#f0e0bd66",
-                    "#f1ba9d66",
-                    "#eb9ab766"
+                    "#cba6f7",
+                    "#b4befe",
+                    "#74c7ec",
+                    "#a6e3a1",
+                    "#f9e2af",
+                    "#fab387",
+                    "#f38ba8"
                 ],
                 "vim.mode.text": "#11111b",
                 "vim.normal.background": "#f5e0dc",
@@ -2334,39 +2334,39 @@
                         "background": "#f5e0dc"
                     },
                     {
-                        "cursor": "#cbb0f7",
-                        "selection": "#cbb0f740",
-                        "background": "#cbb0f7"
+                        "cursor": "#cba6f7",
+                        "selection": "#cba6f740",
+                        "background": "#cba6f7"
                     },
                     {
-                        "cursor": "#b9c3fc",
-                        "selection": "#b9c3fc40",
-                        "background": "#b9c3fc"
+                        "cursor": "#b4befe",
+                        "selection": "#b4befe40",
+                        "background": "#b4befe"
                     },
                     {
-                        "cursor": "#86caee",
-                        "selection": "#86caee40",
-                        "background": "#86caee"
+                        "cursor": "#74c7ec",
+                        "selection": "#74c7ec40",
+                        "background": "#74c7ec"
                     },
                     {
-                        "cursor": "#aee1b2",
-                        "selection": "#aee1b240",
-                        "background": "#aee1b2"
+                        "cursor": "#a6e3a1",
+                        "selection": "#a6e3a140",
+                        "background": "#a6e3a1"
                     },
                     {
-                        "cursor": "#f0e0bd",
-                        "selection": "#f0e0bd40",
-                        "background": "#f0e0bd"
+                        "cursor": "#f9e2af",
+                        "selection": "#f9e2af40",
+                        "background": "#f9e2af"
                     },
                     {
-                        "cursor": "#f1ba9d",
-                        "selection": "#f1ba9d40",
-                        "background": "#f1ba9d"
+                        "cursor": "#fab387",
+                        "selection": "#fab38740",
+                        "background": "#fab387"
                     },
                     {
-                        "cursor": "#eb9ab7",
-                        "selection": "#eb9ab740",
-                        "background": "#eb9ab7"
+                        "cursor": "#f38ba8",
+                        "selection": "#f38ba840",
+                        "background": "#f38ba8"
                     }
                 ],
                 "version_control.added": "#a6e3a1",
