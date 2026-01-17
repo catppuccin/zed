@@ -375,6 +375,22 @@ whiskers:
                         "font_style": null,
                         "font_weight": null
                     },
+                    {#- Tags #}
+                    "tag": {
+                        "color": "{{ c.blue.hex }}",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "tag.attribute": {
+                        "color": "{{ c.yellow.hex }}",
+                        "font_style": {{ italics }},
+                        "font_weight": null
+                    },
+                    "tag.delimiter": {
+                        "color": "{{ c.teal.hex }}",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     {#- Types #}
                     "type": {
                         "color": "{{ c.yellow.hex }}",
@@ -619,22 +635,7 @@ whiskers:
                         "font_style": null,
                         "font_weight": null
                     },
-                    {#- Tags #}
-                    "tag": {
-                        "color": "{{ c.blue.hex }}",
-                        "font_style": null,
-                        "font_weight": null
-                    },
-                    "tag.attribute": {
-                        "color": "{{ c.yellow.hex }}",
-                        "font_style": {{ italics }},
-                        "font_weight": null
-                    },
-                    "tag.delimiter": {
-                        "color": "{{ c.teal.hex }}",
-                        "font_style": null,
-                        "font_weight": null
-                    },
+
                     {#- Misc #}
                     {#- Language specific (not supported) #}
                     {#- Legacy highlights #}

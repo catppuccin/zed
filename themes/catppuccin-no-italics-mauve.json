@@ -338,6 +338,21 @@
                         "font_style": null,
                         "font_weight": null
                     },
+                    "tag": {
+                        "color": "#1e66f5",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "tag.attribute": {
+                        "color": "#df8e1d",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "tag.delimiter": {
+                        "color": "#179299",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "type": {
                         "color": "#df8e1d",
                         "font_style": null,
@@ -570,21 +585,6 @@
                     },
                     "diff.minus": {
                         "color": "#d20f39",
-                        "font_style": null,
-                        "font_weight": null
-                    },
-                    "tag": {
-                        "color": "#1e66f5",
-                        "font_style": null,
-                        "font_weight": null
-                    },
-                    "tag.attribute": {
-                        "color": "#df8e1d",
-                        "font_style": null,
-                        "font_weight": null
-                    },
-                    "tag.delimiter": {
-                        "color": "#179299",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -1057,6 +1057,21 @@
                         "font_style": null,
                         "font_weight": null
                     },
+                    "tag": {
+                        "color": "#8caaee",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "tag.attribute": {
+                        "color": "#e5c890",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "tag.delimiter": {
+                        "color": "#81c8be",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "type": {
                         "color": "#e5c890",
                         "font_style": null,
@@ -1289,21 +1304,6 @@
                     },
                     "diff.minus": {
                         "color": "#e78284",
-                        "font_style": null,
-                        "font_weight": null
-                    },
-                    "tag": {
-                        "color": "#8caaee",
-                        "font_style": null,
-                        "font_weight": null
-                    },
-                    "tag.attribute": {
-                        "color": "#e5c890",
-                        "font_style": null,
-                        "font_weight": null
-                    },
-                    "tag.delimiter": {
-                        "color": "#81c8be",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -1776,6 +1776,21 @@
                         "font_style": null,
                         "font_weight": null
                     },
+                    "tag": {
+                        "color": "#8aadf4",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "tag.attribute": {
+                        "color": "#eed49f",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "tag.delimiter": {
+                        "color": "#8bd5ca",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "type": {
                         "color": "#eed49f",
                         "font_style": null,
@@ -2008,21 +2023,6 @@
                     },
                     "diff.minus": {
                         "color": "#ed8796",
-                        "font_style": null,
-                        "font_weight": null
-                    },
-                    "tag": {
-                        "color": "#8aadf4",
-                        "font_style": null,
-                        "font_weight": null
-                    },
-                    "tag.attribute": {
-                        "color": "#eed49f",
-                        "font_style": null,
-                        "font_weight": null
-                    },
-                    "tag.delimiter": {
-                        "color": "#8bd5ca",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -2495,6 +2495,21 @@
                         "font_style": null,
                         "font_weight": null
                     },
+                    "tag": {
+                        "color": "#89b4fa",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "tag.attribute": {
+                        "color": "#f9e2af",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "tag.delimiter": {
+                        "color": "#94e2d5",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "type": {
                         "color": "#f9e2af",
                         "font_style": null,
@@ -2727,21 +2742,6 @@
                     },
                     "diff.minus": {
                         "color": "#f38ba8",
-                        "font_style": null,
-                        "font_weight": null
-                    },
-                    "tag": {
-                        "color": "#89b4fa",
-                        "font_style": null,
-                        "font_weight": null
-                    },
-                    "tag.attribute": {
-                        "color": "#f9e2af",
-                        "font_style": null,
-                        "font_weight": null
-                    },
-                    "tag.delimiter": {
-                        "color": "#94e2d5",
                         "font_style": null,
                         "font_weight": null
                     },
