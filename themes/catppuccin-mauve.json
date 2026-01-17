@@ -538,12 +538,22 @@
                         "font_style": "italic",
                         "font_weight": null
                     },
+                    "comment.info": {
+                        "color": "#179299",
+                        "font_style": "italic",
+                        "font_weight": null
+                    },
                     "comment.error": {
                         "color": "#d20f39",
                         "font_style": "italic",
                         "font_weight": null
                     },
                     "comment.warning": {
+                        "color": "#df8e1d",
+                        "font_style": "italic",
+                        "font_weight": null
+                    },
+                    "comment.warn": {
                         "color": "#df8e1d",
                         "font_style": "italic",
                         "font_weight": null
@@ -1257,12 +1267,22 @@
                         "font_style": "italic",
                         "font_weight": null
                     },
+                    "comment.info": {
+                        "color": "#81c8be",
+                        "font_style": "italic",
+                        "font_weight": null
+                    },
                     "comment.error": {
                         "color": "#e78284",
                         "font_style": "italic",
                         "font_weight": null
                     },
                     "comment.warning": {
+                        "color": "#e5c890",
+                        "font_style": "italic",
+                        "font_weight": null
+                    },
+                    "comment.warn": {
                         "color": "#e5c890",
                         "font_style": "italic",
                         "font_weight": null
@@ -1976,12 +1996,22 @@
                         "font_style": "italic",
                         "font_weight": null
                     },
+                    "comment.info": {
+                        "color": "#8bd5ca",
+                        "font_style": "italic",
+                        "font_weight": null
+                    },
                     "comment.error": {
                         "color": "#ed8796",
                         "font_style": "italic",
                         "font_weight": null
                     },
                     "comment.warning": {
+                        "color": "#eed49f",
+                        "font_style": "italic",
+                        "font_weight": null
+                    },
+                    "comment.warn": {
                         "color": "#eed49f",
                         "font_style": "italic",
                         "font_weight": null
@@ -2695,12 +2725,22 @@
                         "font_style": "italic",
                         "font_weight": null
                     },
+                    "comment.info": {
+                        "color": "#94e2d5",
+                        "font_style": "italic",
+                        "font_weight": null
+                    },
                     "comment.error": {
                         "color": "#f38ba8",
                         "font_style": "italic",
                         "font_weight": null
                     },
                     "comment.warning": {
+                        "color": "#f9e2af",
+                        "font_style": "italic",
+                        "font_weight": null
+                    },
+                    "comment.warn": {
                         "color": "#f9e2af",
                         "font_style": "italic",
                         "font_weight": null
