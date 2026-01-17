@@ -38,7 +38,9 @@ whiskers:
                 {#- vim mode indicator #}
                 "vim.mode.text": "{{ c.crust.hex }}",
                 "vim.insert.foreground": "{{ c.crust.hex }}",
-                "vim.normal.foreground":  "{{ c.crust.hex }}",
+                "vim.normal.foreground": "{{ c.crust.hex }}",
+                "vim.helix_normal.foreground": "{{ c.crust.hex }}",
+                "vim.helix_select.foreground": "{{ c.crust.hex }}",
                 "vim.visual.foreground": "{{ c.crust.hex }}",
                 "vim.normal.background": "{{ c.rosewater.hex }}",
                 "vim.helix_normal.background": "{{ c.rosewater.hex }}",
