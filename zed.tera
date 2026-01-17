@@ -16,12 +16,12 @@ whiskers:
         {%- for _, flavor in flavors -%}
         {%- set c = flavor.colors -%}
         {% set rainbow = [
-            c.red       | mix(color=c.text, amount=0.8),
-            c.peach     | mix(color=c.text, amount=0.8),
             c.yellow    | mix(color=c.text, amount=0.8),
-            c.green     | mix(color=c.text, amount=0.8),
-            c.sapphire  | mix(color=c.text, amount=0.8),
             c.lavender  | mix(color=c.text, amount=0.8),
+            c.green     | mix(color=c.text, amount=0.8),
+            c.red       | mix(color=c.text, amount=0.8),
+            c.sapphire  | mix(color=c.text, amount=0.8),
+            c.peach     | mix(color=c.text, amount=0.8),
             c.mauve     | mix(color=c.text, amount=0.8),
         ] -%}
         {%- set italics = if(cond=variant == "-no-italics", t="null", f='"italic"') %}
@@ -32,7 +32,7 @@ whiskers:
                 "accents": [
                 {#- NOTE: not Catppuccin accents, but for indent_aware coloring #}
                 {%- for color in rainbow | reverse %}
-                    "{{ color | mod(opacity=0.4) | get(key="hex") }}"{%- if not loop.last %},{% endif -%}
+                    "{{ color | mod(opacity=0.75) | get(key="hex") }}"{%- if not loop.last %},{% endif -%}
                 {% endfor %}
                 ],
                 {#- vim mode indicator #}
