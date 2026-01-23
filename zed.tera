@@ -16,12 +16,12 @@ whiskers:
         {%- for _, flavor in flavors -%}
         {%- set c = flavor.colors -%}
         {% set rainbow = [
-            c.red       | mix(color=c.text, amount=0.8),
-            c.peach     | mix(color=c.text, amount=0.8),
             c.yellow    | mix(color=c.text, amount=0.8),
-            c.green     | mix(color=c.text, amount=0.8),
-            c.sapphire  | mix(color=c.text, amount=0.8),
             c.lavender  | mix(color=c.text, amount=0.8),
+            c.green     | mix(color=c.text, amount=0.8),
+            c.red       | mix(color=c.text, amount=0.8),
+            c.sapphire  | mix(color=c.text, amount=0.8),
+            c.peach     | mix(color=c.text, amount=0.8),
             c.mauve     | mix(color=c.text, amount=0.8),
         ] -%}
         {%- set italics = if(cond=variant == "-no-italics", t="null", f='"italic"') %}
@@ -32,11 +32,19 @@ whiskers:
                 "accents": [
                 {#- NOTE: not Catppuccin accents, but for indent_aware coloring #}
                 {%- for color in rainbow | reverse %}
-                    "{{ color | mod(opacity=0.4) | get(key="hex") }}"{%- if not loop.last %},{% endif -%}
+                    "{{ color | mod(opacity=0.75) | get(key="hex") }}"{%- if not loop.last %},{% endif -%}
                 {% endfor %}
                 ],
                 {#- vim mode indicator #}
                 "vim.mode.text": "{{ c.crust.hex }}",
+                "vim.normal.foreground": "{{ c.crust.hex }}",
+                "vim.helix_normal.foreground": "{{ c.crust.hex }}",
+                "vim.visual.foreground": "{{ c.crust.hex }}",
+                "vim.helix_select.foreground": "{{ c.crust.hex }}",
+                "vim.insert.foreground": "{{ c.crust.hex }}",
+                "vim.visual_line.foreground": "{{ c.crust.hex }}",
+                "vim.visual_block.foreground": "{{ c.crust.hex }}",
+                "vim.replace.foreground": "{{ c.crust.hex }}",
                 "vim.normal.background": "{{ c.rosewater.hex }}",
                 "vim.helix_normal.background": "{{ c.rosewater.hex }}",
                 "vim.visual.background": "{{ c.lavender.hex }}",
@@ -598,12 +606,22 @@ whiskers:
                         "font_weight": null
                     },
                     {#- ! untested, rollback if Zed supports these #}
+                    "comment.info": {
+                        "color": "{{ c.teal.hex }}",
+                        "font_style": {{ italics }},
+                        "font_weight": null
+                    },
                     "comment.error": {
                         "color": "{{ c.red.hex }}",
                         "font_style": {{ italics }},
                         "font_weight": null
                     },
                     "comment.warning": {
+                        "color": "{{ c.yellow.hex }}",
+                        "font_style": {{ italics }},
+                        "font_weight": null
+                    },
+                    "comment.warn": {
                         "color": "{{ c.yellow.hex }}",
                         "font_style": {{ italics }},
                         "font_weight": null
