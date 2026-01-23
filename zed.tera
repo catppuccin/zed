@@ -98,7 +98,7 @@ whiskers:
                 "panel.indent_guide": "{{ c.surface0 | mod(opacity=0.60) | get(key="hex") }}",
                 "panel.indent_guide_active": "{{ c.surface2.hex }}",
                 "panel.indent_guide_hover": "{{ c[accent].hex }}",
-                "panel.overlay_background": "{{ c.crust.hex }}",
+                "panel.overlay_background": "{{ c.mantle.hex }}",
                 "pane.focused_border": "{{ c.text.hex }}",
                 "pane_group.border": "{{ c.surface0.hex }}",
                 "scrollbar.thumb.background": "{{ c.surface2 | mod(opacity=0.5) | get(key="hex") }}",
