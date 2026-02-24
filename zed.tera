@@ -58,7 +58,7 @@ whiskers:
                 "border.variant": "{{ c[accent] | mix(color=c.surface0, amount=0.8) | get(key="hex") }}",
                 "border.focused": "{{ c.lavender.hex }}",
                 "border.selected": "{{ c[accent].hex }}",
-                "border.transparent": "{{ c.green.hex }}",
+                "border.transparent": "#00000000",
                 "border.disabled": "{{ c.overlay0.hex }}",
                 "elevated_surface.background": "{{ c.mantle.hex }}",
                 "surface.background": "{{ c.mantle.hex }}",
