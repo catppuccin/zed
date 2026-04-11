@@ -16,13 +16,13 @@ whiskers:
         {%- for _, flavor in flavors -%}
         {%- set c = flavor.colors -%}
         {% set rainbow = [
-            c.red       | mix(color=c.text, amount=0.8),
-            c.peach     | mix(color=c.text, amount=0.8),
-            c.yellow    | mix(color=c.text, amount=0.8),
-            c.green     | mix(color=c.text, amount=0.8),
-            c.sapphire  | mix(color=c.text, amount=0.8),
-            c.lavender  | mix(color=c.text, amount=0.8),
-            c.mauve     | mix(color=c.text, amount=0.8),
+            c.red       ,
+            c.peach     ,
+            c.yellow    ,
+            c.green     ,
+            c.sapphire  ,
+            c.lavender  ,
+            c.mauve     ,
         ] -%}
         {%- set italics = if(cond=variant == "-no-italics", t="null", f='"italic"') %}
         {
@@ -32,11 +32,19 @@ whiskers:
                 "accents": [
                 {#- NOTE: not Catppuccin accents, but for indent_aware coloring #}
                 {%- for color in rainbow | reverse %}
-                    "{{ color | mod(opacity=0.4) | get(key="hex") }}"{%- if not loop.last %},{% endif -%}
+                    "{{ color | get(key="hex") }}"{%- if not loop.last %},{% endif -%}
                 {% endfor %}
                 ],
                 {#- vim mode indicator #}
                 "vim.mode.text": "{{ c.crust.hex }}",
+                "vim.normal.foreground": "{{ c.crust.hex }}",
+                "vim.helix_normal.foreground": "{{ c.crust.hex }}",
+                "vim.visual.foreground": "{{ c.crust.hex }}",
+                "vim.helix_select.foreground": "{{ c.crust.hex }}",
+                "vim.insert.foreground": "{{ c.crust.hex }}",
+                "vim.visual_line.foreground": "{{ c.crust.hex }}",
+                "vim.visual_block.foreground": "{{ c.crust.hex }}",
+                "vim.replace.foreground": "{{ c.crust.hex }}",
                 "vim.normal.background": "{{ c.rosewater.hex }}",
                 "vim.helix_normal.background": "{{ c.rosewater.hex }}",
                 "vim.visual.background": "{{ c.lavender.hex }}",
@@ -83,13 +91,14 @@ whiskers:
                 "tab_bar.background": "{{ c.crust.hex }}",
                 "tab.inactive_background": "{{ c.crust | sub(lightness=3) | get(key="hex") }}",
                 "tab.active_background": "{{ c.base.hex }}",
-                "search.match_background": "{{ c.teal | mod(opacity=0.2) | get(key="hex") }}",
+                "search.match_background": "{{ c.teal | mod(opacity=0.3) | get(key="hex") }}",
+                "search.active_match_background": "{{ c.red | mod(opacity=0.3) | get(key="hex") }}",
                 "panel.background": "{{ c.mantle.hex }}",
                 "panel.focused_border": "{{ c.text.hex }}",
                 "panel.indent_guide": "{{ c.surface0 | mod(opacity=0.60) | get(key="hex") }}",
                 "panel.indent_guide_active": "{{ c.surface2.hex }}",
                 "panel.indent_guide_hover": "{{ c[accent].hex }}",
-                "panel.overlay_background": "{{ c.crust.hex }}",
+                "panel.overlay_background": "{{ c.mantle.hex }}",
                 "pane.focused_border": "{{ c.text.hex }}",
                 "pane_group.border": "{{ c.surface0.hex }}",
                 "scrollbar.thumb.background": "{{ c.surface2 | mod(opacity=0.5) | get(key="hex") }}",
@@ -375,6 +384,22 @@ whiskers:
                         "font_style": null,
                         "font_weight": null
                     },
+                    {#- Tags #}
+                    "tag": {
+                        "color": "{{ c.blue.hex }}",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "tag.attribute": {
+                        "color": "{{ c.yellow.hex }}",
+                        "font_style": {{ italics }},
+                        "font_weight": null
+                    },
+                    "tag.delimiter": {
+                        "color": "{{ c.teal.hex }}",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     {#- Types #}
                     "type": {
                         "color": "{{ c.yellow.hex }}",
@@ -582,12 +607,22 @@ whiskers:
                         "font_weight": null
                     },
                     {#- ! untested, rollback if Zed supports these #}
+                    "comment.info": {
+                        "color": "{{ c.teal.hex }}",
+                        "font_style": {{ italics }},
+                        "font_weight": null
+                    },
                     "comment.error": {
                         "color": "{{ c.red.hex }}",
                         "font_style": {{ italics }},
                         "font_weight": null
                     },
                     "comment.warning": {
+                        "color": "{{ c.yellow.hex }}",
+                        "font_style": {{ italics }},
+                        "font_weight": null
+                    },
+                    "comment.warn": {
                         "color": "{{ c.yellow.hex }}",
                         "font_style": {{ italics }},
                         "font_weight": null
@@ -619,22 +654,7 @@ whiskers:
                         "font_style": null,
                         "font_weight": null
                     },
-                    {#- Tags #}
-                    "tag": {
-                        "color": "{{ c.blue.hex }}",
-                        "font_style": null,
-                        "font_weight": null
-                    },
-                    "tag.attribute": {
-                        "color": "{{ c.yellow.hex }}",
-                        "font_style": {{ italics }},
-                        "font_weight": null
-                    },
-                    "tag.delimiter": {
-                        "color": "{{ c.teal.hex }}",
-                        "font_style": null,
-                        "font_weight": null
-                    },
+
                     {#- Misc #}
                     {#- Language specific (not supported) #}
                     {#- Legacy highlights #}
