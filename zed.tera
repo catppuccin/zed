@@ -304,7 +304,7 @@ whiskers:
                         "font_weight": null
                     },
                     "constant.macro": {
-                        "color": "{{ c.mauve.hex }}",
+                        "color": "{{ c.rosewater.hex }}",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -330,7 +330,7 @@ whiskers:
                         "font_weight": null
                     },
                     "string.regexp": {
-                        "color": "{{ c.peach.hex }}",
+                        "color": "{{ c.pink.hex }}",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -350,7 +350,7 @@ whiskers:
                         "font_weight": null
                     },
                     "string.special.symbol": {
-                        "color": "{{ c.flamingo.hex }}",
+                        "color": "{{ c.red.hex }}",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -427,7 +427,7 @@ whiskers:
                         "font_weight": null
                     },
                     "attribute": {
-                        "color": "{{ c.peach.hex }}",
+                        "color": "{{ c.yellow.hex }}",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -443,7 +443,7 @@ whiskers:
                         "font_weight": null
                     },
                     "function.builtin": {
-                        "color": "{{ c.peach.hex }}",
+                        "color": "{{ c.red.hex }}",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -453,7 +453,7 @@ whiskers:
                         "font_weight": null
                     },
                     "function.macro": {
-                        "color": "{{ c.teal.hex }}",
+                        "color": "{{ c.rosewater.hex }}",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -555,7 +555,7 @@ whiskers:
                     },
                     {#- JS & derivative #}
                     "keyword.export": {
-                        "color": "{{ c.sky.hex }}",
+                        "color": "{{ c.mauve.hex }}",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -581,7 +581,7 @@ whiskers:
                         "font_weight": null
                     },
                     "punctuation.special.symbol": {
-                        "color": "{{ c.flamingo.hex }}",
+                        "color": "{{ c.red.hex }}",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -664,7 +664,7 @@ whiskers:
                         "font_weight": null
                     },
                     "field": {
-                        "color": "{{ c.lavender.hex }}",
+                        "color": "{{ c.blue.hex }}",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -679,12 +679,12 @@ whiskers:
                         "font_weight": null
                     },
                     "symbol": {
-                        "color": "{{ c.pink.hex }}",
+                        "color": "{{ c.red.hex }}",
                         "font_style": null,
                         "font_weight": null
                     },
                     "string.regex": {
-                        "color": "{{ c.peach.hex }}",
+                        "color": "{{ c.pink.hex }}",
                         "font_style": null,
                         "font_weight": null
                     },
