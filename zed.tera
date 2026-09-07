@@ -432,7 +432,7 @@ whiskers:
                         "font_weight": null
                     },
                     "property": {
-                        "color": "{{ c.blue.hex }}",
+                        "color": "{{ c.lavender.hex }}",
                         "font_style": null,
                         "font_weight": null
                     },
