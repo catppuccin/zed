@@ -41,6 +41,8 @@ capture, style key, or action, e.g. `site:zed.dev/docs "preproc"` or
 | [Language highlighting](https://zed.dev/docs/extensions/languages#syntax-highlighting) | Tree-sitter `highlights.scm`, capture names, and fallback captures. |
 | [Semantic tokens](https://zed.dev/docs/semantic-tokens) | LSP highlighting, modes, and semantic-token rule precedence. |
 | [Command palette](https://zed.dev/docs/command-palette) and [all actions](https://zed.dev/docs/all-actions) | Exact command names and debugging tools; verify availability in the installed app. |
+| [Catppuccin palette](https://catppuccin.com/palette/) | Official color names and Hex/RGB/HSL/OKLCH values for every flavor. |
+| [Catppuccin docs index](https://github.com/catppuccin/catppuccin/tree/main/docs) and [palette specifications](https://github.com/catppuccin/catppuccin/blob/main/docs/specs.md) | Palette structure and links to style and port-contribution guidance. |
 | [Catppuccin style guide](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md#code-editors) | Intended syntax, UI, rainbow, and diff colors. Read relevant maintainer discussion too. |
 | [Whiskers introduction](https://whiskers.catppuccin.com/getting-started/introduction/), [overrides](https://whiskers.catppuccin.com/concepts/overrides/), and [check mode](https://whiskers.catppuccin.com/concepts/check-mode/) | Template generation, matrix overrides, and generated-file consistency checks. Project commands still come from `justfile`. |
 
@@ -49,6 +51,49 @@ at the installed release's tag or revision: the language's `highlights.scm`, the
 lookup, or the widget consuming the color. Current online docs can describe features
 absent in an older Zed. A key present in `zed.tera` or accepted as JSON is not proof
 that a language or widget actually uses it.
+
+## Catppuccin color reference
+
+The [official palette](https://catppuccin.com/palette/) has one light flavor, Latte,
+and three dark flavors: Frappé, Macchiato, and Mocha. All four share 26 color names.
+Choose a symbolic color in `zed.tera`, such as `c.blue.hex` or `c[accent].hex`, so Whiskers supplies
+each flavor's value. Look up exact values on the palette page instead of maintaining
+a second hex table here. When comparing a screenshot or generated JSON, account for
+the selected flavor and any template mixing or opacity.
+
+The [palette specifications](https://github.com/catppuccin/catppuccin/blob/main/docs/specs.md)
+separate neutral colors commonly used for UI from colorful accents commonly used for
+syntax. The [style guide](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md)
+gives these starting roles; legibility takes priority:
+
+- **Surfaces:** `base` for the canvas; `mantle`/`crust` for secondary panes; `surface0`–`surface2` for controls; `overlay0`–`overlay2` for overlays.
+- **Text:** `text` for body copy; `subtext0`/`subtext1` for secondary labels; `base` on an accent background. Selection backgrounds use `overlay2` at 20–30% opacity.
+- **Status:** `green` for success, `yellow` for warnings, `red` for errors; `rosewater` for the cursor.
+
+| Syntax role | Palette color |
+| --- | --- |
+| Keywords | `mauve` |
+| Strings | `green` |
+| Numeric values and constants | `peach` |
+| Functions/methods; properties such as JSON keys | `blue` |
+| User types/classes/interfaces; XML-style attributes | `yellow` |
+| Parameters | `maroon` |
+| Escapes and regular expressions | `pink` |
+| Symbols/atoms; built-in functions | `red` |
+| Macros | `rosewater` |
+| Operators | `sky` |
+| Comments and delimiters | `overlay2` |
+| Enum variants | `teal` |
+
+Rainbow headings/brackets follow `red → peach → yellow → green → sapphire → lavender`.
+For terminal work, consult the guide's [ANSI mappings and bright-color generation](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md#terminals).
+
+Apply these defaults through Zed's actual capture mapping. Inspect the Highlights
+view and relevant maintainer clarifications before changing a rule:
+for example, [built-in types are mauve, user types yellow](https://github.com/catppuccin/zed/issues/157#issuecomment-4780605377).
+The code-editor guide is still evolving; recheck it for the affected role and explain
+any deliberate Zed-specific deviation in the change. Preserve `justfile` as the
+authority for how to build and verify this project.
 
 ## Diagnose and iterate
 
