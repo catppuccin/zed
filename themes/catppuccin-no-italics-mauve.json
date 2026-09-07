@@ -682,7 +682,6 @@
                         "font_style": null,
                         "font_weight": 700
                     },
-
                     "hint": {
                         "color": "#8c8fa1",
                         "font_style": null,
@@ -729,7 +728,7 @@
                       "font_weight": null
                     },
                     "title": {
-                        "color": "#4c4f69",
+                        "color": "#d20f39",
                         "font_style": null,
                         "font_weight": 800
                     },
@@ -1420,7 +1419,6 @@
                         "font_style": null,
                         "font_weight": 700
                     },
-
                     "hint": {
                         "color": "#838ba7",
                         "font_style": null,
@@ -1467,7 +1465,7 @@
                       "font_weight": null
                     },
                     "title": {
-                        "color": "#c6d0f5",
+                        "color": "#e78284",
                         "font_style": null,
                         "font_weight": 800
                     },
@@ -2158,7 +2156,6 @@
                         "font_style": null,
                         "font_weight": 700
                     },
-
                     "hint": {
                         "color": "#8087a2",
                         "font_style": null,
@@ -2205,7 +2202,7 @@
                       "font_weight": null
                     },
                     "title": {
-                        "color": "#cad3f5",
+                        "color": "#ed8796",
                         "font_style": null,
                         "font_weight": 800
                     },
@@ -2896,7 +2893,6 @@
                         "font_style": null,
                         "font_weight": 700
                     },
-
                     "hint": {
                         "color": "#7f849c",
                         "font_style": null,
@@ -2943,7 +2939,7 @@
                       "font_weight": null
                     },
                     "title": {
-                        "color": "#cdd6f4",
+                        "color": "#f38ba8",
                         "font_style": null,
                         "font_weight": 800
                     },

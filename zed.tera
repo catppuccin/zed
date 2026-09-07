@@ -736,7 +736,6 @@ whiskers:
                         "font_style": null,
                         "font_weight": 700
                     },
-
                     "hint": {
                         "color": "{{ c.overlay1.hex }}",
                         "font_style": {{ italics }},
@@ -783,7 +782,7 @@ whiskers:
                       "font_weight": null
                     },
                     "title": {
-                        "color": "{{ c.text.hex }}",
+                        "color": "{{ c.red.hex }}",
                         "font_style": null,
                         "font_weight": 800
                     },
