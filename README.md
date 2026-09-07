@@ -52,6 +52,26 @@
 4. Restart Zed.
 5. Enter _theme selector: toggle_ in the command palette and select your new flavor and accent combination theme in the dropdown.
 
+### Customization
+
+Use Zed's [theme overrides](https://zed.dev/docs/themes#theme-overrides) to customize colors in your `settings.json`. For example, to make variables pink in Macchiato:
+
+```json
+{
+  "theme_overrides": {
+    "Catppuccin Macchiato": {
+      "syntax": {
+        "variable": {
+          "color": "#f5bde6"
+        }
+      }
+    }
+  }
+}
+```
+
+Merge this into your existing settings and use the exact theme name shown in the theme selector, including any accent or `- No Italics` suffix. If a token does not change, focus its editor and run `dev: open highlights tree view` to identify the syntax rule it uses.
+
 ## Development
 
 Install [Whiskers](https://github.com/catppuccin/whiskers), Catppuccin's in-house theme generator, to build and test themes locally.
