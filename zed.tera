@@ -55,7 +55,7 @@ whiskers:
                 "vim.replace.background": "{{ c.maroon.hex }}",
                 "background.appearance": "opaque", {#- all others remove app window shadow-backdrop on macOS #}
                 "border": "{{ c.surface0.hex }}",
-                "border.variant": "{{ c[accent] | mix(color=c.surface0, amount=0.8) | get(key="hex") }}",
+                "border.variant": "{{ c[accent] | mix(color=c.base, amount=0.08) | get(key="hex") }}",
                 "border.focused": "{{ c.lavender.hex }}",
                 "border.selected": "{{ c[accent].hex }}",
                 "border.transparent": "#00000000",
