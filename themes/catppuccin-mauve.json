@@ -712,6 +712,11 @@
                         "font_style": null,
                         "font_weight": null
                     },
+                    "preproc": {
+                        "color": "#ea76cb",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "primary": {
                         "color": "#e64553",
                         "font_style": null,
@@ -1446,6 +1451,11 @@
                     },
                     "predoc": {
                         "color": "#e78284",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "preproc": {
+                        "color": "#f4b8e4",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -2186,6 +2196,11 @@
                         "font_style": null,
                         "font_weight": null
                     },
+                    "preproc": {
+                        "color": "#f5bde6",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "primary": {
                         "color": "#ee99a0",
                         "font_style": null,
@@ -2920,6 +2935,11 @@
                     },
                     "predoc": {
                         "color": "#f38ba8",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "preproc": {
+                        "color": "#f5c2e7",
                         "font_style": null,
                         "font_weight": null
                     },

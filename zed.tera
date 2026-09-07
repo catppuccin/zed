@@ -766,6 +766,11 @@ whiskers:
                         "font_style": null,
                         "font_weight": null
                     },
+                    "preproc": {
+                        "color": "{{ c.pink.hex }}",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "primary": {
                         "color": "{{ c.maroon.hex }}",
                         "font_style": null,
