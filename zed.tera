@@ -431,6 +431,11 @@ whiskers:
             "font_style": null,
             "font_weight": null
           },
+          "selector.pseudo": {
+            "color": "{{ c.yellow.hex }}",
+            "font_style": null,
+            "font_weight": null
+          },
           "property": {
             "color": "{{ c.lavender.hex }}",
             "font_style": null,
