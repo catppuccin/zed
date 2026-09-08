@@ -228,7 +228,7 @@ whiskers:
         "renamed.background": "{{ c.sapphire | mod(opacity=0.15) | hex }}",
         "info": "{{ c.teal.hex }}",
         "info.border": "{{ c.teal.hex }}",
-        "info.background": "{{ c.overlay2 | mod(opacity=0.20) | hex }}",
+        "info.background": "{{ c.teal | mod(opacity=0.20) | hex }}",
         "warning": "{{ c.yellow.hex }}",
         "warning.border": "{{ c.yellow.hex }}",
         "warning.background": "{{ c.yellow | mod(opacity=0.12) | hex }}",
