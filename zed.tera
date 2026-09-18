@@ -350,7 +350,7 @@ whiskers:
             "font_weight": null
           },
           "string.special.symbol": {
-            "color": "{{ c.red.hex }}",
+            "color": "{{ c.flamingo.hex }}",
             "font_style": null,
             "font_weight": null
           },
@@ -586,7 +586,7 @@ whiskers:
             "font_weight": null
           },
           "punctuation.special.symbol": {
-            "color": "{{ c.red.hex }}",
+            "color": "{{ c.flamingo.hex }}",
             "font_style": null,
             "font_weight": null
           },
@@ -684,7 +684,7 @@ whiskers:
             "font_weight": null
           },
           "symbol": {
-            "color": "{{ c.red.hex }}",
+            "color": "{{ c.flamingo.hex }}",
             "font_style": null,
             "font_weight": null
           },
