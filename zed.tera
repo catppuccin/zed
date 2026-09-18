@@ -693,11 +693,9 @@ whiskers:
             "font_style": null,
             "font_weight": null
           },
-          "text": {
-            "color": "{{ c.text.hex }}",
-            "font_style": null,
-            "font_weight": null
-          },
+          {#- 'text' is intentionally omitted: markdown paragraphs emit @text, and
+              defining it would override the parent style when markdown is injected
+              into doc comments/strings (e.g. Elixir @doc/@moduledoc). #}
           {#- 'text.strong' #}
           "emphasis.strong": {
             "color": "{{ c.maroon.hex }}",
